@@ -1,11 +1,13 @@
 const search = require('feathers-nedb-fuzzy-search');
 
+const processOrderCreate = require('../../hooks/process-order-create');
+
 module.exports = {
   before: {
     all: [],
     find: [search()],
     get: [],
-    create: [],
+    create: [processOrderCreate()],
     update: [],
     patch: [],
     remove: []
