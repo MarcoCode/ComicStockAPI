@@ -12,7 +12,7 @@ module.exports = function (options = {}) {
     }
     const findstockID = await context.app.service('/stock').find({
       query: {
-        id:data.stockID.toString()
+        _id:data.stockID.toString()
       }
     });
 
@@ -26,7 +26,7 @@ module.exports = function (options = {}) {
 
     const findSupplier = await context.app.service('/suppliers').find({
           query: {
-           id:data.supplierID.toString()
+           _id:data.supplierID.toString()
           }
     });
 
