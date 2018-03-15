@@ -1,5 +1,4 @@
-
-const search = require('feathers-nedb-fuzzy-search')
+const search = require('feathers-nedb-fuzzy-search');
 const processNewIssue = require('../../hooks/process-new-issue');
 
 module.exports = {
