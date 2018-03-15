@@ -15,7 +15,7 @@ module.exports = function (options = {}) {
       "type": "object",
       "properties": {
 
-        "issueId": { "type": "string" , "pattern": "^[A-Za-z0-9_-]{16}*$" },
+        "issueId": { "type": "string" , "pattern": "^[a-zA-Z0-9]{16}$" },
         "condition": { "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
         "stockAvailable": { "type": "integer" },
         "price": { "type": "number" },
@@ -27,6 +27,28 @@ module.exports = function (options = {}) {
     };
 
     var validate = ajv.compile(schema);
+
+    const findIssueID = await context.app.service('/issues').find({
+      query: {
+        _id:data.issueId.toString()
+      }
+    });
+
+    if(findIssueID.total != 1){
+    throw new Error('The provided issue does not exist in database, first create issue');
+    }
+
+    const findExistingStock = await context.app.service('/stock').find({
+      query: {
+        issueId:data.issueId.toString(),
+        condition:data.condition.toString()
+      }
+    });
+
+    if(findExistingStock.total === 1){
+    throw new Error('The database already contains stock of condition: '+data.condition.toString()+' for provided issue, update to change values');
+    }
+
 
     test(data);
 
