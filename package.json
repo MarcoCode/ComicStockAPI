@@ -38,6 +38,7 @@
     "cors": "^2.8.4",
     "feathers-nedb": "^3.0.0",
     "feathers-nedb-fuzzy-search": "^1.1.1",
+    "feathers-swagger": "^0.6.0",
     "helmet": "^3.12.0",
     "nedb": "^1.8.0",
     "serve-favicon": "^2.4.5",

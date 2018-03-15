@@ -73,7 +73,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Stock create failed: ' + ajv.errorsText(validate.errors));
+        throw new Error('Stock edit failed: ' + ajv.errorsText(validate.errors));
       }
     }
 

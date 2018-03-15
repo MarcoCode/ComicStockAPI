@@ -59,7 +59,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Issue Update failed: ' + ajv.errorsText(validate.errors));
+        throw new Error('Issue edit failed: ' + ajv.errorsText(validate.errors));
       }
     }
   };

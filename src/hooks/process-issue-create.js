@@ -60,7 +60,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Issue POST failed: ' + ajv.errorsText(validate.errors));
+        throw new Error('Issue create failed: ' + ajv.errorsText(validate.errors));
       }
     }
   };
