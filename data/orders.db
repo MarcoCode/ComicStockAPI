@@ -13,10 +13,12 @@
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"BvjIHZpFJlGfkvSo"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"BxJKp6yDmIiUPZBv"}
 {"stocks":[{"stockID":5,"purchasedPrice":500,"quantity":5}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"FZQpgaJGhoASwgdH"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"Gjum7O11MBKOcKKM"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"JOx5QGspak1KmVaC"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"JuS3pyw68GwVapag"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"KHgkvS6yJcZdgbLQ"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"L4V9BDeAcF8N4yvQ"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"MMNLpG6mO7gXV0IF"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"MyADwLYsSS2xvGqZ"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"PoZ3DoR1PVZQb6Jy"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"QkdN1lF4eQ0Dx6Ui"}
@@ -32,6 +34,7 @@
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"bqRhsqgiebmrYBcU"}
 {"stocks":[{"stockID":5,"purchasedPrice":500,"quantity":5}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"cD3EzsRYSpC4FN8p"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"cOtWioehW6rzE66Q"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"eSq5Dz6soQmBTvrv"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"fS6g5NK2tI9QTkQv"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"gUMB4geOt6hExyCe"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"gVPOoQyx5JZMIQrI"}
@@ -43,11 +46,14 @@
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"lSFjnjrEeBAa8360"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"mu2ebl7ocxBc5XSF"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"oIskjTARDn6P7Boo"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"ogQHCXo9YmNIVUOM"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"oiCBxQsiOeYNpr0g"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"qIy5rcN6NXwdTwX4"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"soNX7EqekGVUwfrk"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"t0QJaR75269TpjYo"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"tcPFjVeu2nsz3Dby"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"tyAk0mBhXz0XovQ0"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"u3ijxaVvAuE1Dn6x"}
 {"stocks":[{"stockID":5,"purchasedPrice":500,"quantity":5}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"wwCoJFLImFw7020r"}
 {"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":4}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"zuD0j1riqoWwpTwn"}
-{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"u3ijxaVvAuE1Dn6x"}
+{"stocks":[{"stockID":"kHAxZOpPDAgzah5b","purchasedPrice":500,"quantity":1}],"supplierID":"tfYl4Cu2i8lkj0n7","status":"Received","_id":"FwmlyBbMIYbozbuA"}
