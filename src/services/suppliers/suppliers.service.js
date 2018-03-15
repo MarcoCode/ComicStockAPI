@@ -9,7 +9,6 @@ module.exports = function (app) {
 
   const options = {
     name: 'suppliers',
-    id:"id",
     Model,
     paginate
   };
