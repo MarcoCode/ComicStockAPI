@@ -14,7 +14,9 @@ module.exports = function (options = {}) {
 
     //checking if supplier data was provided
     if(data.supplierID === undefined || data.supplierID === null || data.supplierID === ""){
+
       throw new Error('An order must have a supplierID');
+
     }
 
     //checking if supplier exists in dtabase
