@@ -1,13 +1,15 @@
 const search = require('feathers-nedb-fuzzy-search');
+const processStockCreate = require('../../hooks/process-stock-create');
+const processStockEdit = require('../../hooks/process-stock-edit');
 
 module.exports = {
   before: {
     all: [],
     find: [search()],
     get: [],
-    create: [],
-    update: [],
-    patch: [],
+    create: [processStockCreate()],
+    update: [processStockEdit()],
+    patch: [processStockEdit()],
     remove: []
   },
 

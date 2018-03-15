@@ -1,14 +1,15 @@
 const search = require('feathers-nedb-fuzzy-search');
-const processNewIssue = require('../../hooks/process-new-issue');
+const processIssueCreate = require('../../hooks/process-issue-create');
+const processIssueEdit = require('../../hooks/process-issue-edit');
 
 module.exports = {
   before: {
     all: [],
     find: [search()],
     get: [],
-    create: [processNewIssue()],
-    update: [],
-    patch: [],
+    create: [processIssueCreate()],
+    update: [processIssueEdit()],
+    patch: [processIssueEdit()],
     remove: []
   },
 
