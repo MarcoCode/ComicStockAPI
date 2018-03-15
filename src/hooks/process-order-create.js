@@ -21,7 +21,7 @@ module.exports = function (options = {}) {
     }
 
     if(data.supplierID === undefined || data.supplierID === null || data.supplierID === ""){
-      throw new Error('A order must have a supplierIDy');
+      throw new Error('A order must have a supplierID');
     }
 
     const findSupplier = await context.app.service('/suppliers').find({
