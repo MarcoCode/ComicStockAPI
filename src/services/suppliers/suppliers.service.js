@@ -13,8 +13,91 @@ module.exports = function (app) {
     paginate
   };
 
+  //SWAGGER THINGY
+
+  const events = createService(options)
+  events.docs = {
+    description: 'A service to send and receive messages',
+    //overwrite things here.
+    //if we want to add a mongoose style $search hook to find, we can write this:
+    find: {
+      parameters: [
+        {
+          description: 'Number of results to returns',
+          in: 'query',
+          name: '$limit',
+          type: 'integer'
+        },
+        {
+          description: 'Number of results to skip',
+          in: 'query',
+          name: '$skip',
+          type: 'integer'
+        },
+        {
+          description: 'Property to sort results',
+          in: 'query',
+          name: '$sort',
+          type: 'string'
+        },
+        {
+          description: 'Property to query results',
+          in: 'query',
+          name: '$search',
+          type: 'string'
+        }
+      ]
+    },
+
+    create: {
+      parameters: [{
+          name: "supplier",
+          description: "Supplier object",
+          in: "body",
+          required: true,
+          schema:{ $ref: '#/definitions/supplier' }
+          
+      }
+      ]
+    },
+    //if we want to add the mongoose model to the 'definitions' so it is a named model in the swagger ui:
+    definitions: {
+      //event: mongooseToJsonLibraryYouImport(Model), //import your own library, use the 'Model' object in this file.
+      // 'event list': { //this library currently configures the return documentation to look for ``${tag} list`
+      //   type: 'array',
+      //   schema: { $ref: '#/definitions/event' }
+      // }
+      supplier: {
+        "type": "object",
+        "required": [
+          "city", "reference", "name"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Supplier Name"
+          },
+          "city": {
+            "type": "string",
+            "description": "Supplier City"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Supplier Reference"
+          }
+        }
+      }
+    }
+  }
+
+
+
+
+
   // Initialize our service with any options it requires
-  app.use('/suppliers', createService(options));
+  //app.use('/suppliers', createService(options));
+  app.use('/suppliers', events);
+
 
   // Get our initialized service so that we can register hooks and filters
   const service = app.service('suppliers');

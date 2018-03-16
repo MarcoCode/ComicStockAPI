@@ -36,6 +36,7 @@
     "ajv": "^6.2.1",
     "compression": "^1.7.2",
     "cors": "^2.8.4",
+    "feathers-memory": "^2.1.1",
     "feathers-nedb": "^3.0.0",
     "feathers-nedb-fuzzy-search": "^1.1.1",
     "feathers-swagger": "^0.6.0",
