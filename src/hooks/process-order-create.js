@@ -5,19 +5,37 @@
 module.exports = function (options = {}) {
   return async context => {
 
-    var modifiedStocks = [];
     const { data } = context;
-    //checking if the stock data was provided
-    if (data.stocks === undefined || data.stocks === null || data.stocks === "" || data.stocks.constructor != Array || data.stocks.constructor.length === 0) {
-      throw new Error('An order must have an array of stocks');
-    }
 
-    //checking if supplier data was provided
-    if (data.supplierID === undefined || data.supplierID === null || data.supplierID === "") {
+    var Ajv = require('ajv');
+    var ajv = new Ajv({ allErrors: true });
 
-      throw new Error('An order must have a supplierID');
+    var schema = {
+      "type": "object",
+      "properties": {
 
-    }
+        "supplierID": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+        "status": { "enum": [ "Ordered", "Received", "Deleted", "Cancelled" ] },
+        
+        "stocks": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "object",
+            "properties": {
+              "stockID": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+              "quantity": { "type": "integer" },
+              "pricePaid": {"type": "number"}
+            },
+            "required": ["stockID", "quantity"],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": ["supplierID", "status", "stocks" ],
+      "additionalProperties": false
+    };
+
 
     //checking if supplier exists in dtabase
     const findSupplier = await context.app.service('/suppliers').find({
@@ -25,79 +43,64 @@ module.exports = function (options = {}) {
         _id: data.supplierID.toString()
       }
     });
-
     //throwing an error because supplier is not in database
     if (findSupplier.total != 1) {
-      throw new Error('the provided supplier does not exist in database');
+      throw new Error('The provided supplier does not exist in database');
     }
-
-    //checking if purchasedPrice was provided
-    if (data.status === undefined || data.status === null || data.status === "") {
-      throw new Error('an order must have a status');
-    }
-
-
-
     //validating each stock with the array of stocks
     for (var i = 0; i < data.stocks.length; i++) {
-
-
-
-      //checking if the stock ID was specified
-      if (data.stocks[i].stockID === undefined || data.stocks[i].stockID === null || data.stocks[i].stockID === "")
-        throw new Error(`the provided stock at position ${i} does not include a stock id`);
-
-
-
-      //checking if the purchased price was specified
-      if (data.stocks[i].purchasedPrice === undefined || data.stocks[i].purchasedPrice === null || data.stocks[i].purchasedPrice === "")
-        throw new Error(`the provided stock at position ${i} does not include a purchased price`);
-
-      //checking if the quantity was specified
-      if (data.stocks[i].quantity === undefined || data.stocks[i].quantity === null || data.stocks[i].quantity === "")
-        throw new Error(`the provided stock at position ${i} does not include a quantity`);
-
-      //converting variable to right data type to avoid injection attacks
-      data.stocks[i].quantity = parseInt(data.stocks[i].quantity.toString());
-      data.stocks[i].stockID = data.stocks[i].stockID.toString();
-      data.stocks[i].purchasedPrice = parseFloat(data.stocks[i].purchasedPrice.toString());
-
       //checking if the stock exists in db      
       const findstockID = await context.app.service('/stock').find({
         query: {
           _id: data.stocks[i].stockID.toString()
         }
       });
-
-      modifiedStocks[modifiedStocks.length] = findstockID.data[0];
-
+      
       //throwing an error if stock does not exist
       if (findstockID.total != 1)
         throw new Error(`the provided stock ID ${data.stocks[i].stockID} does not exist in database`);
 
-      //throwing an error if stock does not exist
-
-      debugger;
-
-      if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity)
+      if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity){
         throw new Error(`the quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
+      }
+      else {
 
-    }
+        data.stocks[i].pricePaid = findstockID.data[0].price;
+        console.log("Amount of STOCK OLD: ",findstockID.data[0].stockAvailable)
+        console.log("Amount of STOCK TO SUBTRACT: ",data.stocks[i].quantity)
 
-    //reducing the quatitu in each stock where the order was made
+        let newQuantity = findstockID.data[0].stockAvailable - data.stocks[i].quantity;
 
-    for (var i = 0; i < data.stocks.length; i++) {
-
-      modifiedStocks[i].stockAvailable -= data.stocks[i].quantity;
-
-      context.app.service('/stock').patch(data.stocks[i].stockID, {
-        "issueId": modifiedStocks[i].issueId,
-        "condition": modifiedStocks[i].condition,
-        "stockAvailable": modifiedStocks[i].stockAvailable,
-        "price": modifiedStocks[i].price,
-      }, {
+        console.log("Amount of STOCK TO NEW: ",newQuantity)
+        
+        let outcome = await context.app.service('/stock').patch(data.stocks[i].stockID, {
+           stockAvailable: newQuantity
+        }, {
           nedb: { upsert: false }
         });
+      }
+    }
+ 
+
+    var validate = ajv.compile(schema);
+
+    test(data);
+
+    function test(testData) {
+      var valid = validate(testData);
+      if (valid) {
+        context.data = {
+          supplierID: data.supplierID.toString(),
+          status: data.status.toString(),
+          orderDate: new Date(Date.now()).toLocaleString(),
+          stocks: data.stocks
+        }    
+        return context;
+      }
+      else {
+        console.log('Invalid: ' + ajv.errorsText(validate.errors));
+        throw new Error('New Order failed: ' + ajv.errorsText(validate.errors));
+      }
     }
 
 
@@ -107,14 +110,5 @@ module.exports = function (options = {}) {
 
 
 
-
-    context.data = {
-      stocks: data.stocks,
-      supplierID: data.supplierID.toString(),
-      status: data.status.toString()
-    }
-
-
-    return context;
   };
 };

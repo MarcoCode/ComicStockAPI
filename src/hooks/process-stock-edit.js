@@ -5,6 +5,7 @@
 module.exports = function (options = {}) {
   return async context => {
 
+
     const { data } = context;
 
     if(typeof context.id != "string")
@@ -29,6 +30,7 @@ module.exports = function (options = {}) {
 
     var validate = ajv.compile(schema);
 
+    if(data.issueId){
     const findIssueID = await context.app.service('/issues').find({
       query: {
         _id: data.issueId.toString()
@@ -38,7 +40,9 @@ module.exports = function (options = {}) {
     if (findIssueID.total != 1) {
       throw new Error('The provided issue does not exist in database, first create issue');
     }
+  }
 
+    if(data.condition){
     const findExistingStockaAndCondition = await context.app.service('/stock').find({
       query: {
         _id: context.id,
@@ -49,7 +53,9 @@ module.exports = function (options = {}) {
     if (findExistingStockaAndCondition.total != 1) {
       throw new Error('The Condition of existing stock cannot be changed');
     }
+  }
 
+    if(data.issueId){
     const findExistingStockaAndIssue = await context.app.service('/stock').find({
       query: {
         _id: context.id,
@@ -60,6 +66,7 @@ module.exports = function (options = {}) {
     if (findExistingStockaAndIssue.total != 1) {
       throw new Error('The Issue associated to existing stock cannot be changed');
     }
+  }
 
 
 
