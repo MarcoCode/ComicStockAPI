@@ -5,6 +5,7 @@
 module.exports = function (options = {}) {
   return async context => {
 
+    var stockToUpdate = [];
     const { data } = context;
 
     var Ajv = require('ajv');
@@ -15,8 +16,8 @@ module.exports = function (options = {}) {
       "properties": {
 
         "supplierID": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-        "status": { "enum": [ "Ordered", "Received", "Deleted", "Cancelled" ] },
-        
+        "status": { "enum": ["Ordered", "Received", "Deleted", "Cancelled"] },
+
         "stocks": {
           "type": "array",
           "maxItems": 4,
@@ -24,19 +25,19 @@ module.exports = function (options = {}) {
             "type": "object",
             "properties": {
               "stockID": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-              "quantity": { "type": "integer" },
-              "pricePaid": {"type": "number"}
+              "quantity": { "type": "integer", "minimum": 1 }
             },
             "required": ["stockID", "quantity"],
             "additionalProperties": false
           }
         }
       },
-      "required": ["supplierID", "status", "stocks" ],
+      "required": ["supplierID", "status", "stocks"],
       "additionalProperties": false
     };
 
-
+    var validate = ajv.compile(schema); 
+    test(data);
     //checking if supplier exists in dtabase
     const findSupplier = await context.app.service('/suppliers').find({
       query: {
@@ -55,36 +56,38 @@ module.exports = function (options = {}) {
           _id: data.stocks[i].stockID.toString()
         }
       });
-      
+
       //throwing an error if stock does not exist
       if (findstockID.total != 1)
         throw new Error(`the provided stock ID ${data.stocks[i].stockID} does not exist in database`);
 
-      if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity){
+      if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity) {
         throw new Error(`the quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
       }
-      else {
 
-        data.stocks[i].pricePaid = findstockID.data[0].price;
-        console.log("Amount of STOCK OLD: ",findstockID.data[0].stockAvailable)
-        console.log("Amount of STOCK TO SUBTRACT: ",data.stocks[i].quantity)
-
-        let newQuantity = findstockID.data[0].stockAvailable - data.stocks[i].quantity;
-
-        console.log("Amount of STOCK TO NEW: ",newQuantity)
-        
-        let outcome = await context.app.service('/stock').patch(data.stocks[i].stockID, {
-           stockAvailable: newQuantity
-        }, {
-          nedb: { upsert: false }
-        });
-      }
+      stockToUpdate[stockToUpdate.length] = findstockID.data[0];
+      data.stocks[i].pricePaid = findstockID.data[0].price;
     }
- 
 
-    var validate = ajv.compile(schema);
+    for(var i = 0; i < stockToUpdate.length; i++){
+        console.log("Amount of STOCK OLD: ", stockToUpdate.stockAvailable)
+        console.log("Amount of STOCK TO SUBTRACT: ", data.stocks[i].quantity)
 
-    test(data);
+        let newQuantity = stockToUpdate[i].stockAvailable - data.stocks[i].quantity;
+
+        console.log("Amount of STOCK TO NEW: ", newQuantity)
+
+        let outcome = await context.app.service('/stock').patch(data.stocks[i].stockID, {
+          stockAvailable: newQuantity
+        }, {
+            nedb: { upsert: false }
+          });
+    }
+
+
+
+
+
 
     function test(testData) {
       var valid = validate(testData);
@@ -94,8 +97,8 @@ module.exports = function (options = {}) {
           status: data.status.toString(),
           orderDate: new Date(Date.now()).toLocaleString(),
           stocks: data.stocks
-        }    
-        return context;
+        }
+
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
@@ -103,10 +106,7 @@ module.exports = function (options = {}) {
       }
     }
 
-
-
-
-
+    return context;
 
 
 

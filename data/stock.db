@@ -452,5 +452,9 @@
 {"issueId":"pLMV0KvUGJlb0pkh","condition":"Very Fine","stockAvailable":7,"price":71.55,"_id":"zBwpfFswf2vZloi5"}
 {"issueId":"IjdahRTgEBVxnWSu","condition":"Fine","stockAvailable":1,"price":51.64,"_id":"zSPeTTXNYJau4xZc"}
 {"issueId":"h1E75Mu9jJkpJB1t","condition":"Average","stockAvailable":3,"price":80.1,"_id":"zcJJ1nE0sgeD5jlx"}
-{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":7,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
+{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":3,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
 {"issueId":"JPQM1GQurQUntljw","condition":"Poor","stockAvailable":1,"price":151.49,"_id":"zysamBjG4Blikyzs"}
+{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":2,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
+{"issueId":"JPQM1GQurQUntljw","condition":"Poor","stockAvailable":0,"price":151.49,"_id":"zysamBjG4Blikyzs"}
+{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":1,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
+{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":0,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
