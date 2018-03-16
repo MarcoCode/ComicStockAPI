@@ -16,6 +16,12 @@ const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
 
+const swagger = require('feathers-swagger');
+//const rest = require('feathers-rest');
+// const memory = require('feathers-memory');
+const bodyParser = require('body-parser');
+
+
 const app = express(feathers());
 
 // Load app configuration
@@ -36,6 +42,18 @@ app.configure(socketio());
 
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
+
+
+///////////////////////////ADDED////////
+app.configure(swagger({
+    docsPath: '/docs',
+    uiIndex: true,
+    info: {
+      title: 'A test',
+      description: 'A description'
+    }
+  }));
+
 // Set up our services (see `services/index.js`)
 app.configure(services);
 // Set up event channels (see channels.js)
