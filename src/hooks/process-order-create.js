@@ -51,11 +51,16 @@ module.exports = function (options = {}) {
 
       //checking if the purchased price was specified
       if (data.stocks[i].purchasedPrice === undefined || data.stocks[i].purchasedPrice === null || data.stocks[i].purchasedPrice === "")
-        throw new Error(`the provided stock at position ${i} does not include a purchased price`);
+        throw new Error(`the provided stock with stockID ${data.stocks[i].stockID} does not include a purchased price`);
 
       //checking if the quantity was specified
       if (data.stocks[i].quantity === undefined || data.stocks[i].quantity === null || data.stocks[i].quantity === "")
-        throw new Error(`the provided stock at position ${i} does not include a quantity`);
+        throw new Error(`the provided stock with stockID ${data.stocks[i].stockID} does not include a quantity`);
+
+        
+      //checking if the quantity was specified
+      if (data.stocks[i].quantity === 0 )
+        throw new Error(`the provided stock with stockID ${data.stocks[i].stockID} has a quantity of 0`);
 
       //converting variable to right data type to avoid injection attacks
       data.stocks[i].quantity = parseInt(data.stocks[i].quantity.toString());
@@ -90,22 +95,16 @@ module.exports = function (options = {}) {
 
       modifiedStocks[i].stockAvailable -= data.stocks[i].quantity;
 
-      context.app.service('/stock').patch(data.stocks[i].stockID, {
-        "issueId": modifiedStocks[i].issueId,
-        "condition": modifiedStocks[i].condition,
-        "stockAvailable": modifiedStocks[i].stockAvailable,
-        "price": modifiedStocks[i].price,
-      }, {
-          nedb: { upsert: false }
-        });
+        context.app.service('/stock').patch(data.stocks[i].stockID, {
+          "issueId": modifiedStocks[i].issueId,
+          "condition": modifiedStocks[i].condition,
+          "stockAvailable": modifiedStocks[i].stockAvailable,
+          "price": modifiedStocks[i].price,
+        }, {
+            nedb: { upsert: false }
+          });
+      
     }
-
-
-
-
-
-
-
 
 
     context.data = {
