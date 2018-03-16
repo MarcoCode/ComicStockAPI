@@ -15,7 +15,7 @@ const middleware = require('./middleware');
 const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
-const memory = require('feathers-memory');
+//const memory = require('feathers-memory');
 const swagger = require('feathers-swagger');
 const app = express(feathers());
 
