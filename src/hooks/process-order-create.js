@@ -2,6 +2,7 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+const errors = require('feathers-errors');
 module.exports = function (options = {}) {
   return async context => {
 
@@ -16,8 +17,6 @@ module.exports = function (options = {}) {
       "properties": {
 
         "supplierID": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-        "status": { "enum": ["Ordered", "Received", "Deleted", "Cancelled"] },
-
         "stocks": {
           "type": "array",
           "maxItems": 4,
@@ -32,7 +31,7 @@ module.exports = function (options = {}) {
           }
         }
       },
-      "required": ["supplierID", "status", "stocks"],
+      "required": ["supplierID", "stocks"],
       "additionalProperties": false
     };
 
@@ -46,7 +45,7 @@ module.exports = function (options = {}) {
     });
     //throwing an error because supplier is not in database
     if (findSupplier.total != 1) {
-      throw new Error('The provided supplier does not exist in database');
+      throw new errors.NotFound('The provided supplier does not exist in database');
     }
     //validating each stock with the array of stocks
     for (var i = 0; i < data.stocks.length; i++) {
@@ -59,10 +58,10 @@ module.exports = function (options = {}) {
 
       //throwing an error if stock does not exist
       if (findstockID.total != 1)
-        throw new Error(`the provided stock ID ${data.stocks[i].stockID} does not exist in database`);
+        throw new errors.NotFound(`the provided stock ID ${data.stocks[i].stockID} does not exist in database`);
 
       if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity) {
-        throw new Error(`the quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
+        throw new errors.BadRequest(`the quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
       }
 
       stockToUpdate[stockToUpdate.length] = findstockID.data[0];
@@ -85,14 +84,15 @@ module.exports = function (options = {}) {
       if (valid) {
         context.data = {
           supplierID: data.supplierID.toString(),
-          status: data.status.toString(),
+          status: "Ordered",
           orderDate: new Date(Date.now()).toLocaleString(),
-          stocks: data.stocks
+          stocks: data.stocks,
+          dateModified:null
         }
 
       }
       else {        
-        throw new Error('New Order failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('New Order failed: ' + ajv.errorsText(validate.errors));
       }
     }
 

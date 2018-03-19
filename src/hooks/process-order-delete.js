@@ -2,10 +2,9 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+const errors = require('feathers-errors');
 module.exports = function (options = {}) {
   return async context => {
-    console.log("you cannot delete an order");
-    throw new Error("you cannot delete an order");
-
+   return new errors.Forbidden("You can not delete an order, please edit it and change its status")
   };
 };

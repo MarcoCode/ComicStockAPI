@@ -16,7 +16,7 @@ module.exports = function (app) {
   const events = createService(options)
 
   events.docs = {
-    description: 'A service to send and receive messages',
+    description: 'A service to perform crud operation on Order',
     //overwrite things here.
     //if we want to add a mongoose style $search hook to find, we can write this:
     find: {
@@ -138,7 +138,6 @@ module.exports = function (app) {
         "properties": {
 
           "supplierID": { "description":"ID of supplier providing the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "status": {  "type": "string", "enum": ["Ordered", "Received", "Deleted", "Cancelled","Returned"] },
           "stocks": {
             "type": "array",
             "maxItems": 4,
@@ -152,7 +151,7 @@ module.exports = function (app) {
             }
           }
         },
-        "required": ["supplierID", "status", "stocks"]
+        "required": ["supplierID", "stocks"]
       },
       orderPatch: {
 
@@ -160,7 +159,7 @@ module.exports = function (app) {
         "properties": {
 
           "supplierID": { "description":"ID of supplier providing the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "status": {  "type": "string", "enum": ["Ordered", "Received", "Deleted", "Cancelled","Returned"] },
+          "status": {  "type": "string", "enum": ["Received", "Cancelled","Returned"] },
         },
         "required": ["supplierID", "status", "stocks"]
       }

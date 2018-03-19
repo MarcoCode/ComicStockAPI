@@ -17,7 +17,7 @@ module.exports = function (app) {
 
   const events = createService(options)
   events.docs = {
-    description: 'A service to send and receive messages',
+    description: 'A service to perform crud operations on suppliers',
     //overwrite things here.
     //if we want to add a mongoose style $search hook to find, we can write this:
     find: {

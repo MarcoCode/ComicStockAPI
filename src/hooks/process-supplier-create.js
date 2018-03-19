@@ -2,6 +2,7 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+const errors = require('feathers-errors');
 module.exports = function (options = {}) {
   return async context => {
 
@@ -27,13 +28,13 @@ module.exports = function (options = {}) {
     test(data);
 
     if (data.name.length === 0) {
-      throw new Error('A supplier name must have at least 1 character');
+      throw new errors.BadRequest('A supplier name must have at least 1 character');
     }
     if (data.city.length === 0) {
-      throw new Error('A supplier city must have at least 1 character');
+      throw new errors.BadRequest('A supplier city must have at least 1 character');
     }
     if (data.reference.length === 0) {
-      throw new Error('A supplier reference must have at least 1 character');
+      throw new errors.BadRequest('A supplier reference must have at least 1 character');
     }
 
     return context;
@@ -50,7 +51,7 @@ module.exports = function (options = {}) {
 
       }
       else {
-        throw new Error('New Supplier failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('New Supplier failed: ' + ajv.errorsText(validate.errors));
       }
     }
   };

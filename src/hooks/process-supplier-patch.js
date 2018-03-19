@@ -2,6 +2,7 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+const errors = require('feathers-errors');
 module.exports = function (options = {}) {
   return async context => {
 
@@ -28,7 +29,7 @@ module.exports = function (options = {}) {
 
 
     if (context.id === undefined || context.id === null || context.id === "")
-      throw new Error("Please specify a supplier ID in the url parameter");
+      throw new errors.BadRequest("Please specify a supplier ID in the url parameter");
 
     return context;
 
@@ -50,7 +51,7 @@ module.exports = function (options = {}) {
 
       }
       else {
-        throw new Error('Edit Supplier failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Patch Supplier failed: ' + ajv.errorsText(validate.errors));
       }
     }
   };
