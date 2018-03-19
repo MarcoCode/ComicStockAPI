@@ -19,35 +19,33 @@ module.exports = function (options = {}) {
         "reference": { "type": "string" }
       },
 
-      "required": ["name", "city", "reference"],
+      "required": [],
       "additionalProperties": false
     };
 
     var validate = ajv.compile(schema);
     test(data);
 
-    if (data.name.length === 0) {
-      throw new Error('A supplier name must have at least 1 character');
-    }
-    if (data.city.length === 0) {
-      throw new Error('A supplier city must have at least 1 character');
-    }
-    if (data.reference.length === 0) {
-      throw new Error('A supplier reference must have at least 1 character');
-    }
 
     if (context.id === undefined || context.id === null || context.id === "")
       throw new Error("Please specify a supplier ID in the url parameter");
-    
+
     return context;
 
     function test(testData) {
       var valid = validate(testData);
       if (valid) {
-        context.data = {
-          name: data.name.toString(),
-          city: data.city.toString(),
-          reference: data.reference.toString()
+
+        context.data = {};
+
+        if (data.name !== undefined && data.name !== null && data.name !== "") {
+          context.data.name = data.name.toString();
+        }
+        if (data.city !== undefined && data.city !== null && data.city !== "") {
+          context.data.city = data.city.toString();
+        }
+        if (data.reference !== undefined && data.reference !== null && data.reference !== "") {
+          context.data.reference = data.reference.toString();
         }
 
       }
@@ -55,6 +53,5 @@ module.exports = function (options = {}) {
         throw new Error('Edit Supplier failed: ' + ajv.errorsText(validate.errors));
       }
     }
-
   };
 };

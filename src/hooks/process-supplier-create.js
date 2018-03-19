@@ -7,24 +7,51 @@ module.exports = function (options = {}) {
 
     const { data } = context;
 
-    console.log("data: ",data);
-    if(data.name === undefined || data.name === null || data.name === ""){
-      throw new Error('A supplier must have a name');
-    }
-    if(data.city === undefined || data.city === null || data.city === ""){
-      throw new Error('A supplier must have a city');
-    }
-    if(data.reference === undefined || data.reference === null || data.reference === ""){
-      throw new Error('A supplier must have a reference');
-    }
+    var Ajv = require('ajv');
+    var ajv = new Ajv({ allErrors: true });
 
-    context.data = {
-      name: data.name.toString(),
-      city: data.city.toString(),
-      reference: data.reference.toString(),
-    }
+    var schema = {
+      "type": "object",
+      "properties": {
 
+        "name": { "type": "string" },
+        "city": { "type": "string" },
+        "reference": { "type": "string" }
+      },
+
+      "required": ["name", "city", "reference"],
+      "additionalProperties": false
+    };
+
+    var validate = ajv.compile(schema);
+    test(data);
+
+    if (data.name.length === 0) {
+      throw new Error('A supplier name must have at least 1 character');
+    }
+    if (data.city.length === 0) {
+      throw new Error('A supplier city must have at least 1 character');
+    }
+    if (data.reference.length === 0) {
+      throw new Error('A supplier reference must have at least 1 character');
+    }
 
     return context;
+
+
+    function test(testData) {
+      var valid = validate(testData);
+      if (valid) {
+        context.data = {
+          name: data.name.toString(),
+          city: data.city.toString(),
+          reference: data.reference.toString()
+        }
+
+      }
+      else {
+        throw new Error('New Supplier failed: ' + ajv.errorsText(validate.errors));
+      }
+    }
   };
 };

@@ -50,14 +50,80 @@ module.exports = function (app) {
     },
 
     create: {
-      parameters: [{
+      parameters: [
+        {
           name: "supplier",
           description: "Supplier object",
           in: "body",
           required: true,
-          schema:{ $ref: '#/definitions/supplier' }
-          
-      }
+          schema: { $ref: '#/definitions/supplierCreate' }
+
+        }
+      ]
+    },
+
+
+    update: {
+      parameters: [
+        {
+          name: "supplier",
+          description: "Supplier object",
+          in: "body",
+          required: true,
+          schema: { $ref: '#/definitions/supplierCreate' }
+
+        },
+        {
+          description: 'Supplier ID',
+          in: 'path',
+          name: '_id',
+          type: 'string',
+          required: true
+        }
+
+      ]
+    },
+    get: {
+      parameters: [
+        {
+          description: 'Supplier ID',
+          in: 'path',
+          name: '_id',
+          type: 'string',
+          required: true
+        }
+      ]
+    },
+    remove: {
+      parameters: [
+        {
+          description: 'Supplier ID',
+          in: 'path',
+          name: '_id',
+          type: 'string',
+          required: true
+        }
+      ]
+    },
+
+
+    patch: {
+      parameters: [
+        {
+          name: "supplier",
+          description: "Supplier object",
+          in: "body",
+          required: true,
+          schema: { $ref: '#/definitions/supplierPatch' }
+
+        },
+        {
+          description: 'Supplier ID',
+          in: 'path',
+          name: '_id',
+          type: 'string',
+          required: true,
+        }
       ]
     },
     //if we want to add the mongoose model to the 'definitions' so it is a named model in the swagger ui:
@@ -67,11 +133,29 @@ module.exports = function (app) {
       //   type: 'array',
       //   schema: { $ref: '#/definitions/event' }
       // }
-      supplier: {
+      supplierCreate: {
         "type": "object",
         "required": [
           "city", "reference", "name"
         ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Supplier Name"
+          },
+          "city": {
+            "type": "string",
+            "description": "Supplier City"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Supplier Reference"
+          }
+        }
+      },
+      supplierPatch: {
+        "type": "object",
+        "required": [],
         "properties": {
           "name": {
             "type": "string",

@@ -2,6 +2,8 @@
 const search = require('feathers-nedb-fuzzy-search')
 const processSupplierCreate = require('../../hooks/process-supplier-create');
 const processSupplierEdit = require('../../hooks/process-supplier-edit');
+const processSupplierPatch = require('../../hooks/process-supplier-patch');
+const processSupplierDelete = require('../../hooks/process-supplier-delete');
 module.exports = {
   before: {
     all: [],
@@ -9,8 +11,8 @@ module.exports = {
     get: [],
     create: [processSupplierCreate()],
     update: [processSupplierEdit()],
-    patch: [processSupplierEdit()],
-    remove: []
+    patch: [processSupplierPatch()],
+    remove: [processSupplierDelete()]
   },
 
   after: {

@@ -69,13 +69,9 @@ module.exports = function (options = {}) {
       data.stocks[i].pricePaid = findstockID.data[0].price;
     }
 
+    //updating quantity
     for(var i = 0; i < stockToUpdate.length; i++){
-        console.log("Amount of STOCK OLD: ", stockToUpdate.stockAvailable)
-        console.log("Amount of STOCK TO SUBTRACT: ", data.stocks[i].quantity)
-
         let newQuantity = stockToUpdate[i].stockAvailable - data.stocks[i].quantity;
-
-        console.log("Amount of STOCK TO NEW: ", newQuantity)
 
         let outcome = await context.app.service('/stock').patch(data.stocks[i].stockID, {
           stockAvailable: newQuantity
@@ -83,11 +79,6 @@ module.exports = function (options = {}) {
             nedb: { upsert: false }
           });
     }
-
-
-
-
-
 
     function test(testData) {
       var valid = validate(testData);
@@ -100,8 +91,7 @@ module.exports = function (options = {}) {
         }
 
       }
-      else {
-        console.log('Invalid: ' + ajv.errorsText(validate.errors));
+      else {        
         throw new Error('New Order failed: ' + ajv.errorsText(validate.errors));
       }
     }
