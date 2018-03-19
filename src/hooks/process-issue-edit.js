@@ -2,6 +2,8 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+const errors = require('feathers-errors');
+
 module.exports = function (options = {}) {
   return async context => {
 
@@ -59,7 +61,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Issue edit failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest(new Error('Issue edit failed: ' + ajv.errorsText(validate.errors)));
       }
     }
   };
