@@ -47,6 +47,34 @@ module.exports = function (app) {
       ]
     },
 
+    get: {
+      parameters:
+        [
+          {
+            name: "_id",
+            description: "Issue ID",
+            in: "path",
+            required: true,
+            type: 'string' , 
+            "pattern": "^[a-zA-Z0-9]{16}$"              
+          }
+        ]
+    },
+
+    remove: {
+      parameters:
+        [
+          {
+            name: "_id",
+            description: "Issue ID",
+            in: "path",
+            required: true,
+            type: 'string' , 
+            pattern: "^[a-zA-Z0-9]{16}$"              
+          }
+        ]
+    },
+
     create: {
       parameters:
         [
@@ -64,6 +92,14 @@ module.exports = function (app) {
       parameters:
         [
           {
+            name: "_id",
+            description: "Issue ID",
+            in: "path",
+            required: true,
+            type: 'string' , 
+            pattern: "^[a-zA-Z0-9]{16}$"              
+          },
+          {
             name: "Issue Update",
             description: "Issue Object",
             in: "body",
@@ -76,6 +112,14 @@ module.exports = function (app) {
     patch: {
       parameters:
         [
+          {
+            name: "_id",
+            description: "Issue ID",
+            in: "path",
+            required: true,
+            type: 'string' , 
+            pattern: "^[a-zA-Z0-9]{16}$"              
+          },
           {
             name: "Issue Patch",
             description: "Issue Object",
