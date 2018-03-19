@@ -15,7 +15,6 @@ const middleware = require('./middleware');
 const services = require('./services');
 const appHooks = require('./app.hooks');
 const channels = require('./channels');
-//const memory = require('feathers-memory');
 const swagger = require('feathers-swagger');
 const app = express(feathers());
 
@@ -35,26 +34,16 @@ app.use('/', express.static(app.get('public')));
 app.configure(express.rest());
 app.configure(socketio());
 
-app.configure(swagger({
-    docsPath: '/docs',
-    uiIndex: true,
-    info: {
-      title: 'A test',
-      description: 'A description'
-    }
-  }))
 
 // Configure other middleware (see `middleware/index.js`)
 app.configure(middleware);
 
-
-///////////////////////////ADDED////////
 app.configure(swagger({
     docsPath: '/docs',
     uiIndex: true,
     info: {
-      title: 'A test',
-      description: 'A description'
+      title: 'Comic Stock Incubator API',
+      description: 'All Interaction for the Comic Stock API defined below'
     }
   }));
 

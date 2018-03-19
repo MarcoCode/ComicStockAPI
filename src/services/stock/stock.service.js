@@ -54,7 +54,8 @@ module.exports = function (app) {
             description: "Stock ID",
             in: "path",
             required: true,
-            type: 'string'          
+            type: 'string' , 
+            "pattern": "^[a-zA-Z0-9]{16}$"              
           }
         ]
     },
@@ -67,7 +68,8 @@ module.exports = function (app) {
             description: "Stock ID",
             in: "path",
             required: true,
-            type: 'string'          
+            type: 'string' , 
+            "pattern": "^[a-zA-Z0-9]{16}$"              
           }
         ]
     },
@@ -93,7 +95,8 @@ module.exports = function (app) {
             description: "Stock ID",
             in: "path",
             required: true,
-            type: 'string'          
+            type: 'string' , 
+            "pattern": "^[a-zA-Z0-9]{16}$"              
           },
           {
             name: "Stock Update",
@@ -113,7 +116,8 @@ module.exports = function (app) {
             description: "Stock ID",
             in: "path",
             required: true,
-            type: 'string' , "pattern": "^[a-zA-Z0-9]{16}$"          
+            type: 'string' , 
+            "pattern": "^[a-zA-Z0-9]{16}$"          
           },
           {
             name: "Stock Patch",

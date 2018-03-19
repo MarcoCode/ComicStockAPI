@@ -56,7 +56,7 @@ module.exports = function (app) {
             in: "path",
             required: true,
             type: 'string' , 
-            "pattern": "^[a-zA-Z0-9]{16}$"              
+            pattern: "^[a-zA-Z0-9]{16}$"              
           }
         ]
     },
