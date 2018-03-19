@@ -35,7 +35,7 @@ module.exports = function (options = {}) {
     });
 
     if(findIssueID.total != 1){
-    throw new Error('The provided issue does not exist in database, first create issue');
+    throw new errors.BadRequest(new Error('The provided issue does not exist in database, first create issue'));
     }
 
     const findExistingStock = await context.app.service('/stock').find({
@@ -46,7 +46,7 @@ module.exports = function (options = {}) {
     });
 
     if(findExistingStock.total === 1){
-    throw new Error('The database already contains stock of condition: '+data.condition.toString()+' for provided issue, update to change values');
+    throw new errors.BadRequest(new Error('The database already contains stock of condition: '+data.condition.toString()+' for provided issue, update to change values'));
     }
 
 
@@ -60,7 +60,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Stock create failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest(new Error('Stock create failed: ' + ajv.errorsText(validate.errors)));
       }
     }
   };

@@ -2,6 +2,9 @@
 // For more information on hooks see: http://docs.feathersjs.com/api/hooks.html
 
 // eslint-disable-next-line no-unused-vars
+
+const errors = require('feathers-errors');
+
 module.exports = function (options = {}) {
   return async context => {
 
@@ -9,7 +12,7 @@ module.exports = function (options = {}) {
     const { data } = context;
 
     if(typeof context.id != "string")
-    throw new Error('the specified id must be a string');
+    throw new errors.BadRequest(new Error('the specified id must be a string'));
 
     var Ajv = require('ajv');
     var ajv = new Ajv({ allErrors: true });
@@ -38,7 +41,7 @@ module.exports = function (options = {}) {
     });
 
     if (findIssueID.total != 1) {
-      throw new Error('The provided issue does not exist in database, first create issue');
+      throw new errors.BadRequest(new Error('The provided issue does not exist in database, first create issue'));
     }
   }
 
@@ -51,7 +54,7 @@ module.exports = function (options = {}) {
     });
 
     if (findExistingStockaAndCondition.total != 1) {
-      throw new Error('The Condition of existing stock cannot be changed');
+      throw new errors.BadRequest(new Error('The Condition of existing stock cannot be changed'));
     }
   }
 
@@ -64,7 +67,7 @@ module.exports = function (options = {}) {
     });
 
     if (findExistingStockaAndIssue.total != 1) {
-      throw new Error('The Issue associated to existing stock cannot be changed');
+      throw new errors.BadRequest(new Error('The Issue associated to existing stock cannot be changed'));
     }
   }
 
@@ -80,7 +83,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new Error('Stock edit failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest(new Error('Stock edit failed: ' + ajv.errorsText(validate.errors)));
       }
     }
 
