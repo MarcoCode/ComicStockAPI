@@ -17,7 +17,8 @@ module.exports = function (options = {}) {
 
         "name": { "type": "string" },
         "city": { "type": "string" },
-        "reference": { "type": "string" }
+        "reference": { "type": "string" },
+        "status": { "enum": ["Active", "Inactive"] }
       },
 
       "required": ["name", "city", "reference"],
@@ -26,7 +27,7 @@ module.exports = function (options = {}) {
 
     var validate = ajv.compile(schema);
     test(data);
-   
+
     if (context.id === undefined || context.id === null || context.id === "")
       throw new errors.BadRequest("Please specify a supplier ID in the url parameter");
 
@@ -52,7 +53,8 @@ module.exports = function (options = {}) {
         context.data = {
           name: data.name.toString(),
           city: data.city.toString(),
-          reference: data.reference.toString()
+          reference: data.reference.toString(),
+          status: "Active"
         }
 
       }

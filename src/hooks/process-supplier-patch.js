@@ -17,7 +17,8 @@ module.exports = function (options = {}) {
 
         "name": { "type": "string" },
         "city": { "type": "string" },
-        "reference": { "type": "string" }
+        "reference": { "type": "string" },
+        "status": { "enum": ["Active", "Inactive"] }
       },
 
       "required": [],
@@ -47,6 +48,9 @@ module.exports = function (options = {}) {
         }
         if (data.reference !== undefined && data.reference !== null && data.reference !== "") {
           context.data.reference = data.reference.toString();
+        }
+        if (data.status !== undefined && data.status !== null && data.status !== "") {
+          context.data.status = data.status.toString();
         }
 
       }

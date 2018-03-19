@@ -46,7 +46,8 @@ module.exports = function (options = {}) {
         context.data = {
           name: data.name.toString(),
           city: data.city.toString(),
-          reference: data.reference.toString()
+          reference: data.reference.toString(),
+          status:"Active"
         }
 
       }

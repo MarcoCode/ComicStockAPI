@@ -150,7 +150,8 @@ module.exports = function (app) {
           "reference": {
             "type": "string",
             "description": "Supplier Reference"
-          }
+          },
+          "status": { "type": "string", "enum": ["Active", "Inactive"] }
         }
       },
       supplierPatch: {
@@ -168,7 +169,8 @@ module.exports = function (app) {
           "reference": {
             "type": "string",
             "description": "Supplier Reference"
-          }
+          },
+          "status": { "type": "string", "enum": ["Active", "Inactive"] }
         }
       }
     }
