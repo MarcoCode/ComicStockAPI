@@ -51,6 +51,7 @@ module.exports = function (app) {
     },
 
     create: {
+      description: "Creates a Supplier, an automatically sets its status to Active ",
       parameters: [
         {
           name: "supplier",
@@ -65,6 +66,7 @@ module.exports = function (app) {
 
 
     update: {
+      "description": "Edits a Supplier, an automatically sets its status to Active ",
       parameters: [
         {
           name: "supplier",
@@ -85,6 +87,7 @@ module.exports = function (app) {
       ]
     },
     get: {
+      "description": "Returns Supplier Details, based on provided ID",
       parameters: [
         {
           description: 'Supplier ID',
@@ -96,6 +99,7 @@ module.exports = function (app) {
       ]
     },
     remove: {
+      "description": "Sets the status of the provided Supplier to Inactive",
       parameters: [
         {
           description: 'Supplier ID',
