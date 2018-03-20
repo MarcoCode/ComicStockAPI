@@ -157,6 +157,32 @@ module.exports = function (app) {
         },
   
         "additionalProperties": false
+      },
+      stock: {
+        "type": "object",
+        "properties": {
+  
+          "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+          "condition": { "type": "string" , "enum": ["Poor", "Average", "Fine", "Very Fine"] },
+          "stockAvailable": { "type": "integer" },
+          "price": { "type": "number" },
+  
+        },
+  
+        "additionalProperties": false
+      },
+      'stock list': {
+        "type": "object",
+        "properties": {
+  
+          "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+          "condition": { "type": "string" , "enum": ["Poor", "Average", "Fine", "Very Fine"] },
+          "stockAvailable": { "type": "integer" },
+          "price": { "type": "number" },
+  
+        },
+  
+        "additionalProperties": false
       }
       
     }
