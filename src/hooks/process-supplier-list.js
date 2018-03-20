@@ -5,7 +5,7 @@
 module.exports = function (options = {}) {
   return async context => {
 
-    //Filtering the Inactive Suppliers.
+    //Filtering the Inactive Suppliers, only returns 'Active' Ssuppliers
     var Arr = context.result.data.filter(filterSupplier);
 
     function filterSupplier(supplier){

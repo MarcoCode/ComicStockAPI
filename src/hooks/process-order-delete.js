@@ -5,6 +5,7 @@
 const errors = require('feathers-errors');
 const { FeathersError } = require('@feathersjs/errors');
 
+//Using custom 'Success' error, since the Delete shouldn't remove the db entry, simply update the status (Soft Delete)
 class OrderDeleteMessage extends FeathersError {
   constructor(message, data) {
     super(message, 'Ok', 200, 'OrderDeleteMessage', data);
@@ -32,10 +33,7 @@ module.exports = function (options = {}) {
       "status":"Cancelled"
     })
 
-
-    throw new OrderDeleteMessage("Succesfully deleted",orderToDelete);
-   //return new errors.Forbidden("You can not delete an order, please edit it and change its status")
-
-   //return context;
+//Throwing 'success' message to confirm that the status of the order has been changed (Soft Delete)
+    throw new OrderDeleteMessage("Succesfully deleted Order: ",orderToDelete);
   };
 };

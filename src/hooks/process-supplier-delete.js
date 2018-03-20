@@ -5,6 +5,7 @@
 const errors = require('feathers-errors');
 const { FeathersError } = require('@feathersjs/errors');
 
+//Using custom 'Success' error, since the Delete shouldn't remove the db entry, simply update the status (Soft Delete)
 class SupplierDeleteMessage extends FeathersError {
   constructor(message, data) {
     super(message, 'Ok', 200, 'SupplierDeleteMessage', data);
@@ -13,13 +14,6 @@ class SupplierDeleteMessage extends FeathersError {
 
 module.exports = function (options = {}) {
   return async context => {
-
-    // console.log("context id: ", context.id);
-    // if (context.id === undefined || context.id === null || context.id === "")
-    //   throw new Error("Please specify a supplier ID in the url parameter");
-
-    // return context;
-
 
   if (context.id === undefined || context.id === null || context.id === "")
       throw new errors.BadRequest("Please specify a supplier ID in the url parameter");
@@ -39,7 +33,8 @@ module.exports = function (options = {}) {
     })
 
 
-    throw new SupplierDeleteMessage("Succesfully deleted",orderToDelete);
+//Throwing 'success' message to confirm that the status of the order has been changed (Soft Delete)
+    throw new SupplierDeleteMessage("Succesfully deleted Supplier: ",orderToDelete);
 
   };
 };

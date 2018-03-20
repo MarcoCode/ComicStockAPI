@@ -15,11 +15,16 @@ module.exports = function (options = {}) {
       "type": "object",
       "properties": {
 
-        "issueId": { "type": "string" , "pattern": "^[a-zA-Z0-9]{16}$" },
-        "condition": { "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
-        "stockAvailable": { "type": "integer" },
-        "price": { "type": "number" },
+        "issueId": { "type": "string" ,
+        "pattern": "^[a-zA-Z0-9]{16}$" },
 
+        "condition": { 
+          "type": "string" ,
+          "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
+
+        "stockAvailable": { "type": "integer" },
+
+        "price": { "type": "number" },
       },
 
       "required": [ "issueId", "condition", "stockAvailable", "price" ],
@@ -60,7 +65,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new errors.BadRequest(new Error('Stock create failed: ' + ajv.errorsText(validate.errors)));
+        throw new errors.BadRequest(new Error('Failed to create Stock: ' + ajv.errorsText(validate.errors)));
       }
     }
   };

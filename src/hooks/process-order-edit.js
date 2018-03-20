@@ -8,14 +8,13 @@ module.exports = function (options = {}) {
 
     const { data } = context;
 
-    console.log("dataaaa", context)
     var Ajv = require('ajv');
     var ajv = new Ajv({ allErrors: true });
 
     var schema = {
       "type": "object",
       "properties": {
-        "status": { "enum": ["Received","Cancelled", "Returned"] }
+        "status": { "enum": [ "Received", "Cancelled", "Returned" ] }
       },
       "required": ["status"],
       "additionalProperties": false
@@ -48,12 +47,10 @@ module.exports = function (options = {}) {
     function test(testData) {
       var valid = validate(testData);
       if (valid) {
-        //console.log('Valid!');
         return context;
       }
       else {
-        //console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new errors.BadRequest('Order edit failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Failed to upate Order: ' + ajv.errorsText(validate.errors));
       }
     }
   };

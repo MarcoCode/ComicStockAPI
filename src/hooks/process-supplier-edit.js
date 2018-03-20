@@ -18,7 +18,7 @@ module.exports = function (options = {}) {
         "name": { "type": "string" },
         "city": { "type": "string" },
         "reference": { "type": "string" },
-        "status": { "enum": ["Active", "Inactive"] }
+        "status": { "type": "string", "enum": ["Active", "Inactive"] }
       },
 
       "required": ["name", "city", "reference"],
@@ -59,7 +59,7 @@ module.exports = function (options = {}) {
 
       }
       else {
-        throw new errors.BadRequest('Edit Supplier failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Failed to edit Supplier: ' + ajv.errorsText(validate.errors));
       }
     }
 

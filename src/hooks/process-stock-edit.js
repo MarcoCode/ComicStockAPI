@@ -21,9 +21,16 @@ module.exports = function (options = {}) {
       "type": "object",
       "properties": {
 
-        "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-        "condition": { "enum": ["Poor", "Average", "Fine", "Very Fine"] },
+        "issueId": { 
+        "type": "string", 
+        "pattern": "^[a-zA-Z0-9]{16}$" },
+
+        "condition": { 
+          "type": "string", 
+          "enum": ["Poor", "Average", "Fine", "Very Fine"] },
+
         "stockAvailable": { "type": "integer" },
+        
         "price": { "type": "number" },
 
       },
@@ -83,7 +90,7 @@ module.exports = function (options = {}) {
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new errors.BadRequest(new Error('Stock edit failed: ' + ajv.errorsText(validate.errors)));
+        throw new errors.BadRequest(new Error('Failed to edit Stock: ' + ajv.errorsText(validate.errors)));
       }
     }
 

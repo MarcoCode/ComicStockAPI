@@ -55,7 +55,7 @@ module.exports = function (options = {}) {
 
       }
       else {
-        throw new errors.BadRequest('Patch Supplier failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Failed to Patch Supplier: ' + ajv.errorsText(validate.errors));
       }
     }
   };

@@ -52,7 +52,7 @@ module.exports = function (options = {}) {
 
       }
       else {
-        throw new errors.BadRequest('New Supplier failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Failed to Create new Supplier: ' + ajv.errorsText(validate.errors));
       }
     }
   };

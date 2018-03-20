@@ -61,7 +61,7 @@ module.exports = function (options = {}) {
         throw new errors.NotFound(`the provided stock ID ${data.stocks[i].stockID} does not exist in database`);
 
       if (parseInt(findstockID.data[0].stockAvailable) < data.stocks[i].quantity) {
-        throw new errors.BadRequest(`the quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
+        throw new errors.BadRequest(`The quantity requested for the stock ${data.stocks[i].stockID} is greater than the quantity available in database`);
       }
 
       stockToUpdate[stockToUpdate.length] = findstockID.data[0];
@@ -92,7 +92,7 @@ module.exports = function (options = {}) {
 
       }
       else {        
-        throw new errors.BadRequest('New Order failed: ' + ajv.errorsText(validate.errors));
+        throw new errors.BadRequest('Failed to create new Order: ' + ajv.errorsText(validate.errors));
       }
     }
 

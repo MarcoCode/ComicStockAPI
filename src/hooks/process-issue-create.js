@@ -35,7 +35,7 @@ module.exports = function (options = {}) {
 
         "images": {
           "type": "array",
-          "maxItems": 150,
+          "maxItems": 10,
           "items": {
             "type": "object",
             "properties": {
@@ -58,12 +58,11 @@ module.exports = function (options = {}) {
     function test(testData) {
       var valid = validate(testData);
       if (valid) {
-        console.log('Valid!');
         return context;
       }
       else {
         console.log('Invalid: ' + ajv.errorsText(validate.errors));
-        throw new errors.BadRequest(new Error('Issue create failed: ' + ajv.errorsText(validate.errors)));
+        throw new errors.BadRequest(new Error('Failed to Create Issue: ' + ajv.errorsText(validate.errors)));
       }
     }
   };
