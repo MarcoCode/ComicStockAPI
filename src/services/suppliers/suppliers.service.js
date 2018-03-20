@@ -21,6 +21,7 @@ module.exports = function (app) {
     //overwrite things here.
     //if we want to add a mongoose style $search hook to find, we can write this:
     find: {
+      description:"Returns list of Active Suppliers",
       parameters: [
         {
           description: 'Number of results to returns',
@@ -150,11 +151,29 @@ module.exports = function (app) {
           "reference": {
             "type": "string",
             "description": "Supplier Reference"
+          } 
+        }
+      },
+      supplierPatch: {
+        "type": "object",
+        "required": [],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Supplier Name"
+          },
+          "city": {
+            "type": "string",
+            "description": "Supplier City"
+          },
+          "reference": {
+            "type": "string",
+            "description": "Supplier Reference"
           },
           "status": { "type": "string", "enum": ["Active", "Inactive"] }
         }
       },
-      supplierPatch: {
+      'suppliers list': {
         "type": "object",
         "required": [],
         "properties": {
