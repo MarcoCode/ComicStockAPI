@@ -63,6 +63,7 @@ module.exports = function (app) {
 
 
     update: {
+      description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
           name: "Order",
@@ -83,6 +84,7 @@ module.exports = function (app) {
       ]
     },
     get: {
+      description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
           description: 'Order ID',
@@ -94,6 +96,7 @@ module.exports = function (app) {
       ]
     },
     remove: {
+      description: 'Changes the status of order to Cancelled, based on Provided Order ID',
       parameters: [
         {
           description: 'Order ID',
@@ -107,6 +110,7 @@ module.exports = function (app) {
 
 
     patch: {
+      description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
           name: "Order",
