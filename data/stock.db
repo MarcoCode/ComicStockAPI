@@ -1,456 +1,476 @@
-{"issueId":"bRYsXpOi5gTWLHzC","condition":"Fine","stockAvailable":2,"price":230.13,"_id":"01v2kJ4N6L4u7K9A"}
-{"issueId":"jqSaKpy5FrIHn9JU","condition":"Very Fine","stockAvailable":0,"price":130.82,"_id":"04NQo4B4ZD6HGLYa"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Very Fine","stockAvailable":1,"price":248.66,"_id":"072esLbOhkSKJW9d"}
-{"issueId":"HkbZzcQ4Gpb7xxFU","condition":"Average","stockAvailable":0,"price":57.63,"_id":"0Bk9OKYmL3JPQ6Br"}
-{"issueId":"kCh7SQ9scR6eYdGe","condition":"Very Fine","stockAvailable":6,"price":203.41,"_id":"0DEGQWOJfOMDDA10"}
-{"issueId":"bRYsXpOi5gTWLHzC","condition":"Average","stockAvailable":7,"price":46.28,"_id":"0OuVLoFDyzoAXRMk"}
-{"issueId":"x83RlqL6ComtmqGN","condition":"Very Fine","stockAvailable":4,"price":233.42,"_id":"0P7lxhyD3zW3BTZ0"}
-{"issueId":"x83RlqL6ComtmqGN","condition":"Fine","stockAvailable":7,"price":24.62,"_id":"0TRqB7x32QnJEFK1"}
-{"issueId":"x83RlqL6ComtmqGN","condition":"Poor","stockAvailable":6,"price":196.87,"_id":"0WM3BrCrO1eVSuPt"}
-{"issueId":"elbQG8qyjGwYLwZe","condition":"Average","stockAvailable":5,"price":87.16,"_id":"0ZuhyKrMP3MKRN4P"}
-{"issueId":"vjSwTTKeLbKS5LO3","condition":"Very Fine","stockAvailable":9,"price":33.47,"_id":"0gA8rC6f7gHpPXQn"}
-{"issueId":"g6H2TbFFpR0bcgmV","condition":"Poor","stockAvailable":0,"price":248.66,"_id":"0jOOwWX4ZekYW25T"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Poor","stockAvailable":6,"price":62.72,"_id":"0mPOcGB3qKea0Zlw"}
-{"issueId":"6EvLscwWi4a2yG8e","condition":"Average","stockAvailable":0,"price":57.58,"_id":"0shiFPwRzaksMm9L"}
-{"issueId":"68NH9yyc0NY5KgJu","condition":"Very Fine","stockAvailable":9,"price":154.42,"_id":"0tWpDTeogQBKzT3E"}
-{"issueId":"SX2Rj2sz5Xzqpeyv","condition":"Average","stockAvailable":6,"price":55.48,"_id":"12pmp5BzMKYHcIx6"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Average","stockAvailable":1,"price":116.12,"_id":"1LGxlaQbAJErKtRs"}
-{"issueId":"zYIVquLMzmPQTuY4","condition":"Very Fine","stockAvailable":3,"price":49.29,"_id":"1MDDJEgaDXX4xSY1"}
-{"issueId":"RYwhujA6gMp4I5JT","condition":"Poor","stockAvailable":7,"price":246.44,"_id":"1cRvJyzlU5ZtEG7q"}
-{"issueId":"gXr2nWYTEmZKlm2m","condition":"Average","stockAvailable":1,"price":92.18,"_id":"1kkKVrJKF7pK86bd"}
-{"issueId":"N4yuzD9ZMO9FQazQ","condition":"Poor","stockAvailable":3,"price":208.28,"_id":"24OZfVBgVKxiCcZZ"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Very Fine","stockAvailable":5,"price":99.14,"_id":"2AeOgSo24bxa0akY"}
-{"issueId":"RYwhujA6gMp4I5JT","condition":"Fine","stockAvailable":0,"price":33.22,"_id":"2MTWdTbU6g83sD5Z"}
-{"issueId":"lc9T54ihdcMwMm38","condition":"Very Fine","stockAvailable":0,"price":155.51,"_id":"2Py8KB1c1eeuUQSA"}
-{"issueId":"lFd9u5yymZkyTtbK","condition":"Fine","stockAvailable":7,"price":117.79,"_id":"2dmJpWhWcOla7qgK"}
-{"issueId":"xCVpkFks03JbASu3","condition":"Very Fine","stockAvailable":9,"price":247.4,"_id":"2i91WrosseY4taR1"}
-{"issueId":"UQ3IAXi9lliaZxnp","condition":"Very Fine","stockAvailable":7,"price":106.15,"_id":"2pn19avheNVY5wb8"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Very Fine","stockAvailable":9,"price":182.74,"_id":"312eifTydW0Kolzb"}
-{"issueId":"f0Z6B4RBEDtMVXDS","condition":"Poor","stockAvailable":9,"price":18.1,"_id":"32ounpaSujOVRlkT"}
-{"issueId":"hrp5phaGMvrnNYb9","condition":"Average","stockAvailable":7,"price":65.55,"_id":"3CvgKzKMFNI8Ow8h"}
-{"issueId":"qTcV5eV4gTbwYlkF","condition":"Fine","stockAvailable":3,"price":217.79,"_id":"3FpRdykFdlDHl76y"}
-{"issueId":"g8IFtrPNpctTqy43","condition":"Poor","stockAvailable":3,"price":191.35,"_id":"3GJPDzeEOwKTang1"}
-{"issueId":"02Lx0ISQjSTyGkW5","condition":"Very Fine","stockAvailable":8,"price":132.29,"_id":"3NGBoDd389NcbPy1"}
-{"issueId":"AdqWSAUBCR5aeJk6","condition":"Very Fine","stockAvailable":4,"price":176.92,"_id":"3d7Ecz4Vb9vBqPnG"}
-{"issueId":"aArgTxCA1mCAvROd","condition":"Average","stockAvailable":4,"price":227.56,"_id":"3jIfwcIwdHQlYsUK"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Very Fine","stockAvailable":6,"price":214.11,"_id":"3kcHMsmEF9etUvxS"}
-{"issueId":"JHEJLPhUFKKiLRsv","condition":"Very Fine","stockAvailable":5,"price":140.07,"_id":"3mU1hXTuxCu5UcJ1"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Average","stockAvailable":6,"price":80.37,"_id":"3srhOmpSTAcn3Rrr"}
-{"issueId":"kjs5myUcHqUX74Ds","condition":"Fine","stockAvailable":1,"price":189.77,"_id":"3uAQhmrTnQSmilp2"}
-{"issueId":"kjs5myUcHqUX74Ds","condition":"Poor","stockAvailable":3,"price":159.04,"_id":"3wOvjbcVCX83Czir"}
-{"issueId":"MyPTMgDK1sQnHMaa","condition":"Average","stockAvailable":5,"price":201.09,"_id":"4G4j2yIY7UUS7SwH"}
-{"issueId":"3z3IV5PUhHG6MGuO","condition":"Very Fine","stockAvailable":7,"price":35.67,"_id":"4HSqVDwEZtKPYW4q"}
-{"issueId":"72sYSbCvaDraRe7M","condition":"Average","stockAvailable":4,"price":70.48,"_id":"4jFbule8hl5U8UcJ"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Very Fine","stockAvailable":4,"price":137.71,"_id":"4rjo3cwF4I3F8T0J"}
-{"issueId":"pKnLzVUDB7T3LYpD","condition":"Poor","stockAvailable":8,"price":100.71,"_id":"57jN00ANlShY91lH"}
-{"issueId":"wuaHLsQ7X1lkY9RG","condition":"Average","stockAvailable":0,"price":214.88,"_id":"5LhbTnDZTg9D4ecm"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Poor","stockAvailable":0,"price":81.9,"_id":"5RKhVMpi9a1cPy8z"}
-{"issueId":"72sYSbCvaDraRe7M","condition":"Fine","stockAvailable":1,"price":99.59,"_id":"5UjU1X0Qowp6cpXD"}
-{"issueId":"8fFak9GIE7As1NR0","condition":"Poor","stockAvailable":7,"price":120.43,"_id":"5Ydf61l3Zbw9ckKW"}
-{"issueId":"f0Z6B4RBEDtMVXDS","condition":"Fine","stockAvailable":1,"price":239.07,"_id":"5nSko3voTQS7QLs0"}
-{"issueId":"4pBcfvjCDmANFPOP","condition":"Poor","stockAvailable":0,"price":236.81,"_id":"5oVrydbkcEQ9K6tw"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Fine","stockAvailable":9,"price":110.03,"_id":"5qobl9MGcZ6cAC4X"}
-{"issueId":"2PCyrXW8mXv9vOCA","condition":"Average","stockAvailable":5,"price":52.92,"_id":"5whZwNn3BJvhLgIS"}
-{"issueId":"qTcV5eV4gTbwYlkF","condition":"Poor","stockAvailable":1,"price":45.64,"_id":"5wzimy3pIYglTs3g"}
-{"issueId":"2nnbMpzrubMCNzRk","condition":"Poor","stockAvailable":4,"price":162.05,"_id":"67Y4rzTqBaAUL8ei"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Average","stockAvailable":0,"price":43.06,"_id":"6GUuXPHg4DooAZWl"}
-{"issueId":"lFVxUKitoStrRYPj","condition":"Very Fine","stockAvailable":7,"price":28.42,"_id":"6QDBAhKBPV62CW9J"}
-{"issueId":"1S2iNI45LgXgcQFB","condition":"Very Fine","stockAvailable":3,"price":155.03,"_id":"6T982cfrLl25IxLU"}
-{"issueId":"fDeUYxlkb6NnmKZN","condition":"Poor","stockAvailable":4,"price":103.86,"_id":"6tC58TVsOGAsG7QX"}
-{"issueId":"AdqWSAUBCR5aeJk6","condition":"Average","stockAvailable":6,"price":83.47,"_id":"6uFX3w5tTLfnlTFk"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Fine","stockAvailable":8,"price":187.01,"_id":"71jfFRiSFFeqLM2o"}
-{"issueId":"YYySP9EWvx2FR4Qu","condition":"Average","stockAvailable":8,"price":225.71,"_id":"74MNYxomTh5Z4Y05"}
-{"issueId":"hrp5phaGMvrnNYb9","condition":"Fine","stockAvailable":9,"price":118.52,"_id":"76IJnAHIAdtjcFEh"}
-{"issueId":"t6RqIXeepH41kejy","condition":"Poor","stockAvailable":3,"price":42.09,"_id":"7Aun0pFIfsnrxLOk"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Average","stockAvailable":1,"price":188.15,"_id":"7FwtdxPQi3lobzax"}
-{"issueId":"988iOcnhO1MSQ2EN","condition":"Fine","stockAvailable":1,"price":121.47,"_id":"7WZpFmXiZDyRZeqs"}
-{"issueId":"g8IFtrPNpctTqy43","condition":"Average","stockAvailable":3,"price":50.2,"_id":"7bZiZHGds9LJIFiA"}
-{"issueId":"RYwhujA6gMp4I5JT","condition":"Very Fine","stockAvailable":8,"price":169.66,"_id":"7hOemFrfP66Yv6P8"}
-{"issueId":"t6RqIXeepH41kejy","condition":"Fine","stockAvailable":1,"price":178.77,"_id":"7jUJjVYRQuCj2Iot"}
-{"issueId":"FnpCfT6rSzBTZZTs","condition":"Poor","stockAvailable":1,"price":49.33,"_id":"7v5hgj7e19GdyieI"}
-{"issueId":"zYIVquLMzmPQTuY4","condition":"Average","stockAvailable":8,"price":41.98,"_id":"894i0rkXHtB0rucM"}
-{"issueId":"61jbyu9Eu1cTdLsj","condition":"Average","stockAvailable":2,"price":45.44,"_id":"8K2joTcBnzWqGFjd"}
-{"issueId":"lFVxUKitoStrRYPj","condition":"Poor","stockAvailable":5,"price":204.19,"_id":"8ih1TqAjbTECybWd"}
-{"issueId":"lFd9u5yymZkyTtbK","condition":"Very Fine","stockAvailable":8,"price":132.5,"_id":"8nehPGZahD63G4Qr"}
-{"issueId":"gSM1lAbDm4H7BXrH","condition":"Fine","stockAvailable":5,"price":149.2,"_id":"8odRFrVoNU4tnlFx"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Very Fine","stockAvailable":0,"price":90.37,"_id":"8qJDoRLSZNwAm8XB"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Average","stockAvailable":0,"price":223.28,"_id":"8wiUSxrLROtwfigo"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Average","stockAvailable":4,"price":90.8,"_id":"90WhWAv6qIPQFPZQ"}
-{"issueId":"K0gASUrVyTCwrbx7","condition":"Fine","stockAvailable":6,"price":220.38,"_id":"97uu6sHlBVuymHA0"}
-{"issueId":"Qeio2O4bj5gQ00M8","condition":"Fine","stockAvailable":6,"price":51.48,"_id":"9CiAniPxkruUMOLT"}
-{"issueId":"HkbZzcQ4Gpb7xxFU","condition":"Very Fine","stockAvailable":8,"price":27.49,"_id":"9MfPw8ANHWnAHDkJ"}
-{"issueId":"dWJZA4EXGBkQ8hCO","condition":"Fine","stockAvailable":8,"price":57.99,"_id":"9czEaM8Xy7BlZGOm"}
-{"issueId":"K4Od5UvguXCTdN1s","condition":"Very Fine","stockAvailable":2,"price":29.02,"_id":"9lzZkF8VfVoia3ag"}
-{"issueId":"2PCyrXW8mXv9vOCA","condition":"Fine","stockAvailable":2,"price":48.64,"_id":"9t93k0WzNOdpPjBr"}
-{"issueId":"fSXv9zeqAzUkgzW6","condition":"Very Fine","stockAvailable":8,"price":35.91,"_id":"9tmUcU8H0gGiyCzP"}
-{"issueId":"fSXv9zeqAzUkgzW6","condition":"Poor","stockAvailable":9,"price":110.12,"_id":"9z8e2jRbzq1RZ27e"}
-{"issueId":"x83RlqL6ComtmqGN","condition":"Average","stockAvailable":7,"price":86.65,"_id":"A8FCETfEGGzJ2HWH"}
-{"issueId":"lqwJyxsW1Nlx84yw","condition":"Very Fine","stockAvailable":2,"price":18.38,"_id":"AFrmft6wcqTaaSs2"}
-{"issueId":"YYySP9EWvx2FR4Qu","condition":"Poor","stockAvailable":4,"price":244.59,"_id":"AO9e1TAWojSLuAfr"}
-{"issueId":"cjlLJCpbH27m6t6N","condition":"Average","stockAvailable":7,"price":168.95,"_id":"AW661Sa4lARz00br"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Very Fine","stockAvailable":6,"price":49.92,"_id":"AdqLueg7JZMZePr4"}
-{"issueId":"m3Me6ellgM4ftDDK","condition":"Very Fine","stockAvailable":3,"price":184.84,"_id":"Ajeo0ZOJmktDQYk4"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Fine","stockAvailable":0,"price":25.59,"_id":"AnhDYjMZQjBOHghC"}
-{"issueId":"W4NhOxe5YRhmmuRb","condition":"Fine","stockAvailable":3,"price":74.02,"_id":"AqgYKa2Z2wrwrt69"}
-{"issueId":"EFUhGywxA5q5AdYI","condition":"Average","stockAvailable":7,"price":135.31,"_id":"AxVTOR117SCk5Wri"}
-{"issueId":"fSXv9zeqAzUkgzW6","condition":"Average","stockAvailable":5,"price":172.24,"_id":"B4b4k1yjDi8PUjIT"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Very Fine","stockAvailable":6,"price":139.41,"_id":"B5ORGnwtj3kdwHKk"}
-{"issueId":"TuoX9zryRlOWT6sg","condition":"Average","stockAvailable":6,"price":140.81,"_id":"BHNc5eXqgw5VmsyC"}
-{"issueId":"bRYsXpOi5gTWLHzC","condition":"Very Fine","stockAvailable":1,"price":197.95,"_id":"BhlTzeZByY3PMgJN"}
-{"issueId":"IjdahRTgEBVxnWSu","condition":"Very Fine","stockAvailable":5,"price":131.4,"_id":"BvoePEburnfslf9O"}
-{"issueId":"lFd9u5yymZkyTtbK","condition":"Poor","stockAvailable":0,"price":62.49,"_id":"C3JMWNPxBF0cX9M5"}
-{"issueId":"jqSaKpy5FrIHn9JU","condition":"Fine","stockAvailable":5,"price":134.99,"_id":"C4TxOAqn0WpagvXb"}
-{"issueId":"N4yuzD9ZMO9FQazQ","condition":"Average","stockAvailable":0,"price":249.39,"_id":"CBIwMsV9xRy0vh9k"}
-{"issueId":"MyPTMgDK1sQnHMaa","condition":"Fine","stockAvailable":4,"price":154.78,"_id":"CMGofQZk64Kf8VHE"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Very Fine","stockAvailable":9,"price":203.62,"_id":"CNyBTpcYkraOgfR8"}
-{"issueId":"kCh7SQ9scR6eYdGe","condition":"Average","stockAvailable":3,"price":114.56,"_id":"CWYMdXZnDbchh2xA"}
-{"issueId":"988iOcnhO1MSQ2EN","condition":"Average","stockAvailable":5,"price":146.7,"_id":"CWmlKL05TgKyukCf"}
-{"issueId":"k2dylOyprohpJI9z","condition":"Fine","stockAvailable":6,"price":153.81,"_id":"CYzhTXqWoMucWhup"}
-{"issueId":"eYO1vQAoGp214sA4","condition":"Average","stockAvailable":0,"price":205.78,"_id":"DbqescD5bVcATJrp"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Average","stockAvailable":6,"price":121.68,"_id":"Dgy2ONOqtxyYcxnj"}
-{"issueId":"gYup9Q3o4xiB0pss","condition":"Very Fine","stockAvailable":5,"price":9.75,"_id":"DvQcOq6asQDR1wOI"}
-{"issueId":"CzsNFYE2vXN4uDGM","condition":"Very Fine","stockAvailable":4,"price":192.88,"_id":"Dz7yT2Zo83xSUz5A"}
-{"issueId":"JPQM1GQurQUntljw","condition":"Very Fine","stockAvailable":1,"price":16.82,"_id":"EBpljSeUJJs1c0hk"}
-{"issueId":"MyPTMgDK1sQnHMaa","condition":"Very Fine","stockAvailable":1,"price":188.14,"_id":"EHH6zP3fEfy4ociV"}
-{"issueId":"g6H2TbFFpR0bcgmV","condition":"Average","stockAvailable":7,"price":247.34,"_id":"EJv22gxm3hKLeNXY"}
-{"issueId":"TuoX9zryRlOWT6sg","condition":"Fine","stockAvailable":0,"price":82.86,"_id":"EnfOF1UJoXRvdVxJ"}
-{"issueId":"IjdahRTgEBVxnWSu","condition":"Average","stockAvailable":1,"price":196.06,"_id":"EoDf0kmLDevGorHI"}
-{"issueId":"WXm2JUVD3i5Ipvzy","condition":"Very Fine","stockAvailable":2,"price":9.59,"_id":"F7pHmoY76TZUB9Tj"}
-{"issueId":"xagFYHuPV6B7sISm","condition":"Fine","stockAvailable":8,"price":14.52,"_id":"FFkYIdQ1hJuNDapW"}
-{"issueId":"TuoX9zryRlOWT6sg","condition":"Poor","stockAvailable":8,"price":84.48,"_id":"FTLF90ygVb8xkbkV"}
-{"issueId":"nXVdhmS6eylXLNbO","condition":"Poor","stockAvailable":2,"price":26.5,"_id":"FTmnrm64866s3G9n"}
-{"issueId":"cS06vAT6NFJcxel7","condition":"Average","stockAvailable":5,"price":125.51,"_id":"FV6no3uja1M4WO9b"}
-{"issueId":"Qeio2O4bj5gQ00M8","condition":"Average","stockAvailable":8,"price":34.44,"_id":"FhHtihCUKnWRfzh8"}
-{"issueId":"dWJZA4EXGBkQ8hCO","condition":"Average","stockAvailable":1,"price":219.97,"_id":"FlAbsgaADfIyljQ3"}
-{"issueId":"N4yuzD9ZMO9FQazQ","condition":"Fine","stockAvailable":2,"price":45.7,"_id":"FlHQ9NFxXXvWwCJX"}
-{"issueId":"hbUAIkxs01o0fvN3","condition":"Fine","stockAvailable":0,"price":99.14,"_id":"Flb6bSN2z4scgrAW"}
-{"issueId":"W4NhOxe5YRhmmuRb","condition":"Average","stockAvailable":4,"price":37.96,"_id":"FrV3xKfeJeVUmnV1"}
-{"issueId":"tqCCD6dyGdkVluZY","condition":"Poor","stockAvailable":2,"price":172.19,"_id":"G7xHtKpMcuZIBgkK"}
-{"issueId":"JPQM1GQurQUntljw","condition":"Average","stockAvailable":2,"price":185.37,"_id":"GJF6huhwpSfVwFm5"}
-{"issueId":"EFUhGywxA5q5AdYI","condition":"Very Fine","stockAvailable":8,"price":152.88,"_id":"GLjFdfyMs0vmmzP5"}
-{"issueId":"lqwJyxsW1Nlx84yw","condition":"Fine","stockAvailable":9,"price":219.6,"_id":"GUCjZbbrFW7fhiz5"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Poor","stockAvailable":3,"price":82.09,"_id":"GiZ7Q9jyYRsbORKs"}
-{"issueId":"nXVdhmS6eylXLNbO","condition":"Average","stockAvailable":0,"price":241.69,"_id":"Gn6cAdluYW6bJFxd"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Fine","stockAvailable":4,"price":178.6,"_id":"H5slTWDZFvGYUfHb"}
-{"issueId":"QcYaWiWozmxbYnNv","condition":"Average","stockAvailable":9,"price":164.21,"_id":"HRgb0Vb5Ee3G2TNi"}
-{"issueId":"1DS8KuAso0WS3y1B","condition":"Poor","stockAvailable":0,"price":185.82,"_id":"HY4qHUOBKsNEhTtX"}
-{"issueId":"xagFYHuPV6B7sISm","condition":"Average","stockAvailable":7,"price":175.39,"_id":"HlsJeEN2BJjFc4F8"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Very Fine","stockAvailable":4,"price":228.43,"_id":"HmoPChI0ylZLvvyQ"}
-{"issueId":"fSXv9zeqAzUkgzW6","condition":"Fine","stockAvailable":7,"price":74.78,"_id":"HwNDlGcu0SCxYk2J"}
-{"issueId":"68NH9yyc0NY5KgJu","condition":"Poor","stockAvailable":5,"price":231.46,"_id":"Hwqyo9BNl7fzrdJH"}
-{"issueId":"pLMV0KvUGJlb0pkh","condition":"Poor","stockAvailable":7,"price":196.54,"_id":"I3TKl7thdZqgnhMi"}
-{"issueId":"6EvLscwWi4a2yG8e","condition":"Fine","stockAvailable":2,"price":139.45,"_id":"I3TLj1nTLMRxtzLm"}
-{"issueId":"lVf4RCCcrV4QlIEi","condition":"Fine","stockAvailable":8,"price":86.07,"_id":"I5HwQKxaXEtzpFLY"}
-{"issueId":"UH7fDFFfLZycfQpA","condition":"Very Fine","stockAvailable":2,"price":2.59,"_id":"IAk89emzdgno0MmR"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Poor","stockAvailable":2,"price":123.04,"_id":"IBdioT6AHhR7PSHN"}
-{"issueId":"39mB56FSt7QNEH01","condition":"Average","stockAvailable":4,"price":29.23,"_id":"IGvmS2FyIDc9XAR2"}
-{"issueId":"t6RqIXeepH41kejy","condition":"Very Fine","stockAvailable":6,"price":99.56,"_id":"IhWBVRNixLYOmv0G"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Very Fine","stockAvailable":0,"price":201.52,"_id":"Im6uccRzVVAOgsRG"}
-{"issueId":"WxxjUbXVnTSUAnbe","condition":"Very Fine","stockAvailable":5,"price":228.99,"_id":"ImDevB8XCSJUcGqL"}
-{"issueId":"xagFYHuPV6B7sISm","condition":"Very Fine","stockAvailable":8,"price":56.9,"_id":"IsJF514ZkJqmC3tm"}
-{"issueId":"SHZsH9VZV3I8Hgn5","condition":"Average","stockAvailable":3,"price":52.97,"_id":"JCwsAxdN6gQdPgge"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Very Fine","stockAvailable":5,"price":31.46,"_id":"JHA9uaJvAwsyxJ3R"}
-{"issueId":"EFUhGywxA5q5AdYI","condition":"Fine","stockAvailable":9,"price":179.43,"_id":"JMQ5skUQSTmxsnoz"}
-{"issueId":"4D20n1N1A0RXvBpq","condition":"Average","stockAvailable":8,"price":53.24,"_id":"JW1Ie96BKel4x5FX"}
-{"issueId":"02Lx0ISQjSTyGkW5","condition":"Fine","stockAvailable":0,"price":120.58,"_id":"JXABpP7OLTkYiKQK"}
-{"issueId":"EFUhGywxA5q5AdYI","condition":"Poor","stockAvailable":6,"price":186.6,"_id":"JYDuAWg9BAcUM2pO"}
-{"issueId":"K4Od5UvguXCTdN1s","condition":"Average","stockAvailable":6,"price":176.85,"_id":"JuEKYYqHIMCKW7Y2"}
-{"issueId":"rXm4mDeR4YGCfv4Z","condition":"Very Fine","stockAvailable":0,"price":188.13,"_id":"K0w8rluuT8MaPyFM"}
-{"issueId":"SHZsH9VZV3I8Hgn5","condition":"Poor","stockAvailable":8,"price":133.68,"_id":"K13gr4vxZPolW88l"}
-{"issueId":"h1E75Mu9jJkpJB1t","condition":"Poor","stockAvailable":6,"price":153.62,"_id":"K4us64pnNvuE4CHB"}
-{"issueId":"wuaHLsQ7X1lkY9RG","condition":"Poor","stockAvailable":4,"price":68.48,"_id":"KDUinGFwkmXOXxRM"}
-{"issueId":"CzsNFYE2vXN4uDGM","condition":"Average","stockAvailable":3,"price":138.83,"_id":"KJQt6qtpFjA75QXs"}
-{"issueId":"K0gASUrVyTCwrbx7","condition":"Very Fine","stockAvailable":2,"price":70.49,"_id":"KLIn5VeSnsZRc0nT"}
-{"issueId":"61jbyu9Eu1cTdLsj","condition":"Fine","stockAvailable":4,"price":209.96,"_id":"KfuedwglLqkO2fTe"}
-{"issueId":"GDP867jNbqiDxgIu","condition":"Very Fine","stockAvailable":4,"price":159.12,"_id":"Ki7KgjbJWnzo1xBc"}
-{"issueId":"02Lx0ISQjSTyGkW5","condition":"Average","stockAvailable":8,"price":94.44,"_id":"LOnPKTr0U7cuJ0VL"}
-{"issueId":"gXr2nWYTEmZKlm2m","condition":"Very Fine","stockAvailable":9,"price":111,"_id":"LPXQV0ILLhz7Aktb"}
-{"issueId":"WXm2JUVD3i5Ipvzy","condition":"Poor","stockAvailable":5,"price":42.23,"_id":"LyfQa3zILgNtS103"}
-{"issueId":"SX2Rj2sz5Xzqpeyv","condition":"Poor","stockAvailable":5,"price":161.79,"_id":"LzVIeTXLJEDcT4yx"}
-{"issueId":"uJZCfMj0vTliXqCM","condition":"Poor","stockAvailable":9,"price":143.04,"_id":"M6WemBijPn7n345a"}
-{"issueId":"W4NhOxe5YRhmmuRb","condition":"Very Fine","stockAvailable":0,"price":177.1,"_id":"MNASskg2FvS2fUcq"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Average","stockAvailable":7,"price":120.38,"_id":"MQ1793wyJdDVt53Y"}
-{"issueId":"SHZsH9VZV3I8Hgn5","condition":"Very Fine","stockAvailable":2,"price":77.16,"_id":"MkQs72vR4HeVAyIl"}
-{"issueId":"UQ3IAXi9lliaZxnp","condition":"Average","stockAvailable":0,"price":219.72,"_id":"MmlXczAtKdPSMm5W"}
-{"issueId":"lc9T54ihdcMwMm38","condition":"Poor","stockAvailable":3,"price":81.38,"_id":"MqkZ8zhGtguAEFVC"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Very Fine","stockAvailable":7,"price":207.48,"_id":"MyHVpBWx7hlJMxrN"}
-{"issueId":"tqCCD6dyGdkVluZY","condition":"Very Fine","stockAvailable":4,"price":234.1,"_id":"NBwUjlu95nCGCwe7"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Poor","stockAvailable":0,"price":58.53,"_id":"NETTTZihueXReJlV"}
-{"issueId":"uJZCfMj0vTliXqCM","condition":"Fine","stockAvailable":7,"price":6.17,"_id":"NJoLv5WqLvDnVakV"}
-{"issueId":"hbUAIkxs01o0fvN3","condition":"Very Fine","stockAvailable":6,"price":188.03,"_id":"NQGYgiVlS4j1Gm1d"}
-{"issueId":"39mB56FSt7QNEH01","condition":"Poor","stockAvailable":7,"price":185.27,"_id":"O1DxjH6unghP0An7"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Average","stockAvailable":4,"price":215.49,"_id":"OArSnA7Izawj3F68"}
-{"issueId":"AdqWSAUBCR5aeJk6","condition":"Fine","stockAvailable":1,"price":150.99,"_id":"OPyNBwe56tHR2lVH"}
-{"issueId":"gSM1lAbDm4H7BXrH","condition":"Average","stockAvailable":3,"price":225.66,"_id":"OS3tvBIOt7W7nBMa"}
-{"issueId":"wuaHLsQ7X1lkY9RG","condition":"Fine","stockAvailable":8,"price":61.97,"_id":"OVQEb0DRcyzNWA6f"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Poor","stockAvailable":6,"price":18.97,"_id":"OWVvC8cOw9MDKEoA"}
-{"issueId":"0nJKnATGGD7PLt9x","condition":"Very Fine","stockAvailable":2,"price":23.13,"_id":"Oaha5C6LGMynheIU"}
-{"issueId":"WXm2JUVD3i5Ipvzy","condition":"Average","stockAvailable":2,"price":29.13,"_id":"OiJEZgUq8HRmt9EZ"}
-{"issueId":"dL8FNSUMcg3CtcDg","condition":"Poor","stockAvailable":6,"price":174.57,"_id":"OjwaxN3M66NP2x8C"}
-{"issueId":"JPQM1GQurQUntljw","condition":"Fine","stockAvailable":2,"price":159.91,"_id":"OlLEwUXRuyKt4QJC"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Very Fine","stockAvailable":8,"price":204.56,"_id":"OpjjzsDd7ZSVYtN9"}
-{"issueId":"k2dylOyprohpJI9z","condition":"Very Fine","stockAvailable":7,"price":207.03,"_id":"OzvNfkpaqk2Ad8QB"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Very Fine","stockAvailable":1,"price":196.39,"_id":"P1cWarpgPuf89l6i"}
-{"issueId":"toQWT6cU45powTvB","condition":"Very Fine","stockAvailable":7,"price":39.12,"_id":"P64jCkBj3M90v06f"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Fine","stockAvailable":3,"price":75.05,"_id":"P7vuZv5mFI9atBEj"}
-{"issueId":"MpUWb5UnDYKQaDFL","condition":"Fine","stockAvailable":5,"price":31.22,"_id":"P9Fgy0DHuafpx7Lb"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Fine","stockAvailable":8,"price":214.2,"_id":"PBuZ3CDXUhmMGAwt"}
-{"issueId":"qTcV5eV4gTbwYlkF","condition":"Very Fine","stockAvailable":3,"price":91.52,"_id":"PF3ph31bY2peA6ll"}
-{"issueId":"CzsNFYE2vXN4uDGM","condition":"Fine","stockAvailable":8,"price":114.6,"_id":"PoFz7DsfFOyz8qq8"}
-{"issueId":"g8IFtrPNpctTqy43","condition":"Fine","stockAvailable":5,"price":46.02,"_id":"QDr7HcK9WYa0TrF2"}
-{"issueId":"RYwhujA6gMp4I5JT","condition":"Average","stockAvailable":9,"price":23.09,"_id":"QHngLpMlB3Qs4hQm"}
-{"issueId":"gXr2nWYTEmZKlm2m","condition":"Poor","stockAvailable":2,"price":21.61,"_id":"QK48Bzvv6CatBDOt"}
-{"issueId":"EzGuWyooLYLo3XbT","condition":"Average","stockAvailable":3,"price":24.18,"_id":"QXhzQJAQpQQfU61n"}
-{"issueId":"KvAYhZTa1J4d2aYa","condition":"Average","stockAvailable":3,"price":75.37,"_id":"QndpJsx6iL3HZEgz"}
-{"issueId":"4pBcfvjCDmANFPOP","condition":"Very Fine","stockAvailable":7,"price":145.48,"_id":"Qr81hJCu8gnfiDnj"}
-{"issueId":"dL8FNSUMcg3CtcDg","condition":"Average","stockAvailable":2,"price":38.03,"_id":"R0XrEXVWvJqO41DG"}
-{"issueId":"fDeUYxlkb6NnmKZN","condition":"Average","stockAvailable":0,"price":91.98,"_id":"RGaFiHY9ToCwVxsx"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Average","stockAvailable":9,"price":129.91,"_id":"RJa2aZIql5A72Ez7"}
-{"issueId":"MpUWb5UnDYKQaDFL","condition":"Very Fine","stockAvailable":1,"price":102.82,"_id":"RMAYoXFAgZR5pTeb"}
-{"issueId":"68NH9yyc0NY5KgJu","condition":"Average","stockAvailable":6,"price":187.86,"_id":"Rdu2whxVdPYahYrQ"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Fine","stockAvailable":2,"price":229.62,"_id":"RehzD5N09HEZfK92"}
-{"issueId":"cS06vAT6NFJcxel7","condition":"Very Fine","stockAvailable":5,"price":169.99,"_id":"RfzDSd2vHEqWPLGr"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Poor","stockAvailable":6,"price":223.86,"_id":"RrkiNnC48x2717in"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Average","stockAvailable":1,"price":3.4,"_id":"S3noIUsNn0FNJUoc"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Fine","stockAvailable":9,"price":63.59,"_id":"S4uaPAam8qsUIiGw"}
-{"issueId":"cjlLJCpbH27m6t6N","condition":"Very Fine","stockAvailable":9,"price":183.6,"_id":"SGguS4YEYF2cMxqm"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Average","stockAvailable":0,"price":93.07,"_id":"SM0LWEw6FWOtSdaq"}
-{"issueId":"lc9T54ihdcMwMm38","condition":"Fine","stockAvailable":5,"price":127.58,"_id":"SW4LWWtXm8vkMkZK"}
-{"issueId":"cjlLJCpbH27m6t6N","condition":"Poor","stockAvailable":6,"price":111,"_id":"SX86Z7dHPiCseL2P"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Fine","stockAvailable":6,"price":43.14,"_id":"SfuCsYOFjo8MrmRj"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Fine","stockAvailable":9,"price":49.21,"_id":"SnXHWBWZ2y2ALenD"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Average","stockAvailable":5,"price":110.7,"_id":"SscwQ9XvqEc0YCV6"}
-{"issueId":"t6RqIXeepH41kejy","condition":"Average","stockAvailable":2,"price":27.08,"_id":"Sy0pFHAMZsCVIr9x"}
-{"issueId":"0jEfu6DP0LNnKOzi","condition":"Fine","stockAvailable":8,"price":221.67,"_id":"T2p8UxgoFnRHvhmU"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Poor","stockAvailable":4,"price":19.25,"_id":"T4VPYAtEUYL6WfPX"}
-{"issueId":"SHZsH9VZV3I8Hgn5","condition":"Fine","stockAvailable":2,"price":172.46,"_id":"TB6hEg2mkWVqSymK"}
-{"issueId":"jqSaKpy5FrIHn9JU","condition":"Average","stockAvailable":8,"price":49.89,"_id":"TYNKPD2EEILuMacw"}
-{"issueId":"qTcV5eV4gTbwYlkF","condition":"Average","stockAvailable":6,"price":170.1,"_id":"TfXJF9gRMZViJiY8"}
-{"issueId":"K4Od5UvguXCTdN1s","condition":"Fine","stockAvailable":0,"price":132.8,"_id":"Ti3adw77fmVRwbYn"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Poor","stockAvailable":9,"price":79.32,"_id":"TktCqLGBkReUhnDL"}
-{"issueId":"m3Me6ellgM4ftDDK","condition":"Fine","stockAvailable":4,"price":4.51,"_id":"TyJjRVDTnd4z7UGF"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Very Fine","stockAvailable":6,"price":100.49,"_id":"UE433u1vUFDE2VA0"}
-{"issueId":"K4Od5UvguXCTdN1s","condition":"Poor","stockAvailable":5,"price":207.97,"_id":"UJGMfgzxLdxdw46K"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Poor","stockAvailable":0,"price":92.08,"_id":"UUTTj0OCafNkt73N"}
-{"issueId":"Hs3o51O8I4Uag3Zz","condition":"Fine","stockAvailable":5,"price":35.99,"_id":"UiWNVpPamONShoVr"}
-{"issueId":"WxxjUbXVnTSUAnbe","condition":"Fine","stockAvailable":7,"price":80.3,"_id":"Umk71VRYcaO1Yxmy"}
-{"issueId":"gYup9Q3o4xiB0pss","condition":"Poor","stockAvailable":3,"price":55.05,"_id":"VCdwBgAZX2SpO9oM"}
-{"issueId":"4pBcfvjCDmANFPOP","condition":"Fine","stockAvailable":8,"price":24.68,"_id":"VDVTgfdW3RVXZRz9"}
-{"issueId":"Kc3tpVwC0wN3mbfc","condition":"Fine","stockAvailable":4,"price":162.84,"_id":"VDlb3Rj1mfHaAAsM"}
-{"issueId":"JHEJLPhUFKKiLRsv","condition":"Fine","stockAvailable":4,"price":12.54,"_id":"VR1XqwWnLkQPARRB"}
-{"issueId":"72sYSbCvaDraRe7M","condition":"Very Fine","stockAvailable":4,"price":243.78,"_id":"VjVKXAruQgAUG3hB"}
-{"issueId":"zYIVquLMzmPQTuY4","condition":"Poor","stockAvailable":0,"price":19.54,"_id":"VmxbSdq6YNFdLwI4"}
-{"issueId":"8fFak9GIE7As1NR0","condition":"Very Fine","stockAvailable":2,"price":43.7,"_id":"VoAptkxuTpzsf52H"}
-{"issueId":"aArgTxCA1mCAvROd","condition":"Fine","stockAvailable":1,"price":213.78,"_id":"VoiqjQB1c5UheqPO"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Fine","stockAvailable":3,"price":0.17,"_id":"VqskiWzMOZqaAla6"}
-{"issueId":"988iOcnhO1MSQ2EN","condition":"Poor","stockAvailable":2,"price":109.04,"_id":"VxYDbMl9FdxIMXWI"}
-{"issueId":"0jEfu6DP0LNnKOzi","condition":"Poor","stockAvailable":9,"price":215.72,"_id":"W0T3H53t8Lb21KVp"}
-{"issueId":"GDP867jNbqiDxgIu","condition":"Average","stockAvailable":9,"price":146.49,"_id":"W4tRsMNiTPt3GtpX"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Very Fine","stockAvailable":5,"price":50.85,"_id":"WLCsWZk4VIq2JSAO"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Fine","stockAvailable":5,"price":192.6,"_id":"WMuMaWhbhFaZqE19"}
-{"issueId":"4D20n1N1A0RXvBpq","condition":"Poor","stockAvailable":0,"price":231.78,"_id":"Wv2zP0hMjgaJxb3a"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Very Fine","stockAvailable":7,"price":114.37,"_id":"Wwdkf5RBK6L7aQEZ"}
-{"issueId":"toQWT6cU45powTvB","condition":"Poor","stockAvailable":4,"price":44.16,"_id":"X4wJ7PDSl9rxkMHd"}
-{"issueId":"MpUWb5UnDYKQaDFL","condition":"Average","stockAvailable":8,"price":102.78,"_id":"X8TirF3xs3tCbWwf"}
-{"issueId":"K0gASUrVyTCwrbx7","condition":"Poor","stockAvailable":9,"price":188.14,"_id":"XGhvvDeQnN1LAWJk"}
-{"issueId":"2nnbMpzrubMCNzRk","condition":"Very Fine","stockAvailable":9,"price":76.28,"_id":"XJQrxHANWIaDZjRz"}
-{"issueId":"4D20n1N1A0RXvBpq","condition":"Fine","stockAvailable":5,"price":69.3,"_id":"XqiItOa1NB9JFqU9"}
-{"issueId":"eYO1vQAoGp214sA4","condition":"Poor","stockAvailable":6,"price":220.6,"_id":"Xs7VGL76v1W6xdCk"}
-{"issueId":"3z3IV5PUhHG6MGuO","condition":"Fine","stockAvailable":3,"price":183.26,"_id":"XyifWmK6nLQbWBRG"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Poor","stockAvailable":8,"price":77.57,"_id":"Y4pOherS8ax5ICZ2"}
-{"issueId":"pKnLzVUDB7T3LYpD","condition":"Fine","stockAvailable":4,"price":75.59,"_id":"YWOY0S4u3oeSXYYg"}
-{"issueId":"Kc3tpVwC0wN3mbfc","condition":"Average","stockAvailable":0,"price":7.73,"_id":"Yh4xZy8S0nViQz9N"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Poor","stockAvailable":5,"price":169.98,"_id":"YicLhqJMeg8lyQPT"}
-{"issueId":"EzGuWyooLYLo3XbT","condition":"Very Fine","stockAvailable":5,"price":44.03,"_id":"ZW9cbZXFVrJBpjlr"}
-{"issueId":"CzsNFYE2vXN4uDGM","condition":"Poor","stockAvailable":1,"price":168.21,"_id":"ZkQOBwEBlQPV72UK"}
-{"issueId":"YYySP9EWvx2FR4Qu","condition":"Fine","stockAvailable":2,"price":69.04,"_id":"ZlMhI55TR1365u30"}
-{"issueId":"6EvLscwWi4a2yG8e","condition":"Poor","stockAvailable":3,"price":249.1,"_id":"ZohbRHHNTvYA038Z"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Average","stockAvailable":4,"price":40.13,"_id":"ZtX50E92K5DNWHt7"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Fine","stockAvailable":6,"price":19.08,"_id":"ZtyZ4yenGK1xF2Fz"}
-{"issueId":"vjSwTTKeLbKS5LO3","condition":"Average","stockAvailable":8,"price":205.09,"_id":"a1aMgRKK5Plc5giu"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Poor","stockAvailable":3,"price":230.13,"_id":"a417mi98vbaewkj9"}
-{"issueId":"Hs3o51O8I4Uag3Zz","condition":"Very Fine","stockAvailable":7,"price":110.96,"_id":"aFZzLvCx2eOx7szG"}
-{"issueId":"cjlLJCpbH27m6t6N","condition":"Fine","stockAvailable":9,"price":127.81,"_id":"aRwi43IHhINorkL3"}
-{"issueId":"tqCCD6dyGdkVluZY","condition":"Average","stockAvailable":0,"price":197.45,"_id":"aUwTU6Yh1h1El35I"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Very Fine","stockAvailable":3,"price":117.26,"_id":"aWHeHRz3c7pNc0a0"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Fine","stockAvailable":9,"price":232.84,"_id":"aaIfv61sDyVoW5I4"}
-{"issueId":"JHEJLPhUFKKiLRsv","condition":"Average","stockAvailable":7,"price":40.34,"_id":"b3zh0E7jKeNoniu8"}
-{"issueId":"MyPTMgDK1sQnHMaa","condition":"Poor","stockAvailable":9,"price":84,"_id":"b5Iy7mkfLUGUCOB1"}
-{"issueId":"kjs5myUcHqUX74Ds","condition":"Very Fine","stockAvailable":0,"price":137.31,"_id":"b7jTgBKJLekZOqWS"}
-{"issueId":"988iOcnhO1MSQ2EN","condition":"Very Fine","stockAvailable":6,"price":0.15,"_id":"bLtYawoPYjVxLJCm"}
-{"issueId":"pKnLzVUDB7T3LYpD","condition":"Very Fine","stockAvailable":1,"price":21.47,"_id":"bXEGbCN8z7c3UYar"}
-{"issueId":"lVf4RCCcrV4QlIEi","condition":"Average","stockAvailable":0,"price":232.51,"_id":"bfkZSKHFtjaDAwi3"}
-{"issueId":"W4NhOxe5YRhmmuRb","condition":"Poor","stockAvailable":0,"price":52.51,"_id":"bzQru7DiBBD8S1qa"}
-{"issueId":"0jEfu6DP0LNnKOzi","condition":"Average","stockAvailable":7,"price":83.35,"_id":"c0bCJKYaDQWUnRyV"}
-{"issueId":"wuaHLsQ7X1lkY9RG","condition":"Very Fine","stockAvailable":6,"price":203.12,"_id":"c5MkxuyT6ucq9rdO"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Average","stockAvailable":4,"price":98.13,"_id":"c9F1RaDVxETrtRL0"}
-{"issueId":"lFVxUKitoStrRYPj","condition":"Average","stockAvailable":8,"price":88.85,"_id":"cNRroY0oLCvqkgau"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Fine","stockAvailable":8,"price":120.28,"_id":"cOFHlmRczOGVQHnl"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Average","stockAvailable":4,"price":151.16,"_id":"cRhTTHdSHl2zcb7F"}
-{"issueId":"gYup9Q3o4xiB0pss","condition":"Fine","stockAvailable":8,"price":208.54,"_id":"cbKtBELtbPzwO5QK"}
-{"issueId":"rXm4mDeR4YGCfv4Z","condition":"Fine","stockAvailable":4,"price":217.01,"_id":"cnDNsDyd5Hxjv0I8"}
-{"issueId":"eYO1vQAoGp214sA4","condition":"Very Fine","stockAvailable":4,"price":175.3,"_id":"cqLC1MnFZameCbYe"}
-{"issueId":"jqSaKpy5FrIHn9JU","condition":"Poor","stockAvailable":7,"price":102.35,"_id":"cwKISox6o4bIOdfA"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Poor","stockAvailable":8,"price":97.24,"_id":"cy3YR2Bs4bJ7aBPN"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Poor","stockAvailable":0,"price":216.04,"_id":"d40vHsvnAyLHFBO9"}
-{"issueId":"3z3IV5PUhHG6MGuO","condition":"Average","stockAvailable":2,"price":107.78,"_id":"dIAST7NDzsF61My8"}
-{"issueId":"toQWT6cU45powTvB","condition":"Fine","stockAvailable":3,"price":157.66,"_id":"deSmUy1MZDqxHQje"}
-{"issueId":"lVf4RCCcrV4QlIEi","condition":"Poor","stockAvailable":2,"price":95.22,"_id":"dlMHosP3nZ6i6NQd"}
-{"issueId":"QcYaWiWozmxbYnNv","condition":"Very Fine","stockAvailable":3,"price":83.72,"_id":"dmOCKimTItjaZ5rR"}
-{"issueId":"dL8FNSUMcg3CtcDg","condition":"Very Fine","stockAvailable":6,"price":192.96,"_id":"e00rm29rHCZSqQPt"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Fine","stockAvailable":6,"price":39.97,"_id":"eEemStZH1omn7QI3"}
-{"issueId":"0nJKnATGGD7PLt9x","condition":"Fine","stockAvailable":2,"price":39.73,"_id":"eEz0Ca4nd8VoUuQW"}
-{"issueId":"FnpCfT6rSzBTZZTs","condition":"Very Fine","stockAvailable":1,"price":14.01,"_id":"eGyaLvZHmLGiVl8g"}
-{"issueId":"TuoX9zryRlOWT6sg","condition":"Very Fine","stockAvailable":5,"price":102.47,"_id":"eKZd83iH0RN5urj1"}
-{"issueId":"h1E75Mu9jJkpJB1t","condition":"Very Fine","stockAvailable":8,"price":145.57,"_id":"enbfbPjk4qijTCBc"}
-{"issueId":"1S2iNI45LgXgcQFB","condition":"Poor","stockAvailable":7,"price":78.6,"_id":"eu1E5oz9jo6sJrEL"}
-{"issueId":"EzGuWyooLYLo3XbT","condition":"Fine","stockAvailable":2,"price":193.56,"_id":"evVnjRD0CP6h5PDJ"}
-{"issueId":"1DS8KuAso0WS3y1B","condition":"Very Fine","stockAvailable":0,"price":108.82,"_id":"f2b8pmZZFOZGC65M"}
-{"issueId":"kjs5myUcHqUX74Ds","condition":"Average","stockAvailable":3,"price":26.97,"_id":"f2s9vJRX7GHBxQ7e"}
-{"issueId":"udAy3mHeU1QOtSAY","condition":"Poor","stockAvailable":3,"price":157.35,"_id":"f6srYeyKTOOX69zE"}
-{"issueId":"eYO1vQAoGp214sA4","condition":"Fine","stockAvailable":1,"price":2.2,"_id":"fR22lW2ZjKptjXOZ"}
-{"issueId":"SX2Rj2sz5Xzqpeyv","condition":"Fine","stockAvailable":4,"price":186.97,"_id":"frwGHwgVHX38tjr8"}
-{"issueId":"lc9T54ihdcMwMm38","condition":"Average","stockAvailable":0,"price":70.69,"_id":"fxFLhS2W5vH92jEe"}
-{"issueId":"Hs3o51O8I4Uag3Zz","condition":"Average","stockAvailable":6,"price":187.19,"_id":"g8z1APYTZkeHwH7J"}
-{"issueId":"IjdahRTgEBVxnWSu","condition":"Poor","stockAvailable":2,"price":108.65,"_id":"g9ltzvO9g5PoNrHi"}
-{"issueId":"61jbyu9Eu1cTdLsj","condition":"Very Fine","stockAvailable":1,"price":22.91,"_id":"gAY4As7Rc3Adr9lX"}
-{"issueId":"xCVpkFks03JbASu3","condition":"Fine","stockAvailable":1,"price":173.99,"_id":"gJCVKwpJwBdGczmN"}
-{"issueId":"hbUAIkxs01o0fvN3","condition":"Poor","stockAvailable":2,"price":171.36,"_id":"gLpVrkRQeOIHa1j6"}
-{"issueId":"rXm4mDeR4YGCfv4Z","condition":"Poor","stockAvailable":6,"price":162.75,"_id":"gP2vCW2fxc4AqTCk"}
-{"issueId":"JHEJLPhUFKKiLRsv","condition":"Poor","stockAvailable":0,"price":53.19,"_id":"gcpQAUTIWtfhylBo"}
-{"issueId":"fDeUYxlkb6NnmKZN","condition":"Very Fine","stockAvailable":6,"price":244.08,"_id":"gdYS9ZkIKkKJfEGa"}
-{"issueId":"rXm4mDeR4YGCfv4Z","condition":"Average","stockAvailable":0,"price":41.89,"_id":"gieXzmsbQzJZewqz"}
-{"issueId":"QcYaWiWozmxbYnNv","condition":"Fine","stockAvailable":4,"price":83.47,"_id":"gkKYBOkRbWPCSW8b"}
-{"issueId":"0jEfu6DP0LNnKOzi","condition":"Very Fine","stockAvailable":5,"price":162.45,"_id":"gtadQU9ncFXcfCVM"}
-{"issueId":"39mB56FSt7QNEH01","condition":"Very Fine","stockAvailable":9,"price":200.87,"_id":"gzkJBR2HT0CSoADA"}
-{"issueId":"gSM1lAbDm4H7BXrH","condition":"Very Fine","stockAvailable":3,"price":215.64,"_id":"h2dnYnKrFSkVUiYA"}
-{"issueId":"1DS8KuAso0WS3y1B","condition":"Fine","stockAvailable":7,"price":73.71,"_id":"hKNIJ5gWQbGtmfZZ"}
-{"issueId":"uJZCfMj0vTliXqCM","condition":"Average","stockAvailable":5,"price":66.44,"_id":"hTzLNh3AqMFhUeQS"}
-{"issueId":"h1E75Mu9jJkpJB1t","condition":"Fine","stockAvailable":3,"price":229.36,"_id":"hYYYTAnUiMwewHXC"}
-{"issueId":"dWJZA4EXGBkQ8hCO","condition":"Very Fine","stockAvailable":7,"price":110.07,"_id":"hee8JNrtXH5vxP5r"}
-{"issueId":"WXm2JUVD3i5Ipvzy","condition":"Fine","stockAvailable":3,"price":168.48,"_id":"hgJ6raAZxasvl5oy"}
-{"issueId":"2PCyrXW8mXv9vOCA","condition":"Very Fine","stockAvailable":3,"price":137.64,"_id":"hgOL3AvZ7H62VPUb"}
-{"issueId":"Qeio2O4bj5gQ00M8","condition":"Poor","stockAvailable":9,"price":117.89,"_id":"hohPNOd3Ht1J7Yvm"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Fine","stockAvailable":1,"price":172.56,"_id":"hpzfoQtX3UnRYfDS"}
-{"issueId":"fDeUYxlkb6NnmKZN","condition":"Fine","stockAvailable":3,"price":62.18,"_id":"hvuzPFhbZQA6iseC"}
-{"issueId":"xagFYHuPV6B7sISm","condition":"Poor","stockAvailable":9,"price":234.14,"_id":"hyxscPGTb6M7HUGg"}
-{"issueId":"g6H2TbFFpR0bcgmV","condition":"Very Fine","stockAvailable":7,"price":34.28,"_id":"i87phMU5rNwHB35t"}
-{"issueId":"uJZCfMj0vTliXqCM","condition":"Very Fine","stockAvailable":4,"price":170.73,"_id":"iDrFO4RQjbQsOzDt"}
-{"issueId":"6EvLscwWi4a2yG8e","condition":"Very Fine","stockAvailable":2,"price":76.06,"_id":"iF5FoBszBdKAEo7S"}
-{"issueId":"QcYaWiWozmxbYnNv","condition":"Poor","stockAvailable":5,"price":222.59,"_id":"iM9BRhylIGePipas"}
-{"issueId":"4pBcfvjCDmANFPOP","condition":"Average","stockAvailable":5,"price":65.84,"_id":"iP2C55CKYUyVCrYL"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Average","stockAvailable":1,"price":9.72,"_id":"iaVVQYmnHNzlwkxf"}
-{"issueId":"Kc3tpVwC0wN3mbfc","condition":"Poor","stockAvailable":6,"price":88.84,"_id":"idFNxBw3gZjAehkU"}
-{"issueId":"UH7fDFFfLZycfQpA","condition":"Average","stockAvailable":2,"price":249.94,"_id":"iokfPLVvFV7TJqbW"}
-{"issueId":"gXr2nWYTEmZKlm2m","condition":"Fine","stockAvailable":7,"price":144.05,"_id":"iq3xAkPp00d3DWaY"}
-{"issueId":"UH7fDFFfLZycfQpA","condition":"Fine","stockAvailable":1,"price":15.07,"_id":"iuyNJVJdA6jrRTK0"}
-{"issueId":"gSM1lAbDm4H7BXrH","condition":"Poor","stockAvailable":2,"price":68.54,"_id":"jEV1DmBO1p6pmitT"}
-{"issueId":"0nJKnATGGD7PLt9x","condition":"Poor","stockAvailable":0,"price":66.58,"_id":"jk7sw3LmjGxDMKJT"}
-{"issueId":"UH7fDFFfLZycfQpA","condition":"Poor","stockAvailable":1,"price":137.43,"_id":"jkQ9Od1L9DrWSzqf"}
-{"issueId":"39mB56FSt7QNEH01","condition":"Fine","stockAvailable":2,"price":100.02,"_id":"jtrFzRZmukI4E1m4"}
-{"issueId":"WxxjUbXVnTSUAnbe","condition":"Poor","stockAvailable":0,"price":248.06,"_id":"kHAxZOpPDAgzah5b"}
-{"issueId":"k2dylOyprohpJI9z","condition":"Average","stockAvailable":0,"price":41.61,"_id":"kJVOd0HQUdjkarwf"}
-{"issueId":"lqwJyxsW1Nlx84yw","condition":"Poor","stockAvailable":8,"price":9.66,"_id":"kbw6BjjyamzBKFQG"}
-{"issueId":"xCVpkFks03JbASu3","condition":"Average","stockAvailable":4,"price":2.44,"_id":"klHBD61l7l8FZ9Lr"}
-{"issueId":"k2dylOyprohpJI9z","condition":"Poor","stockAvailable":6,"price":82.74,"_id":"kmiG31Wfriln7JIt"}
-{"issueId":"FnpCfT6rSzBTZZTs","condition":"Average","stockAvailable":7,"price":49.19,"_id":"kmmsWpOT1yEmWrYV"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Average","stockAvailable":7,"price":150.43,"_id":"kxbiQi4j30FwJEaa"}
-{"issueId":"hbUAIkxs01o0fvN3","condition":"Average","stockAvailable":6,"price":90.63,"_id":"l4SYNkq5sYVn7iqF"}
-{"issueId":"hrp5phaGMvrnNYb9","condition":"Very Fine","stockAvailable":5,"price":117.34,"_id":"lSKBT1oL8DTHVejE"}
-{"issueId":"elbQG8qyjGwYLwZe","condition":"Very Fine","stockAvailable":0,"price":151.76,"_id":"lTEwGpSNrvsbUIwN"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Poor","stockAvailable":2,"price":205.94,"_id":"lWnKuYkK6WP432FP"}
-{"issueId":"bRYsXpOi5gTWLHzC","condition":"Poor","stockAvailable":5,"price":109.81,"_id":"lhue8KJLgGGD8H8i"}
-{"issueId":"g6H2TbFFpR0bcgmV","condition":"Fine","stockAvailable":0,"price":228.23,"_id":"lm1EvqcN46gx6dD1"}
-{"issueId":"toQWT6cU45powTvB","condition":"Average","stockAvailable":0,"price":171.86,"_id":"ltJBj9poRdYomIyJ"}
-{"issueId":"aArgTxCA1mCAvROd","condition":"Very Fine","stockAvailable":4,"price":121.51,"_id":"ltb3psq4vNgquFy5"}
-{"issueId":"dWJZA4EXGBkQ8hCO","condition":"Poor","stockAvailable":5,"price":230.8,"_id":"luHRqj57qd4JB5Sf"}
-{"issueId":"8fFak9GIE7As1NR0","condition":"Fine","stockAvailable":8,"price":173.23,"_id":"lyTs3hKrghzwFNCe"}
-{"issueId":"SX2Rj2sz5Xzqpeyv","condition":"Very Fine","stockAvailable":9,"price":221.16,"_id":"mHADKpO0Y5AgZY6a"}
-{"issueId":"N4yuzD9ZMO9FQazQ","condition":"Very Fine","stockAvailable":8,"price":23.19,"_id":"mU9zeBHJrYZIbXo5"}
-{"issueId":"HkbZzcQ4Gpb7xxFU","condition":"Poor","stockAvailable":3,"price":28.83,"_id":"mZtb9JaolaKJLf74"}
-{"issueId":"EzGuWyooLYLo3XbT","condition":"Poor","stockAvailable":6,"price":68.53,"_id":"meh8YuQK8GoYjNeQ"}
-{"issueId":"vjSwTTKeLbKS5LO3","condition":"Poor","stockAvailable":5,"price":234.75,"_id":"mp65hw4tMQeTb9Hv"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Fine","stockAvailable":8,"price":237.42,"_id":"n3ch6pgs5dgTRsv0"}
-{"issueId":"2nnbMpzrubMCNzRk","condition":"Fine","stockAvailable":3,"price":227.35,"_id":"n4K56veHW49B2STG"}
-{"issueId":"gYup9Q3o4xiB0pss","condition":"Average","stockAvailable":3,"price":201.16,"_id":"nCZhNRINcKWgszdL"}
-{"issueId":"KvAYhZTa1J4d2aYa","condition":"Very Fine","stockAvailable":8,"price":49.03,"_id":"nL7ydxNL2VWSRF9k"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Poor","stockAvailable":4,"price":23.6,"_id":"neZW5NmEitNIYm9m"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Poor","stockAvailable":3,"price":172.77,"_id":"o1ARGsK4rCnH5l1Z"}
-{"issueId":"tqCCD6dyGdkVluZY","condition":"Fine","stockAvailable":6,"price":105.89,"_id":"o3clT6ZhchJGxBrd"}
-{"issueId":"HkbZzcQ4Gpb7xxFU","condition":"Fine","stockAvailable":9,"price":159.76,"_id":"oH82MQS9iFy0sKXH"}
-{"issueId":"kCh7SQ9scR6eYdGe","condition":"Poor","stockAvailable":7,"price":244.89,"_id":"oLgeF0txa9q8Kp6l"}
-{"issueId":"pLMV0KvUGJlb0pkh","condition":"Average","stockAvailable":8,"price":188.87,"_id":"owgIItKSJ49dmrDd"}
-{"issueId":"hrp5phaGMvrnNYb9","condition":"Poor","stockAvailable":6,"price":159.83,"_id":"pDir4xGb00aq5Q6T"}
-{"issueId":"Kc3tpVwC0wN3mbfc","condition":"Very Fine","stockAvailable":7,"price":216.55,"_id":"pFgQGOXo22zAZems"}
-{"issueId":"m3Me6ellgM4ftDDK","condition":"Poor","stockAvailable":4,"price":138.11,"_id":"pPgEXNeR3kM6KPf2"}
-{"issueId":"GDP867jNbqiDxgIu","condition":"Fine","stockAvailable":2,"price":142.56,"_id":"pQYyC3ki2tb0Xnaz"}
-{"issueId":"2PCyrXW8mXv9vOCA","condition":"Poor","stockAvailable":7,"price":80.26,"_id":"phMpVXhJaS1lbz0l"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Fine","stockAvailable":6,"price":133.38,"_id":"pn7KprqojomRRmuM"}
-{"issueId":"nXVdhmS6eylXLNbO","condition":"Fine","stockAvailable":7,"price":68.14,"_id":"pxwsLCDMzkkpUtLR"}
-{"issueId":"pLMV0KvUGJlb0pkh","condition":"Fine","stockAvailable":6,"price":205.88,"_id":"q4cgxavGowaOdmGU"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Average","stockAvailable":6,"price":123.61,"_id":"q5cV0EXYgFfFVsnY"}
-{"issueId":"ZoKhuEG4USPWb9Zq","condition":"Very Fine","stockAvailable":2,"price":58.71,"_id":"qJFVlcx5uYbv1wOI"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Fine","stockAvailable":9,"price":141.29,"_id":"qVSoTpOVvrOdHpHF"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Average","stockAvailable":2,"price":16.43,"_id":"qXPbZBfp3cXcMJsK"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Very Fine","stockAvailable":7,"price":240.22,"_id":"qZDNV6CeF8r3fGRp"}
-{"issueId":"cS06vAT6NFJcxel7","condition":"Fine","stockAvailable":8,"price":110.6,"_id":"qjNJQOyXczVhdKqQ"}
-{"issueId":"dL8FNSUMcg3CtcDg","condition":"Fine","stockAvailable":7,"price":84.36,"_id":"qqpd7xCVSR5PE6vP"}
-{"issueId":"FnpCfT6rSzBTZZTs","condition":"Fine","stockAvailable":4,"price":133.51,"_id":"qx3VSQgjJnks6uxe"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Fine","stockAvailable":9,"price":201.88,"_id":"r1P3vfQRnJ0XnDtk"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Poor","stockAvailable":4,"price":175.41,"_id":"rCUBmdX0fzaE0Gi4"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Fine","stockAvailable":1,"price":134.02,"_id":"rppOY58WKC4HVCcR"}
-{"issueId":"WxxjUbXVnTSUAnbe","condition":"Average","stockAvailable":5,"price":173.26,"_id":"rzbzYHiwGP0vbN37"}
-{"issueId":"72sYSbCvaDraRe7M","condition":"Poor","stockAvailable":1,"price":119.65,"_id":"s0t41hz3Fe7jfHsI"}
-{"issueId":"MpUWb5UnDYKQaDFL","condition":"Poor","stockAvailable":5,"price":30.42,"_id":"sGk2OkzqVSq1Q3pf"}
-{"issueId":"2nnbMpzrubMCNzRk","condition":"Average","stockAvailable":9,"price":52.91,"_id":"sqV4KYI28QLwYg9F"}
-{"issueId":"zwcyzFWaN0dt3Lhh","condition":"Average","stockAvailable":2,"price":30.91,"_id":"ssbC9d7KE8NEtpDJ"}
-{"issueId":"UQ3IAXi9lliaZxnp","condition":"Poor","stockAvailable":7,"price":110.32,"_id":"t0MgMQdjVjlDD0Zp"}
-{"issueId":"elbQG8qyjGwYLwZe","condition":"Fine","stockAvailable":7,"price":212.73,"_id":"tQvycMuItDK1kBYI"}
-{"issueId":"l2hzs0KWUmUecZhK","condition":"Very Fine","stockAvailable":0,"price":144.46,"_id":"tVD7HYUAf5lIKrYj"}
-{"issueId":"UQ3IAXi9lliaZxnp","condition":"Fine","stockAvailable":1,"price":246.72,"_id":"tVpt4O9uoXaVJquY"}
-{"issueId":"aArgTxCA1mCAvROd","condition":"Poor","stockAvailable":8,"price":106.17,"_id":"tW4tlhe42mXVGEIA"}
-{"issueId":"OJz3o7jdnAzMuzml","condition":"Average","stockAvailable":3,"price":20.68,"_id":"tZcvpZrEcMf7nHd6"}
-{"issueId":"8fFak9GIE7As1NR0","condition":"Average","stockAvailable":4,"price":122.99,"_id":"tms1ZMnqJhqEstV1"}
-{"issueId":"CHzUjaBUAfFGxZwb","condition":"Poor","stockAvailable":4,"price":83.76,"_id":"tn3bC8C2l1P07Tt5"}
-{"issueId":"AdqWSAUBCR5aeJk6","condition":"Poor","stockAvailable":4,"price":108.85,"_id":"tqc7SEFZzViO33eP"}
-{"issueId":"lqwJyxsW1Nlx84yw","condition":"Average","stockAvailable":6,"price":186.53,"_id":"tz5sVXAblyHjHeH3"}
-{"issueId":"xCVpkFks03JbASu3","condition":"Poor","stockAvailable":7,"price":221.85,"_id":"tztbLp7ozbieQx6D"}
-{"issueId":"KvAYhZTa1J4d2aYa","condition":"Fine","stockAvailable":9,"price":50.89,"_id":"u8nXNEY8DgahDBrb"}
-{"issueId":"Qeio2O4bj5gQ00M8","condition":"Very Fine","stockAvailable":1,"price":200.72,"_id":"uIgK3asGEgqkxGzG"}
-{"issueId":"Hs3o51O8I4Uag3Zz","condition":"Poor","stockAvailable":5,"price":68.23,"_id":"uM0kqSEKfud7AnDL"}
-{"issueId":"1S2iNI45LgXgcQFB","condition":"Average","stockAvailable":5,"price":152.96,"_id":"uRIPajaTarWnMlfT"}
-{"issueId":"lVf4RCCcrV4QlIEi","condition":"Very Fine","stockAvailable":0,"price":149.18,"_id":"uT2s9x8cdaUyK6Or"}
-{"issueId":"61jbyu9Eu1cTdLsj","condition":"Poor","stockAvailable":5,"price":106.19,"_id":"uqKapcWDxOnaarI1"}
-{"issueId":"elbQG8qyjGwYLwZe","condition":"Poor","stockAvailable":0,"price":98.29,"_id":"viCJjbwSBsTL99Tk"}
-{"issueId":"K0gASUrVyTCwrbx7","condition":"Average","stockAvailable":5,"price":50.21,"_id":"vp0Car0yt4Wgsg1H"}
-{"issueId":"l3CFWpuS2m0ISkM4","condition":"Poor","stockAvailable":3,"price":73.96,"_id":"vwccK2a9tMwQsTyr"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Fine","stockAvailable":2,"price":80.04,"_id":"wCGKe7E8ARxR5oCY"}
-{"issueId":"cS06vAT6NFJcxel7","condition":"Poor","stockAvailable":6,"price":227.68,"_id":"wDIASRVrL9fqXeii"}
-{"issueId":"f0Z6B4RBEDtMVXDS","condition":"Very Fine","stockAvailable":5,"price":115.14,"_id":"wL2tFZ1RnU5shnsX"}
-{"issueId":"ttzLckGhHweudmnJ","condition":"Poor","stockAvailable":2,"price":41.15,"_id":"wSI98A1dOPyTaCsU"}
-{"issueId":"1S2iNI45LgXgcQFB","condition":"Fine","stockAvailable":7,"price":2.05,"_id":"wSoccQ9zqyMFnxsW"}
-{"issueId":"1DS8KuAso0WS3y1B","condition":"Average","stockAvailable":5,"price":9.15,"_id":"wcnjZrsRbHqxYdIs"}
-{"issueId":"kCh7SQ9scR6eYdGe","condition":"Fine","stockAvailable":5,"price":173.77,"_id":"wq44t7akWqGO58US"}
-{"issueId":"lFd9u5yymZkyTtbK","condition":"Average","stockAvailable":0,"price":66.84,"_id":"wuFCQV804fx480h4"}
-{"issueId":"lFVxUKitoStrRYPj","condition":"Fine","stockAvailable":0,"price":140.82,"_id":"wwdivvSuKWVHhNVg"}
-{"issueId":"68NH9yyc0NY5KgJu","condition":"Fine","stockAvailable":6,"price":94.01,"_id":"wxQpUz1EpnRglxJc"}
-{"issueId":"f0Z6B4RBEDtMVXDS","condition":"Average","stockAvailable":6,"price":204.43,"_id":"xLhGMRKdrOGPMBzG"}
-{"issueId":"4D20n1N1A0RXvBpq","condition":"Very Fine","stockAvailable":7,"price":75.09,"_id":"xPHv93T35kVXphZK"}
-{"issueId":"02Lx0ISQjSTyGkW5","condition":"Poor","stockAvailable":2,"price":202.46,"_id":"xTCgSe4hQAVWMCNZ"}
-{"issueId":"g8IFtrPNpctTqy43","condition":"Very Fine","stockAvailable":5,"price":139.84,"_id":"xVji5Izy7oGhEuWy"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Very Fine","stockAvailable":5,"price":72.89,"_id":"xY3kdCgzaGYRwMdc"}
-{"issueId":"WrIYmGHXgjljF9b0","condition":"Average","stockAvailable":6,"price":219.22,"_id":"yTODjBmdSZds1ld1"}
-{"issueId":"m3Me6ellgM4ftDDK","condition":"Average","stockAvailable":1,"price":208.05,"_id":"yYE0WOUpOwrSirLf"}
-{"issueId":"vjSwTTKeLbKS5LO3","condition":"Fine","stockAvailable":3,"price":140.41,"_id":"yf5fqtyKQUafrsOh"}
-{"issueId":"YYySP9EWvx2FR4Qu","condition":"Very Fine","stockAvailable":1,"price":102.81,"_id":"yfu3xfUXP0MH3ZXz"}
-{"issueId":"nXVdhmS6eylXLNbO","condition":"Very Fine","stockAvailable":0,"price":36.4,"_id":"yhQQhM4WgDDyZjU5"}
-{"issueId":"3z3IV5PUhHG6MGuO","condition":"Poor","stockAvailable":2,"price":192.57,"_id":"yljR2YJmOc4CDNr7"}
-{"issueId":"pKnLzVUDB7T3LYpD","condition":"Average","stockAvailable":8,"price":108.94,"_id":"ytqmClYRimnL9q31"}
-{"issueId":"KvAYhZTa1J4d2aYa","condition":"Poor","stockAvailable":4,"price":101.09,"_id":"yuwQ4kKfVkw9ymoH"}
-{"issueId":"GDP867jNbqiDxgIu","condition":"Poor","stockAvailable":1,"price":180.41,"_id":"ywh1CiUq4N8WMRBC"}
-{"issueId":"0nJKnATGGD7PLt9x","condition":"Average","stockAvailable":9,"price":156.75,"_id":"z3M5c2k8NxI7u8hW"}
-{"issueId":"pLMV0KvUGJlb0pkh","condition":"Very Fine","stockAvailable":7,"price":71.55,"_id":"zBwpfFswf2vZloi5"}
-{"issueId":"IjdahRTgEBVxnWSu","condition":"Fine","stockAvailable":1,"price":51.64,"_id":"zSPeTTXNYJau4xZc"}
-{"issueId":"h1E75Mu9jJkpJB1t","condition":"Average","stockAvailable":3,"price":80.1,"_id":"zcJJ1nE0sgeD5jlx"}
-{"issueId":"zYIVquLMzmPQTuY4","condition":"Fine","stockAvailable":0,"price":77.46,"_id":"zsRHEDd51lHgc7WM"}
-{"issueId":"JPQM1GQurQUntljw","condition":"Poor","stockAvailable":0,"price":151.49,"_id":"zysamBjG4Blikyzs"}
+{"issueId":"RuCTpt0wlKGAI0xQ","condition":"Average","StockAvailable":7,"Price":86.65,"_id":"07xaIWfpFmMTg8FF"}
+{"issueId":"F998McsiOTsBHNYX","condition":"Fine","StockAvailable":1,"Price":189.77,"_id":"0UWz1OM8Oh9wIQ8w"}
+{"issueId":"9UdoGkfPs6Y6PY7M","condition":"Average","StockAvailable":0,"Price":41.61,"_id":"0eIm64IATomOSt1M"}
+{"issueId":"vxWH02da3XNmSsw3","condition":"Very Fine","StockAvailable":2,"Price":2.59,"_id":"0mHWJCmDLzXhVIZZ"}
+{"issueId":"r9JjmkgTmV8yjNz4","condition":"Average","StockAvailable":0,"Price":249.39,"_id":"0n3bin4hoBHyCAuq"}
+{"issueId":"PDkPRjUBF3O7V5EQ","condition":"Average","StockAvailable":6,"Price":170.1,"_id":"0plkMtXdaHzmlmyx"}
+{"issueId":"apvnNP09CC100u4a","condition":"Average","StockAvailable":9,"Price":23.09,"_id":"0wtrFHoVN1H1f5pu"}
+{"issueId":"jQAPtpJqqFx9SMb2","condition":"Poor","StockAvailable":6,"Price":220.6,"_id":"1tQGMXwBvJbPq9Eb"}
+{"issueId":"uCQIknZysXi8dthB","condition":"Very Fine","StockAvailable":8,"Price":152.88,"_id":"1vprzDKg011t4zUK"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Very Fine","StockAvailable":0,"Price":201.52,"_id":"1xwYqdR7ZkWU59yg"}
+{"issueId":"RfQaVNjfqBi3V9ah","condition":"Fine","StockAvailable":2,"Price":39.73,"_id":"25PiQftglSiXptXM"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Fine","StockAvailable":6,"Price":39.97,"_id":"26NgOvtgMCqdG21h"}
+{"issueId":"TBsc26mJ4AkTUqDO","condition":"Fine","StockAvailable":2,"Price":142.56,"_id":"29QXTHxC03B8GhA9"}
+{"issueId":"c3KBafebrcKvJUC3","condition":"Poor","StockAvailable":5,"Price":30.42,"_id":"2B1iTYPeaP5sG1t6"}
+{"issueId":"0AcoFBppQMUzTxQv","condition":"Fine","StockAvailable":9,"Price":159.76,"_id":"2HqityozEPpszoBd"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":7,"Price":224.28,"_id":"2OICuJykPqp23mos"}
+{"issueId":"RfQaVNjfqBi3V9ah","condition":"Very Fine","StockAvailable":2,"Price":23.13,"_id":"2R8Zjz29oXJUB9KF"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Fine","StockAvailable":0,"Price":25.59,"_id":"2RsT2b4JY6j9gRPh"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Average","StockAvailable":4,"Price":90.8,"_id":"2SYVuZ0pGoQxy6PL"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Very Fine","StockAvailable":7,"Price":207.48,"_id":"2aHh6UcylwcNxNqD"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Poor","StockAvailable":0,"Price":58.53,"_id":"2eE7ERJ5Iwd0Y3XM"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"Average","StockAvailable":4,"Price":37.96,"_id":"2g3rZAVlaZ77S20z"}
+{"issueId":"uyYYRru0XSbjMvdC","condition":"Very Fine","StockAvailable":1,"Price":14.01,"_id":"2kmygJqfP2Vs8OqN"}
+{"issueId":"Z80vU0JkKrNegvwr","condition":"Poor","StockAvailable":7,"Price":110.32,"_id":"2roI9pOlCkzCCQPp"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Fine","StockAvailable":9,"Price":110.03,"_id":"39JJ512Y1qwEvast"}
+{"issueId":"DhA92phPA7MAcZfA","condition":"Average","StockAvailable":0,"Price":57.58,"_id":"3KluJNKR7ZkgzWyh"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Very Fine","StockAvailable":3,"Price":117.26,"_id":"3dbMMgl8DOr3IMey"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"Fine","StockAvailable":5,"Price":134.99,"_id":"3eVEQxmp0sv8bRNW"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"Poor","StockAvailable":7,"Price":102.35,"_id":"3mfagZz7YXa0cw9f"}
+{"issueId":"HYdjgLV8JcrEragx","condition":"Fine","StockAvailable":7,"Price":2.05,"_id":"46bd9Imc3WvuZwm3"}
+{"issueId":"4ioKwYTA6uHeddpR","condition":"Average","StockAvailable":9,"Price":164.21,"_id":"4FiLJs1k4hT8VEM5"}
+{"issueId":"F998McsiOTsBHNYX","condition":"Average","StockAvailable":3,"Price":26.97,"_id":"4LYpYe2MelnUAcGu"}
+{"issueId":"QawwzvkegSdcaSlc","condition":"Fine","StockAvailable":2,"Price":193.56,"_id":"4RHpLRuZ97iMPf65"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Poor","StockAvailable":2,"Price":123.04,"_id":"4UVjsfCR7HHPLsF5"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Average","StockAvailable":1,"Price":3.4,"_id":"4VZhTOzdB0uWHNHR"}
+{"issueId":"OQDgirsts2InRVGL","condition":"Average","StockAvailable":3,"Price":138.83,"_id":"4WcweAGbbKhXMt3v"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Poor","StockAvailable":0,"Price":81.9,"_id":"4Xn9jclrjv1go7Vt"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Very Fine","StockAvailable":5,"Price":50.85,"_id":"4l8vyo8eqsOvMG3u"}
+{"issueId":"GcOrQI4uq228rNIW","condition":"Average","StockAvailable":8,"Price":88.85,"_id":"4lYc9xdivmAxEGc8"}
+{"issueId":"wR511Ei0gS5mDVKl","condition":"Poor","StockAvailable":9,"Price":188.14,"_id":"4rrrLWp3fazFcgjy"}
+{"issueId":"jQAPtpJqqFx9SMb2","condition":"Very Fine","StockAvailable":4,"Price":175.3,"_id":"58lILJuK3OTHOpIB"}
+{"issueId":"Y5wRnFA9Z7KfSWEk","condition":"Fine","StockAvailable":4,"Price":75.59,"_id":"5J3biri5yURJhS15"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Poor","StockAvailable":5,"Price":169.98,"_id":"5TPXjLAEhlW4AmL8"}
+{"issueId":"YhOxvqXVXJGy46gt","condition":"Average","StockAvailable":6,"Price":83.47,"_id":"5X11v7R09Q3gBvYX"}
+{"issueId":"mrMYRZHEn75OQBFM","condition":"Fine","StockAvailable":3,"Price":227.35,"_id":"5e8pE3Jh6xMB09hb"}
+{"issueId":"S99Pe6Zui21ScX3p","condition":"Fine","StockAvailable":6,"Price":51.48,"_id":"5r9ps8Do4KuAyzt7"}
+{"issueId":"rX0n1XHpioNVo0Sd","condition":"Average","StockAvailable":5,"Price":52.92,"_id":"5wX5hXDkv25ipgzD"}
+{"issueId":"G4sx47olzY8UCz03","condition":"Average","StockAvailable":5,"Price":173.26,"_id":"6S9MG5VbgCQr2EM8"}
+{"issueId":"N9IjIvDQ45Y8Nt3L","condition":"Average","StockAvailable":6,"Price":187.86,"_id":"6glVyutjuUVUFagm"}
+{"issueId":"g6txPVXzLZpsrrOX","condition":"Poor","StockAvailable":0,"Price":185.82,"_id":"6hlWYzLQRqWuLuPw"}
+{"issueId":"Fs7EqiLaKTV8iEDL","condition":"Very Fine","StockAvailable":6,"Price":244.08,"_id":"6jYI140YsnOGud5u"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":4,"Price":124.54,"_id":"6udjxnDBymyaH5XN"}
+{"issueId":"TBsc26mJ4AkTUqDO","condition":"Average","StockAvailable":9,"Price":146.49,"_id":"75yISEKz4zrYhjCE"}
+{"issueId":"mmnOy461SeZaHJjX","condition":"Fine","StockAvailable":2,"Price":100.02,"_id":"7N1BJpXfmKYSQFW9"}
+{"issueId":"8paoBSubbZwO00D6","condition":"Poor","StockAvailable":9,"Price":110.12,"_id":"7NIXmI2IgIt9lfRp"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Poor","StockAvailable":3,"Price":73.96,"_id":"7RC6bruHujvxUbYP"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Poor","StockAvailable":6,"Price":62.72,"_id":"7V1SSjWNPjERtE56"}
+{"issueId":"p2mNKmSR3XdWilw6","condition":"Fine","StockAvailable":0,"Price":228.23,"_id":"7W04dB6Lqkab98GW"}
+{"issueId":"S99Pe6Zui21ScX3p","condition":"Very Fine","StockAvailable":1,"Price":200.72,"_id":"7eTjqvBMwO5h7W5F"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"Very Fine","StockAvailable":0,"Price":130.82,"_id":"7hGlsO8x6ONZ3LiL"}
+{"issueId":"YhOxvqXVXJGy46gt","condition":"Poor","StockAvailable":4,"Price":108.85,"_id":"7ksUb8vBkhsg2z8f"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Very Fine","StockAvailable":2,"Price":58.71,"_id":"7uPgzYlDfDpaqBIg"}
+{"issueId":"KWRnjZ5RUywxZtFi","condition":"Fine","StockAvailable":8,"Price":14.52,"_id":"80femcogh1Utfi8Q"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Very Fine","StockAvailable":1,"Price":248.66,"_id":"84T4MMFG9OoRaQxp"}
+{"issueId":"DhA92phPA7MAcZfA","condition":"Fine","StockAvailable":2,"Price":139.45,"_id":"89eQRyzpw3iqfYEF"}
+{"issueId":"DhA92phPA7MAcZfA","condition":"Very Fine","StockAvailable":2,"Price":76.06,"_id":"8BLlqStDTd6JjTo5"}
+{"issueId":"Y5wRnFA9Z7KfSWEk","condition":"Poor","StockAvailable":8,"Price":100.71,"_id":"8CbeO7gEABSMjb8q"}
+{"issueId":"RCTX8jhsIRGqpRjF","condition":"Average","StockAvailable":5,"Price":201.09,"_id":"8Nea8ADvR8Pd4omp"}
+{"issueId":"gS1wybHDbjAwxx1Y","condition":"Average","StockAvailable":5,"Price":66.44,"_id":"8NsbPiRrIOkrQgdP"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":8,"Price":20.66,"_id":"8VUBox3oPUIaSYwg"}
+{"issueId":"VZnmwlvUYqDX56Dj","condition":"Fine","StockAvailable":4,"Price":12.54,"_id":"8VspQF7mgSE6eCox"}
+{"issueId":"gJcBEthYdkBrK9Kg","condition":"Very Fine","StockAvailable":6,"Price":0.15,"_id":"8YuBDijcyvjHMS0c"}
+{"issueId":"xFD6iBe3jhi4IxSU","condition":"Very Fine","StockAvailable":1,"Price":197.95,"_id":"8aef0jR5M4A2mdFr"}
+{"issueId":"G4sx47olzY8UCz03","condition":"Fine","StockAvailable":7,"Price":80.3,"_id":"8b5u0nn9O87Wj9E7"}
+{"issueId":"A3zYR2Z4Mtq4x0JF","condition":"Fine","StockAvailable":5,"Price":173.77,"_id":"8krprpnIVeGBe2fY"}
+{"issueId":"G4sx47olzY8UCz03","condition":"Poor","StockAvailable":3,"Price":248.06,"_id":"8qCMAfSj4HbptRIr"}
+{"issueId":"i9hmwvLEcaRLLy9k","condition":"Very Fine","StockAvailable":6,"Price":203.12,"_id":"8qmrO8mXt7ZUXBX1"}
+{"issueId":"kLKmu5phqDh30Wkq","condition":"Poor","StockAvailable":2,"Price":172.19,"_id":"901OxG9T2Ust0THG"}
+{"issueId":"3S2zOs3u2vju3IQJ","condition":"Average","StockAvailable":3,"Price":225.66,"_id":"914VOsrDYMwHdi68"}
+{"issueId":"mvbzB1h0mtG8KPSl","condition":"Average","StockAvailable":6,"Price":176.85,"_id":"98jwJOxYQJqulgA2"}
+{"issueId":"JirOq5vtz3aNqpcL","condition":"Very Fine","StockAvailable":8,"Price":132.29,"_id":"9OPQ6eXxOFHsvMTL"}
+{"issueId":"vxWH02da3XNmSsw3","condition":"Average","StockAvailable":2,"Price":249.94,"_id":"9ZfGIJSoc1Zh0iNu"}
+{"issueId":"RyLELhvrQVuqUM81","condition":"Poor","StockAvailable":6,"Price":162.75,"_id":"9nVQQs3KT1KbsOK3"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":3,"Price":49.66,"_id":"A0HQjqrXgJ3Fqb4k"}
+{"issueId":"8InnooQNOQY2AvW8","condition":"Very Fine","StockAvailable":6,"Price":188.03,"_id":"A9wKq8m03ZJRUqdS"}
+{"issueId":"apvnNP09CC100u4a","condition":"Fine","StockAvailable":0,"Price":33.22,"_id":"B0mWTSsj3eIhF68d"}
+{"issueId":"kLKmu5phqDh30Wkq","condition":"Average","StockAvailable":0,"Price":197.45,"_id":"BAW8Uzt1GHh1kCpL"}
+{"issueId":"BGDnUElcwAu8QmqC","condition":"Average","StockAvailable":3,"Price":50.2,"_id":"BVOlVkSPLwRNSP0I"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Fine","StockAvailable":6,"Price":19.08,"_id":"BXCx70x6lsFus8Vv"}
+{"issueId":"ssyM8xMnGtGEQA2s","condition":"Poor","StockAvailable":5,"Price":68.23,"_id":"BZFQP2AHBtiHL3oP"}
+{"issueId":"Y5wRnFA9Z7KfSWEk","condition":"Average","StockAvailable":8,"Price":108.94,"_id":"BZMFOXPlmZGg2S3E"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"Average","StockAvailable":0,"Price":171.86,"_id":"Bbn9LjFYxyPjGK6q"}
+{"issueId":"F998McsiOTsBHNYX","condition":"Poor","StockAvailable":3,"Price":159.04,"_id":"Bd9cQ8uFKOz52yTL"}
+{"issueId":"mbU31DM6x6D8wocX","condition":"Average","StockAvailable":1,"Price":208.05,"_id":"C53PAVGt6NBVNnA1"}
+{"issueId":"RCTX8jhsIRGqpRjF","condition":"Very Fine","StockAvailable":1,"Price":188.14,"_id":"CBaxqcsA6k47nYGf"}
+{"issueId":"3S2zOs3u2vju3IQJ","condition":"Very Fine","StockAvailable":3,"Price":215.64,"_id":"CEMwOXOBy2CDnzdj"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":1,"Price":226.2,"_id":"CG6gPig2SUi0wVEq"}
+{"issueId":"8paoBSubbZwO00D6","condition":"Average","StockAvailable":5,"Price":172.24,"_id":"CTTwQ1B2isG8FG9S"}
+{"issueId":"2WOcvJ4AGU0JDxsF","condition":"Average","StockAvailable":2,"Price":38.03,"_id":"CddLWnw3ijypNgVV"}
+{"issueId":"gS1wybHDbjAwxx1Y","condition":"Very Fine","StockAvailable":4,"Price":170.73,"_id":"CvaXParmG19weBTz"}
+{"issueId":"SBURjJV73TMJFhGC","condition":"Fine","StockAvailable":8,"Price":110.6,"_id":"D3qH1EZrcaN8caUG"}
+{"issueId":"c3KBafebrcKvJUC3","condition":"Average","StockAvailable":8,"Price":102.78,"_id":"D6I3o0a8mtfLMUyC"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Fine","StockAvailable":8,"Price":214.2,"_id":"D7RbCEPz0WdwGPmY"}
+{"issueId":"0AcoFBppQMUzTxQv","condition":"Very Fine","StockAvailable":8,"Price":27.49,"_id":"DDRztRgiynoMYzuo"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Very Fine","StockAvailable":6,"Price":214.11,"_id":"DFfQ9cG1HYbg7DKl"}
+{"issueId":"yOCcv0EE6Q3aWFeP","condition":"Average","StockAvailable":8,"Price":41.98,"_id":"DNihMW29d0vfbP95"}
+{"issueId":"OQDgirsts2InRVGL","condition":"Poor","StockAvailable":1,"Price":168.21,"_id":"DQ6UuAZXKW3kN9HF"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":9,"Price":2.85,"_id":"Dl7smqM6KpxD75ak"}
+{"issueId":"CZLs7hoMG6Vs433Y","condition":"Average","StockAvailable":4,"Price":227.56,"_id":"DnpGMVf5QZsZea32"}
+{"issueId":"KWRnjZ5RUywxZtFi","condition":"Very Fine","StockAvailable":8,"Price":56.9,"_id":"Do4Mw6qUHbuCbmSX"}
+{"issueId":"SBURjJV73TMJFhGC","condition":"Poor","StockAvailable":6,"Price":227.68,"_id":"Dr0qDMVZcaAYSf8g"}
+{"issueId":"wZjaJmMna9okTrNo","condition":"Very Fine","StockAvailable":4,"Price":243.78,"_id":"E5KXL1nsXSGDv58N"}
+{"issueId":"m7OnJLVzBCb7eXx0","condition":"Fine","StockAvailable":7,"Price":144.05,"_id":"ENe5Ha04eKwD0CNl"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Very Fine","StockAvailable":6,"Price":139.41,"_id":"ER2wj2tY9dT3paOH"}
+{"issueId":"huoS29TDEnfXzRag","condition":"Poor","StockAvailable":6,"Price":159.83,"_id":"EUDda3e4T2RIgtoE"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Poor","StockAvailable":8,"Price":77.57,"_id":"EhemGsR03ACecNPY"}
+{"issueId":"wR511Ei0gS5mDVKl","condition":"Fine","StockAvailable":6,"Price":220.38,"_id":"EmwPxqpHBA43YZAt"}
+{"issueId":"YhOxvqXVXJGy46gt","condition":"Very Fine","StockAvailable":4,"Price":176.92,"_id":"Epec9aJFqdOizCD9"}
+{"issueId":"3pbiFjESwF7gWOGB","condition":"Average","StockAvailable":4,"Price":2.44,"_id":"EtehWBwyyEE1VCBx"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Fine","StockAvailable":8,"Price":237.42,"_id":"EuXbvvajPmRUU4b5"}
+{"issueId":"2WOcvJ4AGU0JDxsF","condition":"Very Fine","StockAvailable":6,"Price":192.96,"_id":"EydQCOwYot8qo2bl"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Fine","StockAvailable":5,"Price":192.6,"_id":"FKqHvFyyVJ6jrnu9"}
+{"issueId":"LG0n0BKkrAbYbPpP","condition":"Fine","StockAvailable":7,"Price":117.79,"_id":"FPDdwuQGwpM2LbIE"}
+{"issueId":"B0iTILfK2Qs5Ypd5","condition":"Fine","StockAvailable":8,"Price":57.99,"_id":"FPZz0Djia3Vm2rkq"}
+{"issueId":"BGDnUElcwAu8QmqC","condition":"Very Fine","StockAvailable":5,"Price":139.84,"_id":"FYBb73JZgnvysVlv"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Poor","StockAvailable":8,"Price":97.24,"_id":"FYVo8HcG5XTLSJsX"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Very Fine","StockAvailable":0,"Price":90.37,"_id":"Fw6njV8YV3in2V0j"}
+{"issueId":"WmhlCaOXq8JJH9OM","condition":"Poor","StockAvailable":5,"Price":234.75,"_id":"FybqmmbK8aIdoLtv"}
+{"issueId":"uyYYRru0XSbjMvdC","condition":"Average","StockAvailable":7,"Price":49.19,"_id":"GDEpGmOc3UgtiTkS"}
+{"issueId":"huoS29TDEnfXzRag","condition":"Average","StockAvailable":7,"Price":65.55,"_id":"GFXzuewa2ATF3Dxx"}
+{"issueId":"GcOrQI4uq228rNIW","condition":"Poor","StockAvailable":5,"Price":204.19,"_id":"GFdw7uoXMvQDgjuW"}
+{"issueId":"GcOrQI4uq228rNIW","condition":"Very Fine","StockAvailable":7,"Price":28.42,"_id":"GO5gdzi7rFC8Wje9"}
+{"issueId":"4mPnps8DOEINOfrg","condition":"Average","StockAvailable":2,"Price":27.08,"_id":"GSKdV7zaH5ZhlWOw"}
+{"issueId":"yOCcv0EE6Q3aWFeP","condition":"Very Fine","StockAvailable":3,"Price":49.29,"_id":"GZ4uMQ3mMgGhvTK9"}
+{"issueId":"eG1cXgaJ2wjF6bIz","condition":"Poor","StockAvailable":8,"Price":9.66,"_id":"Gd80Lo4j0e7MpRIZ"}
+{"issueId":"51PYSidAqLBr9l0j","condition":"Very Fine","StockAvailable":8,"Price":145.57,"_id":"Ghb621yKgKc6OVuZ"}
+{"issueId":"gJcBEthYdkBrK9Kg","condition":"Fine","StockAvailable":1,"Price":121.47,"_id":"GpJt4Ywk3rZ1V4OF"}
+{"issueId":"Z2VSKfqEr9hKsHjx","condition":"Poor","StockAvailable":6,"Price":111,"_id":"GyC9dV3SzZiTjbv3"}
+{"issueId":"S99bxrq5d2pZFYJs","condition":"Fine","StockAvailable":8,"Price":221.67,"_id":"HKGNWpxwHAUns2ok"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Poor","StockAvailable":4,"Price":175.41,"_id":"HS2rrUtiOA8yWBys"}
+{"issueId":"S99bxrq5d2pZFYJs","condition":"Very Fine","StockAvailable":5,"Price":162.45,"_id":"HgkMX5IXo4IPnjN2"}
+{"issueId":"kLKmu5phqDh30Wkq","condition":"Very Fine","StockAvailable":4,"Price":234.1,"_id":"Hm44VZdwOrSDZfWO"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":4,"Price":126.44,"_id":"HzMtCgADppH8SEVW"}
+{"issueId":"JirOq5vtz3aNqpcL","condition":"Fine","StockAvailable":0,"Price":120.58,"_id":"HzuAuuSdnA4FTbYx"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"Fine","StockAvailable":3,"Price":157.66,"_id":"I44aWQtrumebGY2x"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"","StockAvailable":3,"Price":181.7,"_id":"IlKwqWg5SkWV4BBe"}
+{"issueId":"Z80vU0JkKrNegvwr","condition":"Fine","StockAvailable":1,"Price":246.72,"_id":"J0KRyeSU8BCcf36L"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Poor","StockAvailable":3,"Price":230.13,"_id":"J23z6w48WFo0suet"}
+{"issueId":"g6txPVXzLZpsrrOX","condition":"Very Fine","StockAvailable":0,"Price":108.82,"_id":"J7yk5srELzplSuM3"}
+{"issueId":"PhE6JsnW9rJPEWzQ","condition":"Poor","StockAvailable":5,"Price":106.19,"_id":"JJYn3yBreMGsVfIy"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"","StockAvailable":8,"Price":96.42,"_id":"JQ6jscj4mmWrArdl"}
+{"issueId":"0AcoFBppQMUzTxQv","condition":"Poor","StockAvailable":3,"Price":28.83,"_id":"JamfiNhtA324MVs2"}
+{"issueId":"jQAPtpJqqFx9SMb2","condition":"Fine","StockAvailable":1,"Price":2.2,"_id":"K2i7hQmZM37F9DFf"}
+{"issueId":"gJcBEthYdkBrK9Kg","condition":"Average","StockAvailable":5,"Price":146.7,"_id":"K5nTVdFZpYQGN6Z0"}
+{"issueId":"CZLs7hoMG6Vs433Y","condition":"Very Fine","StockAvailable":4,"Price":121.51,"_id":"KESHBZ8rUTgtwAfy"}
+{"issueId":"S99Pe6Zui21ScX3p","condition":"Poor","StockAvailable":9,"Price":117.89,"_id":"KJFo2sFzUrp3FCtb"}
+{"issueId":"tQlLTsZfEtZvJCQv","condition":"Very Fine","StockAvailable":9,"Price":221.16,"_id":"KNPTZ0f1S1rorExX"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Poor","StockAvailable":3,"Price":157.35,"_id":"KNRvLRlbHwKmVSXs"}
+{"issueId":"RCTX8jhsIRGqpRjF","condition":"Fine","StockAvailable":4,"Price":154.78,"_id":"KRsilfi8bti6JE0S"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Average","StockAvailable":0,"Price":93.07,"_id":"KctVUHisftyOPD68"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Fine","StockAvailable":9,"Price":201.88,"_id":"KkK6Oc706r81SPLN"}
+{"issueId":"Ur6wqdnsSJ3HxRqh","condition":"Poor","StockAvailable":4,"Price":101.09,"_id":"KtrYMNnw9YmQ6JPP"}
+{"issueId":"Z80vU0JkKrNegvwr","condition":"Very Fine","StockAvailable":7,"Price":106.15,"_id":"L04OfSfF5XhkkLAL"}
+{"issueId":"PhE6JsnW9rJPEWzQ","condition":"Very Fine","StockAvailable":1,"Price":22.91,"_id":"L83HOlOyZ4qUe5fw"}
+{"issueId":"IrVaVKQ4ZA8ckUkk","condition":"Very Fine","StockAvailable":2,"Price":77.16,"_id":"LF1mkPxo7SBz18nX"}
+{"issueId":"ycZeWXMO3Uo2BPQh","condition":"Poor","StockAvailable":4,"Price":244.59,"_id":"LHQRh0OSiW7S81hN"}
+{"issueId":"SlK55cPdZvtHJJwJ","condition":"Fine","StockAvailable":8,"Price":24.68,"_id":"LKpmtLgGXftyMPya"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Fine","StockAvailable":2,"Price":229.62,"_id":"LLZb7UxOuuVBwUVG"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Poor","StockAvailable":4,"Price":83.76,"_id":"LO7wRTfjMwDxwFbi"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Average","StockAvailable":6,"Price":219.22,"_id":"LW64K4yzbinQhm5R"}
+{"issueId":"xFD6iBe3jhi4IxSU","condition":"Average","StockAvailable":8,"Price":46.28,"_id":"LXZnOTo0fgBI82rB"}
+{"issueId":"DE5bdjSsrYFgXNOU","condition":"Average","StockAvailable":3,"Price":201.16,"_id":"LZTXcSda8cWf3FVx"}
+{"issueId":"WmhlCaOXq8JJH9OM","condition":"Fine","StockAvailable":3,"Price":140.41,"_id":"LhIn87mGYzmFJMXE"}
+{"issueId":"KWRnjZ5RUywxZtFi","condition":"Poor","StockAvailable":9,"Price":234.14,"_id":"Lu23m2qaZHwJcvKz"}
+{"issueId":"jQAPtpJqqFx9SMb2","condition":"Average","StockAvailable":0,"Price":205.78,"_id":"LvUxBCtOMHuEByZW"}
+{"issueId":"m7OnJLVzBCb7eXx0","condition":"Average","StockAvailable":1,"Price":92.18,"_id":"M90fBRXDJ6kQwMBu"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Poor","StockAvailable":0,"Price":216.04,"_id":"MFoL0UPjtC6w3HlS"}
+{"issueId":"Ur6wqdnsSJ3HxRqh","condition":"Very Fine","StockAvailable":8,"Price":49.03,"_id":"MOk1XSOXETq2bZ8V"}
+{"issueId":"OQDgirsts2InRVGL","condition":"Very Fine","StockAvailable":4,"Price":192.88,"_id":"MnXhO79Yl3Euhzll"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":0,"Price":199.31,"_id":"MtXWo5u3hjGsgksk"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Poor","StockAvailable":2,"Price":41.15,"_id":"N4CcsgJgeHnkNXUH"}
+{"issueId":"G4sx47olzY8UCz03","condition":"Very Fine","StockAvailable":5,"Price":228.99,"_id":"N5ekWgSxse2vZFL6"}
+{"issueId":"3S2zOs3u2vju3IQJ","condition":"Fine","StockAvailable":5,"Price":149.2,"_id":"NCz9h45ts8zyREzH"}
+{"issueId":"YZtpUCtFuvHi20HR","condition":"Poor","StockAvailable":2,"Price":26.5,"_id":"NHuVz6viJ4jV2kjH"}
+{"issueId":"g6txPVXzLZpsrrOX","condition":"Average","StockAvailable":5,"Price":9.15,"_id":"NI9zflMBZEe2AF8l"}
+{"issueId":"m7OnJLVzBCb7eXx0","condition":"Poor","StockAvailable":2,"Price":21.61,"_id":"NQtRAg5NVnImCAhZ"}
+{"issueId":"xOUrKxDcEpYGwYdP","condition":"Fine","StockAvailable":2,"Price":51.64,"_id":"NgTwh3GEGgqNaaa3"}
+{"issueId":"YZtpUCtFuvHi20HR","condition":"Average","StockAvailable":0,"Price":241.69,"_id":"O6VKc6X3GIZXOpAx"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":3,"Price":188.32,"_id":"OLgTFMacrhAxbRQL"}
+{"issueId":"YZtpUCtFuvHi20HR","condition":"Fine","StockAvailable":7,"Price":68.14,"_id":"ONEQVEKsqOMMYbGE"}
+{"issueId":"JirOq5vtz3aNqpcL","condition":"Average","StockAvailable":8,"Price":94.44,"_id":"OQLQX3swYMK0RlR9"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Average","StockAvailable":4,"Price":40.13,"_id":"Oa9V1WNnvy9N68xW"}
+{"issueId":"QcNUrUlcbakt7HVP","condition":"Very Fine","StockAvailable":7,"Price":35.67,"_id":"OcnPWNGUr3tVXqVk"}
+{"issueId":"BGDnUElcwAu8QmqC","condition":"Poor","StockAvailable":3,"Price":191.35,"_id":"Od59iPzADkaYdhHN"}
+{"issueId":"eG1cXgaJ2wjF6bIz","condition":"Average","StockAvailable":6,"Price":186.53,"_id":"OwEaJQcg1W8X4xND"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"Poor","StockAvailable":0,"Price":52.51,"_id":"OygtJ8e6o8diDMws"}
+{"issueId":"QcNUrUlcbakt7HVP","condition":"Average","StockAvailable":2,"Price":107.78,"_id":"PKmLG540FJtQDRkR"}
+{"issueId":"J80Txte50kWZKVpJ","condition":"Very Fine","StockAvailable":0,"Price":155.51,"_id":"PLeSZIWtwBI8YwQN"}
+{"issueId":"JqnX1CAMfnrSKdZ9","condition":"Very Fine","StockAvailable":7,"Price":75.09,"_id":"PMibZjHi0WS9auOT"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":6,"Price":69.09,"_id":"PNZ567Plt03yTWj2"}
+{"issueId":"B0iTILfK2Qs5Ypd5","condition":"Average","StockAvailable":1,"Price":219.97,"_id":"PODwpJJqXuUJBTBy"}
+{"issueId":"c3KBafebrcKvJUC3","condition":"Very Fine","StockAvailable":1,"Price":102.82,"_id":"PW1odiHlCMxMKXh5"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Very Fine","StockAvailable":9,"Price":203.62,"_id":"PWiaMFrESysYL4Xd"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Average","StockAvailable":6,"Price":123.61,"_id":"Pf9gSS6yRmIeGp8B"}
+{"issueId":"vx01TSoQdmJzrr9B","condition":"Poor","StockAvailable":6,"Price":88.84,"_id":"PiZQvdy5GDZNo56m"}
+{"issueId":"3pbiFjESwF7gWOGB","condition":"Fine","StockAvailable":1,"Price":173.99,"_id":"PiowUjon0fJZgpdT"}
+{"issueId":"Ur6wqdnsSJ3HxRqh","condition":"Fine","StockAvailable":9,"Price":50.89,"_id":"Pj3WU3y1v1DRmayQ"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":9,"Price":70.39,"_id":"Q1HIeeBWgb18d8xl"}
+{"issueId":"ycZeWXMO3Uo2BPQh","condition":"Fine","StockAvailable":2,"Price":69.04,"_id":"QEIy641U1AVAtgzd"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Very Fine","StockAvailable":1,"Price":196.39,"_id":"QFMEWO7CtQs3LUB6"}
+{"issueId":"2WOcvJ4AGU0JDxsF","condition":"Fine","StockAvailable":7,"Price":84.36,"_id":"QQlaOVPYWc5pEBOE"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"Average","StockAvailable":8,"Price":49.89,"_id":"QXCOPDNVCpE6EHmW"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Average","StockAvailable":7,"Price":150.43,"_id":"QXGMhRWy6Wt7TOBx"}
+{"issueId":"RCTX8jhsIRGqpRjF","condition":"Poor","StockAvailable":9,"Price":84,"_id":"QeM1b3GttlJzVKk5"}
+{"issueId":"9UdoGkfPs6Y6PY7M","condition":"Very Fine","StockAvailable":7,"Price":207.03,"_id":"QmX0qm1CpQqi9bOR"}
+{"issueId":"8InnooQNOQY2AvW8","condition":"Average","StockAvailable":6,"Price":90.63,"_id":"QvrerrLITGKWhcex"}
+{"issueId":"S99Pe6Zui21ScX3p","condition":"Average","StockAvailable":8,"Price":34.44,"_id":"QzPKlyXuUcoNuPLc"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Average","StockAvailable":3,"Price":20.68,"_id":"QzZO82N9XAp9V9w2"}
+{"issueId":"uyYYRru0XSbjMvdC","condition":"Poor","StockAvailable":1,"Price":49.33,"_id":"RDjdFKXEfsqHmST2"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Poor","StockAvailable":2,"Price":205.94,"_id":"RLiGfHBM6K4QyqlF"}
+{"issueId":"B0iTILfK2Qs5Ypd5","condition":"Very Fine","StockAvailable":7,"Price":110.07,"_id":"RMV891SahCY3Is67"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Average","StockAvailable":5,"Price":110.7,"_id":"RfnIELkVA0xpTJAb"}
+{"issueId":"SlK55cPdZvtHJJwJ","condition":"Poor","StockAvailable":0,"Price":236.81,"_id":"RxbsxBkxVuMcfjy4"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"Very Fine","StockAvailable":0,"Price":177.1,"_id":"SCyiwMaN4ZGsfJYl"}
+{"issueId":"SVvyYVX5r7Whcv3N","condition":"Average","StockAvailable":8,"Price":188.87,"_id":"SOsHLPbj9aX7Eohp"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"Fine","StockAvailable":3,"Price":74.02,"_id":"SVCVGpgTnV1mHX6X"}
+{"issueId":"i9hmwvLEcaRLLy9k","condition":"Average","StockAvailable":0,"Price":214.88,"_id":"Svy12rMpsRtGheEP"}
+{"issueId":"3pbiFjESwF7gWOGB","condition":"Poor","StockAvailable":7,"Price":221.85,"_id":"TSutPP1Sh8NpWz4w"}
+{"issueId":"Z2VSKfqEr9hKsHjx","condition":"Very Fine","StockAvailable":9,"Price":183.6,"_id":"ThAYqhIjihJy54Uz"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Poor","StockAvailable":3,"Price":82.09,"_id":"Tr6zCILdUi4BoDOp"}
+{"issueId":"np9NURpH7kKJK9cd","condition":"Fine","StockAvailable":0,"Price":82.86,"_id":"U0mu5nbsuM2glxop"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Fine","StockAvailable":9,"Price":63.59,"_id":"U2lMou4ldJOUHhi8"}
+{"issueId":"3S2zOs3u2vju3IQJ","condition":"Poor","StockAvailable":2,"Price":68.54,"_id":"U4uN4FNJ5tvVUoWR"}
+{"issueId":"N9IjIvDQ45Y8Nt3L","condition":"Poor","StockAvailable":5,"Price":231.46,"_id":"UbElnyA4CyuXzc6Q"}
+{"issueId":"5AYLaxWuJPIhbSNE","condition":"Fine","StockAvailable":3,"Price":168.48,"_id":"UiqEZtZmPv3SBcyW"}
+{"issueId":"DE5bdjSsrYFgXNOU","condition":"Very Fine","StockAvailable":5,"Price":9.75,"_id":"UkBECbNDUbcQgCPu"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Fine","StockAvailable":9,"Price":49.21,"_id":"VD6kggGbY9mEdCnj"}
+{"issueId":"mbU31DM6x6D8wocX","condition":"Poor","StockAvailable":4,"Price":138.11,"_id":"VOBJzIWdHXLuLfoE"}
+{"issueId":"N9IjIvDQ45Y8Nt3L","condition":"Fine","StockAvailable":6,"Price":94.01,"_id":"VUFlFYLh5XSbstbL"}
+{"issueId":"2WOcvJ4AGU0JDxsF","condition":"Poor","StockAvailable":6,"Price":174.57,"_id":"VcuFBCS2e5vduBTB"}
+{"issueId":"5AYLaxWuJPIhbSNE","condition":"Poor","StockAvailable":5,"Price":42.23,"_id":"VduRVnRztTPQbgFe"}
+{"issueId":"9UdoGkfPs6Y6PY7M","condition":"Fine","StockAvailable":6,"Price":153.81,"_id":"VemXREXKX06PENFr"}
+{"issueId":"mrMYRZHEn75OQBFM","condition":"Average","StockAvailable":9,"Price":52.91,"_id":"VfExZPwj2qUiXfVq"}
+{"issueId":"SBURjJV73TMJFhGC","condition":"Very Fine","StockAvailable":5,"Price":169.99,"_id":"Vk7qMDJHlgKIDMes"}
+{"issueId":"vxWH02da3XNmSsw3","condition":"Fine","StockAvailable":1,"Price":15.07,"_id":"Vn8vU6EJWAS7lGBq"}
+{"issueId":"tQlLTsZfEtZvJCQv","condition":"Average","StockAvailable":6,"Price":55.48,"_id":"W0WMSUGbEsudysWF"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Poor","StockAvailable":0,"Price":92.08,"_id":"WNx5Ob9UZwc4r8pd"}
+{"issueId":"MjkWMnsQ7fk3U9MP","condition":"Fine","StockAvailable":7,"Price":212.73,"_id":"WdBaRvTqjJCHg8IQ"}
+{"issueId":"Z2VSKfqEr9hKsHjx","condition":"Fine","StockAvailable":9,"Price":127.81,"_id":"Wff9vyTwPBSc2vE7"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Poor","StockAvailable":9,"Price":79.32,"_id":"Woxw2wu7zHk1uOVF"}
+{"issueId":"J80Txte50kWZKVpJ","condition":"Average","StockAvailable":0,"Price":70.69,"_id":"WrtHYEoMUQh3frbN"}
+{"issueId":"eG1cXgaJ2wjF6bIz","condition":"Very Fine","StockAvailable":2,"Price":18.38,"_id":"XCOsToODGj1V25Ki"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Average","StockAvailable":0,"Price":43.06,"_id":"XVSW4kndqUGprX9C"}
+{"issueId":"B0iTILfK2Qs5Ypd5","condition":"Poor","StockAvailable":5,"Price":230.8,"_id":"XVjmv3SrPQDh9uuy"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Average","StockAvailable":4,"Price":98.13,"_id":"XebMgKv9sAccYIpo"}
+{"issueId":"DhA92phPA7MAcZfA","condition":"Poor","StockAvailable":3,"Price":249.1,"_id":"XftOC8MpPHImMilN"}
+{"issueId":"p2mNKmSR3XdWilw6","condition":"Poor","StockAvailable":0,"Price":248.66,"_id":"XtAIVoO1s6hhAxZ1"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Very Fine","StockAvailable":4,"Price":228.43,"_id":"XuR690jO8WdLv9qG"}
+{"issueId":"QawwzvkegSdcaSlc","condition":"Very Fine","StockAvailable":5,"Price":44.03,"_id":"Y9Dd2BedYvbEtbL6"}
+{"issueId":"iSybiZedNhKaPbkV","condition":"Average","StockAvailable":2,"Price":185.37,"_id":"YF8d2MrKoQ7XtvUF"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Average","StockAvailable":4,"Price":215.49,"_id":"YLLdWknRVOZ9pxMB"}
+{"issueId":"wZjaJmMna9okTrNo","condition":"Fine","StockAvailable":1,"Price":99.59,"_id":"YP0gBHWuCapN4yoc"}
+{"issueId":"8InnooQNOQY2AvW8","condition":"Fine","StockAvailable":0,"Price":99.14,"_id":"YcliG1wZAhyOeFuo"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Fine","StockAvailable":8,"Price":187.01,"_id":"YfNDkDWPMdljC3hc"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"Very Fine","StockAvailable":7,"Price":39.12,"_id":"YrzX30QCKKF4a63d"}
+{"issueId":"HYdjgLV8JcrEragx","condition":"Very Fine","StockAvailable":3,"Price":155.03,"_id":"ZOBYc476ajfizVeo"}
+{"issueId":"YehdWM4tR13dVFFL","condition":"Average","StockAvailable":1,"Price":116.12,"_id":"ZUQktG5uV3GQJqJ4"}
+{"issueId":"mbU31DM6x6D8wocX","condition":"Very Fine","StockAvailable":3,"Price":184.84,"_id":"ZYDUBNEB4s3fxTys"}
+{"issueId":"iSybiZedNhKaPbkV","condition":"Poor","StockAvailable":1,"Price":151.49,"_id":"Zd6bbZ9yg6cZAMP4"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Poor","StockAvailable":4,"Price":19.25,"_id":"Ze16wYIA3MQdSMv6"}
+{"issueId":"WmhlCaOXq8JJH9OM","condition":"Very Fine","StockAvailable":9,"Price":33.47,"_id":"ZhzWuR3bI5JhYFqX"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":3,"Price":24.33,"_id":"ZjLKhB7nad0NXBI9"}
+{"issueId":"c3KBafebrcKvJUC3","condition":"Fine","StockAvailable":5,"Price":31.22,"_id":"ZoDROIUrQ8sRf2ue"}
+{"issueId":"Ur6wqdnsSJ3HxRqh","condition":"Average","StockAvailable":3,"Price":75.37,"_id":"ZpP3QddbPFUFSFWZ"}
+{"issueId":"r9JjmkgTmV8yjNz4","condition":"Fine","StockAvailable":2,"Price":45.7,"_id":"ZrjnX8mQD5XT28qg"}
+{"issueId":"IrVaVKQ4ZA8ckUkk","condition":"Fine","StockAvailable":2,"Price":172.46,"_id":"ZwI6JfntMvIm9VpG"}
+{"issueId":"RuCTpt0wlKGAI0xQ","condition":"Poor","StockAvailable":7,"Price":196.87,"_id":"ZxtkmCtmc4XhO7CF"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Fine","StockAvailable":4,"Price":178.6,"_id":"a4dkxHH0meYcDk5l"}
+{"issueId":"rX0n1XHpioNVo0Sd","condition":"Very Fine","StockAvailable":3,"Price":137.64,"_id":"aAUqL4dg6PGHD4CC"}
+{"issueId":"Z2VSKfqEr9hKsHjx","condition":"Average","StockAvailable":7,"Price":168.95,"_id":"aaGv27AouCdTrsTu"}
+{"issueId":"3pbiFjESwF7gWOGB","condition":"Very Fine","StockAvailable":9,"Price":247.4,"_id":"acRKoDFQEoWld1dP"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Very Fine","StockAvailable":0,"Price":144.46,"_id":"aeDwaa71i7DuOFPl"}
+{"issueId":"9UdoGkfPs6Y6PY7M","condition":"Poor","StockAvailable":6,"Price":82.74,"_id":"atKa28UbJHxhF2zp"}
+{"issueId":"SBURjJV73TMJFhGC","condition":"Average","StockAvailable":5,"Price":125.51,"_id":"axqpS5wCaDtHvtdr"}
+{"issueId":"uyYYRru0XSbjMvdC","condition":"Fine","StockAvailable":4,"Price":133.51,"_id":"bCOq4WsvjHRIbhre"}
+{"issueId":"IrVaVKQ4ZA8ckUkk","condition":"Poor","StockAvailable":8,"Price":133.68,"_id":"bEqFz2AH6CaWwZKF"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Fine","StockAvailable":6,"Price":43.14,"_id":"bcqvTDIt8wuhwMOK"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Fine","StockAvailable":1,"Price":134.02,"_id":"bmp39T5iPSyJ4owR"}
+{"issueId":"SVvyYVX5r7Whcv3N","condition":"Fine","StockAvailable":6,"Price":205.88,"_id":"byDekWU5vjbtFwUS"}
+{"issueId":"4mPnps8DOEINOfrg","condition":"Very Fine","StockAvailable":6,"Price":99.56,"_id":"c0qpCDssjlcEto69"}
+{"issueId":"uCQIknZysXi8dthB","condition":"Average","StockAvailable":7,"Price":135.31,"_id":"c2qOeXnfhs6aVoYx"}
+{"issueId":"xOUrKxDcEpYGwYdP","condition":"Poor","StockAvailable":2,"Price":108.65,"_id":"c8PsbJxENhM1YfFn"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":1,"Price":182.58,"_id":"cD5UPT3U9hhITgF7"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Average","StockAvailable":7,"Price":120.38,"_id":"cQlW8nDiTnoQdy9x"}
+{"issueId":"YZtpUCtFuvHi20HR","condition":"Very Fine","StockAvailable":0,"Price":36.4,"_id":"cYrkuvT6uVKDpGRM"}
+{"issueId":"vx01TSoQdmJzrr9B","condition":"Very Fine","StockAvailable":7,"Price":216.55,"_id":"caBsr1MjKn7PUqL6"}
+{"issueId":"eG1cXgaJ2wjF6bIz","condition":"Fine","StockAvailable":9,"Price":219.6,"_id":"cd8Fqjb3se0wF9U9"}
+{"issueId":"RfQaVNjfqBi3V9ah","condition":"Poor","StockAvailable":0,"Price":66.58,"_id":"ciQ6p6usegt4j3wc"}
+{"issueId":"VZnmwlvUYqDX56Dj","condition":"Poor","StockAvailable":0,"Price":53.19,"_id":"clWMluIP1pfxSCnT"}
+{"issueId":"BHkLmvCik447Q369","condition":"Average","StockAvailable":6,"Price":204.43,"_id":"cnCBNAkgTMbpxyqa"}
+{"issueId":"Zginp83XJGQMolsx","condition":"Poor","StockAvailable":7,"Price":120.43,"_id":"dN6JMzV0lUTJMQ2k"}
+{"issueId":"wR511Ei0gS5mDVKl","condition":"Very Fine","StockAvailable":2,"Price":70.49,"_id":"dUKnkhNd1eKhahSa"}
+{"issueId":"4ioKwYTA6uHeddpR","condition":"Poor","StockAvailable":5,"Price":222.59,"_id":"dWudOPLAqfYrTBEF"}
+{"issueId":"JqnX1CAMfnrSKdZ9","condition":"Average","StockAvailable":8,"Price":53.24,"_id":"dkCaGnvLPSKjZZOF"}
+{"issueId":"PhE6JsnW9rJPEWzQ","condition":"Fine","StockAvailable":4,"Price":209.96,"_id":"dkroZpfnWBCPpfTP"}
+{"issueId":"HYdjgLV8JcrEragx","condition":"Poor","StockAvailable":7,"Price":78.6,"_id":"dt2MvHDAww2BwM4o"}
+{"issueId":"mmnOy461SeZaHJjX","condition":"Average","StockAvailable":4,"Price":29.23,"_id":"e2EMxGxxpJRrAYUN"}
+{"issueId":"g6txPVXzLZpsrrOX","condition":"Fine","StockAvailable":7,"Price":73.71,"_id":"e2yWSUP5M048Pqq3"}
+{"issueId":"VZnmwlvUYqDX56Dj","condition":"Very Fine","StockAvailable":5,"Price":140.07,"_id":"eAunfVljjPvd02U5"}
+{"issueId":"LG0n0BKkrAbYbPpP","condition":"Average","StockAvailable":0,"Price":66.84,"_id":"eChy9pqEZQcmCRfo"}
+{"issueId":"GcOrQI4uq228rNIW","condition":"Fine","StockAvailable":0,"Price":140.82,"_id":"eIvYmohimrYukYzc"}
+{"issueId":"KWRnjZ5RUywxZtFi","condition":"Average","StockAvailable":7,"Price":175.39,"_id":"eP42Rmmqmhfr3jSi"}
+{"issueId":"TBsc26mJ4AkTUqDO","condition":"Very Fine","StockAvailable":4,"Price":159.12,"_id":"eSbCRGaHJkURXsVd"}
+{"issueId":"4mPnps8DOEINOfrg","condition":"Poor","StockAvailable":3,"Price":42.09,"_id":"eXNYPVNSEEitsKja"}
+{"issueId":"ssyM8xMnGtGEQA2s","condition":"Very Fine","StockAvailable":7,"Price":110.96,"_id":"ekvlMUyH4ZN9geqG"}
+{"issueId":"5AYLaxWuJPIhbSNE","condition":"Very Fine","StockAvailable":2,"Price":9.59,"_id":"eqCEnQhyMh9u0YKY"}
+{"issueId":"SlK55cPdZvtHJJwJ","condition":"Average","StockAvailable":5,"Price":65.84,"_id":"et5GluIMA0lp590S"}
+{"issueId":"p2mNKmSR3XdWilw6","condition":"Very Fine","StockAvailable":7,"Price":34.28,"_id":"eyAD337VYGNiBcpX"}
+{"issueId":"JqnX1CAMfnrSKdZ9","condition":"Fine","StockAvailable":5,"Price":69.3,"_id":"f3nIaRQB4YsFnpUG"}
+{"issueId":"Zginp83XJGQMolsx","condition":"Very Fine","StockAvailable":2,"Price":43.7,"_id":"fMHFEWcUVEbwTKDk"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Average","StockAvailable":6,"Price":80.37,"_id":"fXSEJT5MkP4rE8lu"}
+{"issueId":"huoS29TDEnfXzRag","condition":"Fine","StockAvailable":9,"Price":118.52,"_id":"fY7KA2pXLC2sxdtc"}
+{"issueId":"apvnNP09CC100u4a","condition":"Very Fine","StockAvailable":8,"Price":169.66,"_id":"fZoPFu4ubSqvE3oh"}
+{"issueId":"ycZeWXMO3Uo2BPQh","condition":"Average","StockAvailable":8,"Price":225.71,"_id":"fkFu3WHwTxOdc0mA"}
+{"issueId":"iSybiZedNhKaPbkV","condition":"Very Fine","StockAvailable":1,"Price":16.82,"_id":"flpvTLU1C0H4TLNE"}
+{"issueId":"wZjaJmMna9okTrNo","condition":"Average","StockAvailable":4,"Price":70.48,"_id":"fpSXonAOA8xDJP5X"}
+{"issueId":"HYdjgLV8JcrEragx","condition":"Average","StockAvailable":5,"Price":152.96,"_id":"fsNVsABcpO6waBYE"}
+{"issueId":"tQlLTsZfEtZvJCQv","condition":"Fine","StockAvailable":4,"Price":186.97,"_id":"fwbBF8Nc0dgEc91U"}
+{"issueId":"JqnX1CAMfnrSKdZ9","condition":"Poor","StockAvailable":0,"Price":231.78,"_id":"g1n6SF63nIImbLs4"}
+{"issueId":"DE5bdjSsrYFgXNOU","condition":"Fine","StockAvailable":8,"Price":208.54,"_id":"g9vFXuJA5Ob9i2z1"}
+{"issueId":"huoS29TDEnfXzRag","condition":"","StockAvailable":4,"Price":56.14,"_id":"gDcvws1rs4eer37b"}
+{"issueId":"Z80vU0JkKrNegvwr","condition":"Average","StockAvailable":0,"Price":219.72,"_id":"gOu1IebCPOjXxZKl"}
+{"issueId":"RuCTpt0wlKGAI0xQ","condition":"Very Fine","StockAvailable":4,"Price":233.42,"_id":"gWUI2oRmPbm8pJFP"}
+{"issueId":"huoS29TDEnfXzRag","condition":"Very Fine","StockAvailable":5,"Price":117.34,"_id":"gfOYlmUOTiVakZyy"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Average","StockAvailable":6,"Price":121.68,"_id":"ggsZSTfPUFda1ojv"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Average","StockAvailable":9,"Price":129.91,"_id":"gndylLjTPpTVkzj4"}
+{"issueId":"iSybiZedNhKaPbkV","condition":"Fine","StockAvailable":2,"Price":159.91,"_id":"grUkP1IVZiBE46mK"}
+{"issueId":"Fs7EqiLaKTV8iEDL","condition":"Poor","StockAvailable":4,"Price":103.86,"_id":"gwdZXmOgGXFruoqh"}
+{"issueId":"BGDnUElcwAu8QmqC","condition":"Fine","StockAvailable":5,"Price":46.02,"_id":"gxLSVVASgSiYPRCw"}
+{"issueId":"p2mNKmSR3XdWilw6","condition":"Average","StockAvailable":7,"Price":247.34,"_id":"hEjrNHalL5dn92bt"}
+{"issueId":"LG0n0BKkrAbYbPpP","condition":"Poor","StockAvailable":0,"Price":62.49,"_id":"hKSGDIDhNlubRj7B"}
+{"issueId":"np9NURpH7kKJK9cd","condition":"Average","StockAvailable":6,"Price":140.81,"_id":"hLie13aJrUXCOtYa"}
+{"issueId":"pikaoT3d0ToZXcCs","condition":"Average","StockAvailable":0,"Price":232.51,"_id":"hTz7ECfpdxsktLel"}
+{"issueId":"Fs7EqiLaKTV8iEDL","condition":"Average","StockAvailable":0,"Price":91.98,"_id":"hsr2QJGnZQlPmITM"}
+{"issueId":"YhOxvqXVXJGy46gt","condition":"Fine","StockAvailable":1,"Price":150.99,"_id":"hza8T3DQohEyjPm4"}
+{"issueId":"Zginp83XJGQMolsx","condition":"Average","StockAvailable":4,"Price":122.99,"_id":"i1SshL7Wtnq2b91I"}
+{"issueId":"S99bxrq5d2pZFYJs","condition":"Poor","StockAvailable":9,"Price":215.72,"_id":"i1j6sON7LvCrjPp3"}
+{"issueId":"xOUrKxDcEpYGwYdP","condition":"Average","StockAvailable":1,"Price":196.06,"_id":"iHN5B4vaZBhwvQRN"}
+{"issueId":"4ioKwYTA6uHeddpR","condition":"Fine","StockAvailable":4,"Price":83.47,"_id":"iRVJtXR80TlXmC2O"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Average","StockAvailable":0,"Price":223.28,"_id":"ikFUCjhMad8F1hli"}
+{"issueId":"BHkLmvCik447Q369","condition":"Very Fine","StockAvailable":5,"Price":115.14,"_id":"ikkrdqSzW8rhC6n0"}
+{"issueId":"RfQaVNjfqBi3V9ah","condition":"Average","StockAvailable":9,"Price":156.75,"_id":"il6R50Azrz7TgmJn"}
+{"issueId":"A3zYR2Z4Mtq4x0JF","condition":"Average","StockAvailable":3,"Price":114.56,"_id":"j0Zwl1dV0NvotjW6"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Fine","StockAvailable":3,"Price":75.05,"_id":"j7u9tCsgQryY3rLn"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Poor","StockAvailable":6,"Price":18.97,"_id":"jAgTf9ewlaVEmBBc"}
+{"issueId":"np9NURpH7kKJK9cd","condition":"Very Fine","StockAvailable":5,"Price":102.47,"_id":"jCYWfNbPLzfBlBgJ"}
+{"issueId":"BHkLmvCik447Q369","condition":"Poor","StockAvailable":9,"Price":18.1,"_id":"jax6MMtouf78BedL"}
+{"issueId":"vxWH02da3XNmSsw3","condition":"Poor","StockAvailable":1,"Price":137.43,"_id":"jcJphUIptntzlXin"}
+{"issueId":"A3zYR2Z4Mtq4x0JF","condition":"Very Fine","StockAvailable":6,"Price":203.41,"_id":"jivWfiNe678gDQZP"}
+{"issueId":"wLYsWDbeQ3VMFfEI","condition":"Very Fine","StockAvailable":5,"Price":99.14,"_id":"jizp6e04Ftb4QVdu"}
+{"issueId":"rHyZgaD4Dd7K51GY","condition":"Poor","StockAvailable":4,"Price":44.16,"_id":"jmGgNvNAhoK1mVJV"}
+{"issueId":"WmhlCaOXq8JJH9OM","condition":"Average","StockAvailable":8,"Price":205.09,"_id":"jrfBRCXaeD6CiCPr"}
+{"issueId":"N9IjIvDQ45Y8Nt3L","condition":"Very Fine","StockAvailable":9,"Price":154.42,"_id":"kNB0QezWcOjm1nNS"}
+{"issueId":"r9JjmkgTmV8yjNz4","condition":"Very Fine","StockAvailable":8,"Price":23.19,"_id":"kNnAgKPpbyQJrIIj"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Very Fine","StockAvailable":7,"Price":240.22,"_id":"keITAiIeSpiuNjqH"}
+{"issueId":"mrMYRZHEn75OQBFM","condition":"Very Fine","StockAvailable":9,"Price":76.28,"_id":"krNt7rLIGF26Rvdi"}
+{"issueId":"Fs7EqiLaKTV8iEDL","condition":"Fine","StockAvailable":3,"Price":62.18,"_id":"kydDooJZ0y53SJ3O"}
+{"issueId":"mvbzB1h0mtG8KPSl","condition":"Fine","StockAvailable":0,"Price":132.8,"_id":"lAps8K3lyEGpx5gA"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Poor","StockAvailable":4,"Price":23.6,"_id":"lIpmqI36O5ls34dk"}
+{"issueId":"51PYSidAqLBr9l0j","condition":"Average","StockAvailable":4,"Price":80.1,"_id":"lW1bCfylFDPrebxy"}
+{"issueId":"mbU31DM6x6D8wocX","condition":"Fine","StockAvailable":4,"Price":4.51,"_id":"lb03781HKwS3KEeM"}
+{"issueId":"m7OnJLVzBCb7eXx0","condition":"Very Fine","StockAvailable":9,"Price":111,"_id":"lpH0jMWGVncjWmDC"}
+{"issueId":"gS1wybHDbjAwxx1Y","condition":"Fine","StockAvailable":7,"Price":6.17,"_id":"ltZPEPVwhLc7nQN6"}
+{"issueId":"PDkPRjUBF3O7V5EQ","condition":"Poor","StockAvailable":1,"Price":45.64,"_id":"m0EC6TJPKSVhMHcQ"}
+{"issueId":"xFD6iBe3jhi4IxSU","condition":"Fine","StockAvailable":6,"Price":230.13,"_id":"mBZF69X8PUKvuxz5"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Very Fine","StockAvailable":9,"Price":182.74,"_id":"mDPCD3eln7vq7F8M"}
+{"issueId":"xFD6iBe3jhi4IxSU","condition":"Poor","StockAvailable":5,"Price":109.81,"_id":"mE5NrUL3cnz48EPj"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Fine","StockAvailable":9,"Price":141.29,"_id":"mXDJ6IwZNyIWyocY"}
+{"issueId":"QawwzvkegSdcaSlc","condition":"Poor","StockAvailable":6,"Price":68.53,"_id":"mgisWpiEdBB5mcDQ"}
+{"issueId":"i9hmwvLEcaRLLy9k","condition":"Fine","StockAvailable":8,"Price":61.97,"_id":"my7zcxpvNNmc3jOI"}
+{"issueId":"pikaoT3d0ToZXcCs","condition":"Very Fine","StockAvailable":0,"Price":149.18,"_id":"n3fDhR4fUmTWuSnK"}
+{"issueId":"rX0n1XHpioNVo0Sd","condition":"Poor","StockAvailable":7,"Price":80.26,"_id":"n5nI4AyUdnFXboOW"}
+{"issueId":"PDkPRjUBF3O7V5EQ","condition":"Fine","StockAvailable":3,"Price":217.79,"_id":"n5yNuBbtoxuY1lne"}
+{"issueId":"mmnOy461SeZaHJjX","condition":"Poor","StockAvailable":7,"Price":185.27,"_id":"n8bD6NlaI7e6qkaz"}
+{"issueId":"mvbzB1h0mtG8KPSl","condition":"Very Fine","StockAvailable":2,"Price":29.02,"_id":"nTQpMIARP1W1U06S"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Fine","StockAvailable":8,"Price":120.28,"_id":"ncWZrHxqDV4QZJIj"}
+{"issueId":"SVvyYVX5r7Whcv3N","condition":"Very Fine","StockAvailable":7,"Price":71.55,"_id":"ne2Wi55Ny9W0FHNl"}
+{"issueId":"i9hmwvLEcaRLLy9k","condition":"Poor","StockAvailable":4,"Price":68.48,"_id":"ne7is5JVTj5mDWea"}
+{"issueId":"4mPnps8DOEINOfrg","condition":"Fine","StockAvailable":1,"Price":178.77,"_id":"nibGbrEfM7A6rUMP"}
+{"issueId":"OQDgirsts2InRVGL","condition":"Fine","StockAvailable":8,"Price":114.6,"_id":"nqSTQDBq8I0Aan29"}
+{"issueId":"bAnRadESSUQlwCo8","condition":"","StockAvailable":3,"Price":172.61,"_id":"nxnm9CWOUbNdJ9kI"}
+{"issueId":"np9NURpH7kKJK9cd","condition":"Poor","StockAvailable":8,"Price":84.48,"_id":"nyWl0j6FzMg4fPEh"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Very Fine","StockAvailable":8,"Price":204.56,"_id":"o3eVuiWNK0LKtgHd"}
+{"issueId":"PDkPRjUBF3O7V5EQ","condition":"Very Fine","StockAvailable":3,"Price":91.52,"_id":"oASycUsPON5i1yrT"}
+{"issueId":"vx01TSoQdmJzrr9B","condition":"Fine","StockAvailable":4,"Price":162.84,"_id":"oUb0HehekERQaxyE"}
+{"issueId":"DE5bdjSsrYFgXNOU","condition":"Poor","StockAvailable":3,"Price":55.05,"_id":"oc36SrcjLPcpHjNJ"}
+{"issueId":"wZjaJmMna9okTrNo","condition":"Poor","StockAvailable":1,"Price":119.65,"_id":"oht6eDGzNJRRFhsn"}
+{"issueId":"MjkWMnsQ7fk3U9MP","condition":"Poor","StockAvailable":0,"Price":98.29,"_id":"ow6ydNfwCZsxuef9"}
+{"issueId":"0AcoFBppQMUzTxQv","condition":"Average","StockAvailable":0,"Price":57.63,"_id":"p33S9waZdboiX1Nq"}
+{"issueId":"J80Txte50kWZKVpJ","condition":"Fine","StockAvailable":5,"Price":127.58,"_id":"p7VeeyeB9KxhDkYq"}
+{"issueId":"Y5wRnFA9Z7KfSWEk","condition":"Very Fine","StockAvailable":1,"Price":21.47,"_id":"pDT0qgXpve5fAaE6"}
+{"issueId":"5AYLaxWuJPIhbSNE","condition":"Average","StockAvailable":2,"Price":29.13,"_id":"pFIsNsDGY1CcIu4D"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":1,"Price":84.45,"_id":"pPOASpPiQxJa0MAd"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Very Fine","StockAvailable":6,"Price":100.49,"_id":"pUlkWE7eUEewafXP"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Average","StockAvailable":4,"Price":151.16,"_id":"pWlKUcQZkJDuYvff"}
+{"issueId":"u6vOKNa1dCfZ2zQm","condition":"Fine","StockAvailable":3,"Price":0.17,"_id":"pqUVGazCDdFKeW06"}
+{"issueId":"yOCcv0EE6Q3aWFeP","condition":"Fine","StockAvailable":7,"Price":77.46,"_id":"pqegeFHZfSWhdXDh"}
+{"issueId":"LG0n0BKkrAbYbPpP","condition":"Very Fine","StockAvailable":8,"Price":132.5,"_id":"qJM4wqis19ho7iiE"}
+{"issueId":"r9JjmkgTmV8yjNz4","condition":"Poor","StockAvailable":3,"Price":208.28,"_id":"qM6x7FnQxB0565rJ"}
+{"issueId":"TBsc26mJ4AkTUqDO","condition":"Poor","StockAvailable":1,"Price":180.41,"_id":"quM8mVjDEpv8gdw5"}
+{"issueId":"J80Txte50kWZKVpJ","condition":"Poor","StockAvailable":3,"Price":81.38,"_id":"qwitZGHnpPUHu1Sf"}
+{"issueId":"pikaoT3d0ToZXcCs","condition":"Poor","StockAvailable":2,"Price":95.22,"_id":"r4Qtaa9ZdqJ0PqwB"}
+{"issueId":"mrMYRZHEn75OQBFM","condition":"Poor","StockAvailable":4,"Price":162.05,"_id":"rA21ifFpDRvJbgrY"}
+{"issueId":"apvnNP09CC100u4a","condition":"Poor","StockAvailable":7,"Price":246.44,"_id":"rAgriD2ELYCGm7Fa"}
+{"issueId":"FCPm3J8TXJ17SMsY","condition":"Poor","StockAvailable":6,"Price":223.86,"_id":"rEKFZCwQAw4TJbmA"}
+{"issueId":"tQlLTsZfEtZvJCQv","condition":"Poor","StockAvailable":5,"Price":161.79,"_id":"rFc6q3wA9GjpgEeJ"}
+{"issueId":"RyLELhvrQVuqUM81","condition":"Fine","StockAvailable":4,"Price":217.01,"_id":"rJhlUyC4kO9hJWro"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Average","StockAvailable":1,"Price":188.15,"_id":"rct78VUeNxggDJx6"}
+{"issueId":"QcNUrUlcbakt7HVP","condition":"Fine","StockAvailable":3,"Price":183.26,"_id":"rfXnqEHCqo7rs9ll"}
+{"issueId":"QawwzvkegSdcaSlc","condition":"Average","StockAvailable":3,"Price":24.18,"_id":"rhhUzVPZtqumyfTR"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":7,"Price":95.28,"_id":"roGhqYrzokjQ5rRf"}
+{"issueId":"RyLELhvrQVuqUM81","condition":"Very Fine","StockAvailable":0,"Price":188.13,"_id":"rxZ37dKu9pEQf9Sx"}
+{"issueId":"CZLs7hoMG6Vs433Y","condition":"Poor","StockAvailable":8,"Price":106.17,"_id":"rz5Zl3C86ygLGNmK"}
+{"issueId":"VZnmwlvUYqDX56Dj","condition":"Average","StockAvailable":7,"Price":40.34,"_id":"s6B9mU0WaWVKojS4"}
+{"issueId":"SlK55cPdZvtHJJwJ","condition":"Very Fine","StockAvailable":7,"Price":145.48,"_id":"sIW0mXfgMQJJC8Qy"}
+{"issueId":"kLKmu5phqDh30Wkq","condition":"Fine","StockAvailable":6,"Price":105.89,"_id":"sPdx0qKCLJcWbYv4"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Very Fine","StockAvailable":5,"Price":31.46,"_id":"sSCsIVnETYHN34ua"}
+{"issueId":"PhE6JsnW9rJPEWzQ","condition":"Average","StockAvailable":2,"Price":45.44,"_id":"sXuKlRR4Oc1JQFyq"}
+{"issueId":"8paoBSubbZwO00D6","condition":"Fine","StockAvailable":7,"Price":74.78,"_id":"sYmmALLqZ8zt3NNa"}
+{"issueId":"vx01TSoQdmJzrr9B","condition":"Average","StockAvailable":0,"Price":7.73,"_id":"tCywaSz6lMxZ512t"}
+{"issueId":"xOUrKxDcEpYGwYdP","condition":"Very Fine","StockAvailable":5,"Price":131.4,"_id":"tEd2jOjCg6kmUNOq"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Average","StockAvailable":1,"Price":9.72,"_id":"tKeWSty2zR7gBeWt"}
+{"issueId":"uCQIknZysXi8dthB","condition":"Fine","StockAvailable":9,"Price":179.43,"_id":"tSnQw2VgnFiKKI2X"}
+{"issueId":"S99bxrq5d2pZFYJs","condition":"Average","StockAvailable":7,"Price":83.35,"_id":"tZLrDNvFd5cOug5b"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Very Fine","StockAvailable":4,"Price":137.71,"_id":"tbmobBR0oA0ykRp8"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Fine","StockAvailable":2,"Price":80.04,"_id":"u86J9Kpbg17AOvfz"}
+{"issueId":"OqL4hcEzB4u3Ime6","condition":"Very Fine","StockAvailable":7,"Price":114.37,"_id":"uTLf4IoP7kDs6bbl"}
+{"issueId":"uCQIknZysXi8dthB","condition":"Poor","StockAvailable":6,"Price":186.6,"_id":"uWfQ3Yv5WfakTUDN"}
+{"issueId":"rX0n1XHpioNVo0Sd","condition":"Fine","StockAvailable":2,"Price":48.64,"_id":"uav9Xhm4jbhlRbxp"}
+{"issueId":"4ioKwYTA6uHeddpR","condition":"Very Fine","StockAvailable":3,"Price":83.72,"_id":"ulOJGlsncaP1Ju0l"}
+{"issueId":"mmnOy461SeZaHJjX","condition":"Very Fine","StockAvailable":9,"Price":200.87,"_id":"uncxReBAIHcuCzD6"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Fine","StockAvailable":9,"Price":232.84,"_id":"uvFadHRVUnHwkLjk"}
+{"issueId":"ssyM8xMnGtGEQA2s","condition":"Average","StockAvailable":6,"Price":187.19,"_id":"v3815JKump51bRB2"}
+{"issueId":"ycZeWXMO3Uo2BPQh","condition":"Very Fine","StockAvailable":1,"Price":102.81,"_id":"v8OcH0yUPRlflPzR"}
+{"issueId":"JirOq5vtz3aNqpcL","condition":"Poor","StockAvailable":2,"Price":202.46,"_id":"vFfYdm12MijHds58"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Very Fine","StockAvailable":6,"Price":49.92,"_id":"vLWMEhGDsI32jay4"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Very Fine","StockAvailable":5,"Price":72.89,"_id":"vYPFwDoGaZgmbwvE"}
+{"issueId":"xG48H0w6re2tF8cU","condition":"Average","StockAvailable":2,"Price":30.91,"_id":"vdr0P3LlPdDpIwFb"}
+{"issueId":"ssyM8xMnGtGEQA2s","condition":"Fine","StockAvailable":5,"Price":35.99,"_id":"vf9VmOI1Fezer6aY"}
+{"issueId":"51PYSidAqLBr9l0j","condition":"Fine","StockAvailable":3,"Price":229.36,"_id":"vfwFgggeE07kqZyd"}
+{"issueId":"SVvyYVX5r7Whcv3N","condition":"Poor","StockAvailable":7,"Price":196.54,"_id":"vgk6HKIjZlManzJ6"}
+{"issueId":"A3zYR2Z4Mtq4x0JF","condition":"Poor","StockAvailable":7,"Price":244.89,"_id":"vieYQJzxFdPN8Tbp"}
+{"issueId":"wR511Ei0gS5mDVKl","condition":"Average","StockAvailable":5,"Price":50.21,"_id":"w2yo5W1jdUroHi94"}
+{"issueId":"gJcBEthYdkBrK9Kg","condition":"Poor","StockAvailable":2,"Price":109.04,"_id":"w7ZGb8BgnUKbDcyI"}
+{"issueId":"yOCcv0EE6Q3aWFeP","condition":"Poor","StockAvailable":0,"Price":19.54,"_id":"wwkZd23X3SKf7SKH"}
+{"issueId":"MjkWMnsQ7fk3U9MP","condition":"Very Fine","StockAvailable":0,"Price":151.76,"_id":"x6lpHndvKCK0DR4s"}
+{"issueId":"o1yId7EMzEiCqT6q","condition":"Poor","StockAvailable":3,"Price":172.77,"_id":"xHDxu78azhLNoHIO"}
+{"issueId":"gS1wybHDbjAwxx1Y","condition":"Poor","StockAvailable":9,"Price":143.04,"_id":"xJ4X05I5A1BIw7Bi"}
+{"issueId":"mvbzB1h0mtG8KPSl","condition":"Poor","StockAvailable":5,"Price":207.97,"_id":"xPN6QViLNOrkRgOx"}
+{"issueId":"pikaoT3d0ToZXcCs","condition":"Fine","StockAvailable":8,"Price":86.07,"_id":"xQ0q0o7gLeVROcCV"}
+{"issueId":"Zginp83XJGQMolsx","condition":"Fine","StockAvailable":8,"Price":173.23,"_id":"xZ7ahKmH0h82IJl1"}
+{"issueId":"QcNUrUlcbakt7HVP","condition":"Poor","StockAvailable":2,"Price":192.57,"_id":"xZFwOHRmFZkKrtDh"}
+{"issueId":"51PYSidAqLBr9l0j","condition":"Poor","StockAvailable":6,"Price":153.62,"_id":"xhMqDHvJlIi7EC4G"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Fine","StockAvailable":6,"Price":133.38,"_id":"xo9y5JdZ4zU0TDMk"}
+{"issueId":"tXDTg7FCqlgcnTMR","condition":"","StockAvailable":8,"Price":4.1,"_id":"y1hTMoIrCT6TqSrd"}
+{"issueId":"FtsYae7xKK8kBfgz","condition":"Average","StockAvailable":2,"Price":16.43,"_id":"y5mjzSAagiIwWNM0"}
+{"issueId":"BHkLmvCik447Q369","condition":"Fine","StockAvailable":1,"Price":239.07,"_id":"yV8cyHHJND3xSGEn"}
+{"issueId":"MjkWMnsQ7fk3U9MP","condition":"Average","StockAvailable":9,"Price":87.16,"_id":"yWzC43C5FNzSS0iF"}
+{"issueId":"8InnooQNOQY2AvW8","condition":"Poor","StockAvailable":2,"Price":171.36,"_id":"ynRx4wG2a8FXSGE0"}
+{"issueId":"8paoBSubbZwO00D6","condition":"Very Fine","StockAvailable":8,"Price":35.91,"_id":"z4h0c7XVzojaz7Ch"}
+{"issueId":"RyLELhvrQVuqUM81","condition":"Average","StockAvailable":0,"Price":41.89,"_id":"zAhsX0E4HoDx46xr"}
+{"issueId":"RuCTpt0wlKGAI0xQ","condition":"Fine","StockAvailable":7,"Price":24.62,"_id":"zKskV6O4OixzWb9F"}
+{"issueId":"IrVaVKQ4ZA8ckUkk","condition":"Average","StockAvailable":3,"Price":52.97,"_id":"zVUZzwRpd2cpZzxy"}
+{"issueId":"CZLs7hoMG6Vs433Y","condition":"Fine","StockAvailable":1,"Price":213.78,"_id":"zXe1paPsUguhmSUk"}
+{"issueId":"v5ADc8i1vGGtXMaW","condition":"Fine","StockAvailable":1,"Price":172.56,"_id":"zf9Ih4O13mze3MEp"}
+{"issueId":"F998McsiOTsBHNYX","condition":"Very Fine","StockAvailable":0,"Price":137.31,"_id":"zjBEMH60AgPXMtc7"}
