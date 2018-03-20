@@ -16,13 +16,12 @@ module.exports = function (app) {
   const events = createService(options)
 
   events.docs = {
-    description: 'A service to perform crud operation on Order',
-    //overwrite things here.
-    //if we want to add a mongoose style $search hook to find, we can write this:
+    description: 'A service to perform CRUD operations on Orders',
+
     find: {
       parameters: [
         {
-          description: 'Number of results to returns',
+          description: 'Number of results to return',
           in: 'query',
           name: '$limit',
           type: 'integer'
@@ -66,25 +65,24 @@ module.exports = function (app) {
       description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
+          description: 'Order ID',
+          in: 'path',
+          name: '_id',
+          type: 'string',
+          required: true
+        },
+        {
           name: "Order",
           description: "Order object",
           in: "body",
           required: true,
           schema: { $ref: '#/definitions/orderPatch' }
 
-        },
-        {
-          description: 'Order ID',
-          in: 'path',
-          name: '_id',
-          type: 'string',
-          required: true
         }
-
       ]
     },
+
     get: {
-      description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
           description: 'Order ID',
@@ -95,8 +93,9 @@ module.exports = function (app) {
         }
       ]
     },
+
     remove: {
-      description: 'Changes the status of order to Cancelled, based on Provided Order ID',
+      description: 'Changes the status of order to Cancelled, based on Provided Order ID (Soft Delete)',
       parameters: [
         {
           description: 'Order ID',
@@ -113,43 +112,42 @@ module.exports = function (app) {
       description: 'Changes the status of order, based on Provided Order ID',
       parameters: [
         {
-          name: "Order",
-          description: "Order  object",
-          in: "body",
-          required: true,
-          schema: { $ref: '#/definitions/orderPatch' }
-
-        },
-        {
           description: 'Order ID',
           in: 'path',
           name: '_id',
           type: 'string',
           required: true,
+        },
+        {
+          name: "Order",
+          description: "Order object",
+          in: "body",
+          required: true,
+          schema: { $ref: '#/definitions/orderPatch' }
+
         }
       ]
     },
-    //if we want to add the mongoose model to the 'definitions' so it is a named model in the swagger ui:
     definitions: {
-      //event: mongooseToJsonLibraryYouImport(Model), //import your own library, use the 'Model' object in this file.
-      // 'event list': { //this library currently configures the return documentation to look for ``${tag} list`
-      //   type: 'array',
-      //   schema: { $ref: '#/definitions/event' }
-      // }
       orderCreate: {
 
         "type": "object",
         "properties": {
 
-          "supplierID": { "description":"ID of supplier providing the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+          "supplierID": {
+            "type": "string",
+            "description": "ID of supplier providing the stock ordered",
+            "pattern": "^[a-zA-Z0-9]{16}$"
+          },
+
           "stocks": {
             "type": "array",
             "maxItems": 4,
             "items": {
               "type": "object",
               "properties": {
-                "stockID": {"Description":"ID of the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-                "quantity": { "Description":"Quantity of the stock ordered","type": "integer", "minimum": 1 }
+                "stockID": { "description": "ID of the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+                "quantity": { "description": "Quantity of the stock ordered", "type": "integer", "minimum": 1 }
               },
               "required": ["stockID", "quantity"],
             }
@@ -162,10 +160,129 @@ module.exports = function (app) {
         "type": "object",
         "properties": {
 
-          "supplierID": { "description":"ID of supplier providing the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "status": {  "type": "string", "enum": ["Received", "Cancelled","Returned"] },
+          "supplierID": { "description": "ID of supplier providing the stock ordered", "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
+          "status": { "type": "string", "enum": ["Received", "Cancelled", "Returned"] },
         },
         "required": ["supplierID", "status", "stocks"]
+      },
+
+      orders: {
+
+        "type": "object",
+        "properties": {
+
+          "supplierID": {
+            "type": "string",
+            "description": "ID of supplier providing the stock ordered",
+            "pattern": "^[a-zA-Z0-9]{16}$"
+          },
+
+          "status": {
+            "type": "string",
+            "enum": ["Ordered", "Received", "Cancelled", "Returned"],
+            "description": "The status of the order"
+          },
+
+          "orderDate": {
+            "type": "string",
+            "format": "date-time",
+            "description": "The date the order was placed"
+          },
+
+          "dateModfied": {
+            "type": "string",
+            "format": "date-time",
+            "description": "The date the order was modified"
+          },
+
+          "stocks": {
+            "type": "array",
+            "description": "Array of Stock items ordered",
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "properties": {
+
+                "stockID": {
+                  "description": "ID of the stock ordered",
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9]{16}$"
+                },
+
+                "quantity": {
+                  "description": "Quantity of the stock ordered",
+                  "type": "integer",
+                  "minimum": 1
+                },
+
+                "pricePaid": {
+                  "description": "Price of Stock Ordered",
+                  "type": "number"
+                }
+
+              }
+            }
+          }
+        }
+      },
+      'orders list': {
+
+        "type": "object",
+        "properties": {
+
+          "supplierID": {
+            "type": "string",
+            "description": "ID of supplier providing the stock ordered",
+            "pattern": "^[a-zA-Z0-9]{16}$"
+          },
+
+          "status": {
+            "type": "string",
+            "enum": ["Ordered", "Received", "Cancelled", "Returned"],
+            "description": "The status of the order"
+          },
+
+          "orderDate": {
+            "type": "string",
+            "format": "date-time",
+            "description": "The date the order was placed"
+          },
+
+          "dateModfied": {
+            "type": "string",
+            "format": "date-time",
+            "description": "The date the order was modified"
+          },
+
+          "stocks": {
+            "type": "array",
+            "description": "Array of Stock items ordered",
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "properties": {
+
+                "stockID": {
+                  "description": "ID of the stock ordered",
+                  "type": "string",
+                  "pattern": "^[a-zA-Z0-9]{16}$"
+                },
+
+                "quantity": {
+                  "description": "Quantity of the stock ordered",
+                  "type": "integer",
+                  "minimum": 1
+                },
+
+                "pricePaid": {
+                  "description": "Price of Stock Ordered",
+                  "type": "number"
+                }
+
+              }
+            }
+          }
+        }
       }
     }
   }

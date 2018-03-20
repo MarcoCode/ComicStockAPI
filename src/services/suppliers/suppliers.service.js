@@ -13,13 +13,10 @@ module.exports = function (app) {
     paginate
   };
 
-  //SWAGGER THINGY
-
   const events = createService(options)
   events.docs = {
-    description: 'A service to perform crud operations on suppliers',
-    //overwrite things here.
-    //if we want to add a mongoose style $search hook to find, we can write this:
+    description: 'A Service to perform CRUD operations on Suppliers',
+
     find: {
       description: "Returns list of Active Suppliers",
       parameters: [
@@ -131,13 +128,9 @@ module.exports = function (app) {
         }
       ]
     },
-    //if we want to add the mongoose model to the 'definitions' so it is a named model in the swagger ui:
+
     definitions: {
-      //event: mongooseToJsonLibraryYouImport(Model), //import your own library, use the 'Model' object in this file.
-      // 'event list': { //this library currently configures the return documentation to look for ``${tag} list`
-      //   type: 'array',
-      //   schema: { $ref: '#/definitions/event' }
-      // }
+
       supplierCreate: {
         "type": "object",
         "required": [
@@ -224,7 +217,6 @@ module.exports = function (app) {
 
 
   // Initialize our service with any options it requires
-  //app.use('/suppliers', createService(options));
   app.use('/suppliers', events);
 
 

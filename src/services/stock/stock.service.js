@@ -15,7 +15,7 @@ module.exports = function (app) {
 
   const events = createService(options)
   events.docs = {
-    description: 'A Service to manage the Stock stored in the database',
+    description: 'A Service to perform CRUD operations on Stock',
 
     find: {
       parameters: [

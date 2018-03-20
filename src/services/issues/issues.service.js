@@ -16,12 +16,12 @@ module.exports = function (app) {
 
   const events = createService(options)
   events.docs = {
-    description: 'A Service to manage the Issues stored in the database',
+    description: 'A Service to perform CRUD operations on Issues',
 
     find: {
       parameters: [
         {
-          description: 'Number of results to returns',
+          description: 'Number of results to return',
           in: 'query',
           name: '$limit',
           type: 'integer'
