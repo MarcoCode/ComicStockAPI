@@ -202,6 +202,78 @@ module.exports = function (app) {
           }
         },
         "additionalProperties": false
+      },
+
+      'issues list': {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "series": { "type": "string" },
+          "description": { "type": "string" },
+          "publisherString": { "type": "string" },
+          "publicationDate": { "type": "string", "format": "date-time" },
+  
+          "thumbnail": {
+            "type": "object",
+            "properties": {
+              "path": { "type": "string" },
+              "extension": { "type": "string" },
+            },
+            "required": ["path", "extension"],
+            "additionalProperties": false
+          },
+  
+          "images": {
+            "type": "array",
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "extension": { "type": "string" }
+              },
+              "required": ["path", "extension"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      },
+
+      issues: {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "series": { "type": "string" },
+          "description": { "type": "string" },
+          "publisherString": { "type": "string" },
+          "publicationDate": { "type": "string", "format": "date-time" },
+  
+          "thumbnail": {
+            "type": "object",
+            "properties": {
+              "path": { "type": "string" },
+              "extension": { "type": "string" },
+            },
+            "required": ["path", "extension"],
+            "additionalProperties": false
+          },
+  
+          "images": {
+            "type": "array",
+            "maxItems": 10,
+            "items": {
+              "type": "object",
+              "properties": {
+                "path": { "type": "string" },
+                "extension": { "type": "string" }
+              },
+              "required": ["path", "extension"],
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
       }
       
     }
