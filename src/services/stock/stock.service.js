@@ -134,13 +134,21 @@ module.exports = function (app) {
         "type": "object",
         "properties": {
   
-          "issueId": { "type": "string" , "pattern": "^[a-zA-Z0-9]{16}$" },
-          "condition": { "type": "string" , "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
-          "stockAvailable": { "type": "integer" },
-          "price": { "type": "number" },
+          "issueId": { "type": "string",
+          "description": "Database Id of the Issue linked to Stock Item", 
+          "pattern": "^[a-zA-Z0-9]{16}$" },
+
+          "condition": { "type": "string",
+          "description": "Condition of the Stock item, can be: Poor, Average, Fine or Very Fine", 
+          "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
+
+          "stockAvailable": { "type": "integer" ,
+          "description": "Amount of Stock available"},
+
+          "price": { "type": "number" ,
+          "description": "Price of Stock item"},
   
         },
-  
         "required": [ "issueId", "condition", "stockAvailable", "price" ],
         "additionalProperties": false
       },
@@ -149,39 +157,65 @@ module.exports = function (app) {
         "type": "object",
         "properties": {
   
-          "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "condition": { "type": "string" , "enum": ["Poor", "Average", "Fine", "Very Fine"] },
-          "stockAvailable": { "type": "integer" },
-          "price": { "type": "number" },
+          "issueId": { "type": "string",
+          "description": "Database Id of the Issue linked to Stock Item", 
+          "pattern": "^[a-zA-Z0-9]{16}$" },
+
+          "condition": { "type": "string",
+          "description": "Condition of the Stock item, can be: Poor, Average, Fine or Very Fine", 
+          "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
+
+          "stockAvailable": { "type": "integer" ,
+          "description": "Amount of Stock available"},
+
+          "price": { "type": "number" ,
+          "description": "Price of Stock item"},
   
         },
-  
         "additionalProperties": false
       },
+
       stock: {
         "type": "object",
         "properties": {
   
-          "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "condition": { "type": "string" , "enum": ["Poor", "Average", "Fine", "Very Fine"] },
-          "stockAvailable": { "type": "integer" },
-          "price": { "type": "number" },
+          "issueId": { "type": "string",
+          "description": "Database Id of the Issue linked to Stock Item", 
+          "pattern": "^[a-zA-Z0-9]{16}$" },
+
+          "condition": { "type": "string",
+          "description": "Condition of the Stock item, can be: Poor, Average, Fine or Very Fine", 
+          "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
+
+          "stockAvailable": { "type": "integer" ,
+          "description": "Amount of Stock available"},
+
+          "price": { "type": "number" ,
+          "description": "Price of Stock item"},
   
         },
-  
         "additionalProperties": false
       },
+
       'stock list': {
         "type": "object",
         "properties": {
   
-          "issueId": { "type": "string", "pattern": "^[a-zA-Z0-9]{16}$" },
-          "condition": { "type": "string" , "enum": ["Poor", "Average", "Fine", "Very Fine"] },
-          "stockAvailable": { "type": "integer" },
-          "price": { "type": "number" },
+          "issueId": { "type": "string",
+          "description": "Database Id of the Issue linked to Stock Item", 
+          "pattern": "^[a-zA-Z0-9]{16}$" },
+
+          "condition": { "type": "string",
+          "description": "Condition of the Stock item, can be: Poor, Average, Fine or Very Fine", 
+          "enum": [ "Poor" , "Average" , "Fine" , "Very Fine" ] },
+
+          "stockAvailable": { "type": "integer" ,
+          "description": "Amount of Stock available"},
+
+          "price": { "type": "number" ,
+          "description": "Price of Stock item"},
   
         },
-  
         "additionalProperties": false
       }
       

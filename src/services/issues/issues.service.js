@@ -134,30 +134,41 @@ module.exports = function (app) {
       issuesPOST: {
         "type": "object",
         "properties": {
-          "title": { "type": "string" },
-          "series": { "type": "string" },
-          "description": { "type": "string" },
-          "publisherString": { "type": "string" },
-          "publicationDate": { "type": "string", "format": "date-time" },
-
+          "title": { "type": "string",
+          "description": "Issue Title" },
+          "series": { "type": "string",
+          "description": "Issue Series" },
+          "description": { "type": "string",
+          "description": "Description of Issue" },
+          "publisherString": { "type": "string",
+          "description": "Name of Issue Publisher" },
+          "publicationDate": { "type": "string", "format": "date-time",
+          "description": "Date Issue was published" },
+  
           "thumbnail": {
             "type": "object",
+            "description": "Thumbnails of the Issue",
             "properties": {
-              "path": { "type": "string" },
-              "extension": { "type": "string" },
+              "path": { "type": "string",
+              "description": "Path where the thumbnail is stored" },
+              "extension": { "type": "string",
+              "description": "Extension or File type of the thumbnail" },
             },
             "required": ["path", "extension"],
             "additionalProperties": false
           },
-
+  
           "images": {
             "type": "array",
+            "description": "Images of the Issue",
             "maxItems": 10,
             "items": {
               "type": "object",
               "properties": {
-                "path": { "type": "string" },
-                "extension": { "type": "string" }
+                "path": { "type": "string",
+                "description": "Path where the image is stored" },
+                "extension": { "type": "string",
+                "description": "Extension or File type of the image"  }
               },
               "required": ["path", "extension"],
               "additionalProperties": false
@@ -171,17 +182,25 @@ module.exports = function (app) {
       issuesUPDATE :{
         "type": "object",
         "properties": {
-          "title": { "type": "string" },
-          "series": { "type": "string" },
-          "description": { "type": "string" },
-          "publisherString": { "type": "string" },
-          "publicationDate": { "type": "string", "format": "date-time" },
+          "title": { "type": "string",
+          "description": "Issue Title" },
+          "series": { "type": "string",
+          "description": "Issue Series" },
+          "description": { "type": "string",
+          "description": "Description of Issue" },
+          "publisherString": { "type": "string",
+          "description": "Name of Issue Publisher" },
+          "publicationDate": { "type": "string", "format": "date-time",
+          "description": "Date Issue was published" },
   
           "thumbnail": {
             "type": "object",
+            "description": "Thumbnails of the Issue",
             "properties": {
-              "path": { "type": "string" },
-              "extension": { "type": "string" },
+              "path": { "type": "string",
+              "description": "Path where the thumbnail is stored" },
+              "extension": { "type": "string",
+              "description": "Extension or File type of the thumbnail" },
             },
             "required": ["path", "extension"],
             "additionalProperties": false
@@ -189,12 +208,15 @@ module.exports = function (app) {
   
           "images": {
             "type": "array",
-            "maxItems": 150,
+            "description": "Images of the Issue",
+            "maxItems": 10,
             "items": {
               "type": "object",
               "properties": {
-                "path": { "type": "string" },
-                "extension": { "type": "string" }
+                "path": { "type": "string",
+                "description": "Path where the image is stored" },
+                "extension": { "type": "string",
+                "description": "Extension or File type of the image"  }
               },
               "required": ["path", "extension"],
               "additionalProperties": false
@@ -207,32 +229,41 @@ module.exports = function (app) {
       'issues list': {
         "type": "object",
         "properties": {
-          "title": { "type": "string" },
-          "series": { "type": "string" },
-          "description": { "type": "string" },
-          "publisherString": { "type": "string" },
-          "publicationDate": { "type": "string", "format": "date-time" },
+          "title": { "type": "string",
+          "description": "Issue Title" },
+          "series": { "type": "string",
+          "description": "Issue Series" },
+          "description": { "type": "string",
+          "description": "Description of Issue" },
+          "publisherString": { "type": "string",
+          "description": "Name of Issue Publisher" },
+          "publicationDate": { "type": "string", "format": "date-time",
+          "description": "Date Issue was published" },
   
           "thumbnail": {
             "type": "object",
+            "description": "Thumbnails of the Issue",
             "properties": {
-              "path": { "type": "string" },
-              "extension": { "type": "string" },
+              "path": { "type": "string",
+              "description": "Path where the thumbnail is stored" },
+              "extension": { "type": "string",
+              "description": "Extension or File type of the thumbnail" },
             },
-            "required": ["path", "extension"],
             "additionalProperties": false
           },
   
           "images": {
             "type": "array",
+            "description": "Images of the Issue",
             "maxItems": 10,
             "items": {
               "type": "object",
               "properties": {
-                "path": { "type": "string" },
-                "extension": { "type": "string" }
+                "path": { "type": "string",
+                "description": "Path where the image is stored" },
+                "extension": { "type": "string",
+                "description": "Extension or File type of the image"  }
               },
-              "required": ["path", "extension"],
               "additionalProperties": false
             }
           }
@@ -243,32 +274,41 @@ module.exports = function (app) {
       issues: {
         "type": "object",
         "properties": {
-          "title": { "type": "string" },
-          "series": { "type": "string" },
-          "description": { "type": "string" },
-          "publisherString": { "type": "string" },
-          "publicationDate": { "type": "string", "format": "date-time" },
+          "title": { "type": "string",
+          "description": "Issue Title" },
+          "series": { "type": "string",
+          "description": "Issue Series" },
+          "description": { "type": "string",
+          "description": "Description of Issue" },
+          "publisherString": { "type": "string",
+          "description": "Name of Issue Publisher" },
+          "publicationDate": { "type": "string", "format": "date-time",
+          "description": "Date Issue was published" },
   
           "thumbnail": {
             "type": "object",
+            "description": "Thumbnails of the Issue",
             "properties": {
-              "path": { "type": "string" },
-              "extension": { "type": "string" },
+              "path": { "type": "string",
+              "description": "Path where the thumbnail is stored" },
+              "extension": { "type": "string",
+              "description": "Extension or File type of the thumbnail" },
             },
-            "required": ["path", "extension"],
             "additionalProperties": false
           },
   
           "images": {
             "type": "array",
+            "description": "Images of the Issue",
             "maxItems": 10,
             "items": {
               "type": "object",
               "properties": {
-                "path": { "type": "string" },
-                "extension": { "type": "string" }
+                "path": { "type": "string",
+                "description": "Path where the image is stored" },
+                "extension": { "type": "string",
+                "description": "Extension or File type of the image"  }
               },
-              "required": ["path", "extension"],
               "additionalProperties": false
             }
           }
