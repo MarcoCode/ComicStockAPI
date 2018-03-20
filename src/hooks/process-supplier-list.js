@@ -4,11 +4,13 @@
 // eslint-disable-next-line no-unused-vars
 module.exports = function (options = {}) {
   return async context => {
-    console.log("result ", context.result)
 
-    var Arr = context.result.data.filter(function (supplier) {
-      supplier.status !== 'Inactive'
-    });
+    //Filtering the Inactive Suppliers.
+    var Arr = context.result.data.filter(filterSupplier);
+
+    function filterSupplier(supplier){
+      return supplier.status === "Active";
+    }
     context.result.total = Arr.length;
     context.result.data = Arr;
     
